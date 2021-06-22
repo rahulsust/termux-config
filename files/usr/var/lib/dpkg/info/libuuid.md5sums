@@ -1,0 +1,4 @@
+35a97c82d22737936a4ba8fb6924bcd4  data/data/com.termux/files/usr/include/uuid/uuid.h
+cfd7561c25c35fce4e7e25fb04f8ef17  data/data/com.termux/files/usr/lib/pkgconfig/uuid.pc
+d2b29ff09e25c8db7ee7f095a2b6fbc4  data/data/com.termux/files/usr/lib/libuuid.so.1.0.0
+aa3ac5b4a5bcb707f714f78794011b80  data/data/com.termux/files/usr/share/doc/libuuid/LICENSE

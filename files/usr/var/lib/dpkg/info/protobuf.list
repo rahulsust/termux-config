@@ -1,0 +1,12 @@
+/.
+/data
+/data/data
+/data/data/com.termux
+/data/data/com.termux/files
+/data/data/com.termux/files/usr
+/data/data/com.termux/files/usr/bin
+/data/data/com.termux/files/usr/bin/protoc-3.14.0.0
+/data/data/com.termux/files/usr/lib
+/data/data/com.termux/files/usr/lib/libprotobuf-lite.so
+/data/data/com.termux/files/usr/lib/libprotoc.so
+/data/data/com.termux/files/usr/bin/protoc

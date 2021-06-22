@@ -1,0 +1,250 @@
+Package: adwaita-icon-theme
+Installed-Size: 28792
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 3.38.0-2
+Depends: hicolor-icon-theme
+Filename: pool/main/a/adwaita-icon-theme/adwaita-icon-theme_3.38.0-2_all.deb
+Size: 9093486
+MD5sum: e9056af01a9eb7981ee6bc08cf2bd53e
+SHA1: e2dd0ad858a938e4708fe210025feafd4d231417
+SHA256: 970f7a20bb6b088d43a31f18664ee17d6dfdde7f2b272e622c9fe135432546eb
+SHA512: 97684220162bb18583914e1d8fc623e15b6e6679a83db2563393ba30773d4e22bbaa34add48377550a7107e0b5cbccb81036f9693071cc7fdf9a6435b70e1f06
+Description: GNOME standard icons
+Homepage: https://www.gnome.org
+
+Package: hicolor-icon-theme
+Installed-Size: 100
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.17-26
+Filename: pool/main/h/hicolor-icon-theme/hicolor-icon-theme_0.17-26_all.deb
+Size: 4794
+MD5sum: 9348291c5093188139d64c50246593e7
+SHA1: fc48e148aaeea99d9dc6899cd6d73b39ef01d3dd
+SHA256: 2ca158ac15476297545bf9b37aa2de1353ec5fe8467f263babf1fbf3b0cbfcba
+SHA512: 7b9760be896646810854fe2362cdd6b7cae8a4ca82133d02754dd2513444f6e7708d399c669ed633b8f45b5e73b65977e64595b5a15e8c9987b2e580e1b2849c
+Description: Freedesktop.org Hicolor icon theme
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
+
+Package: iso-codes
+Installed-Size: 2984
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 4.5.0-6
+Filename: pool/main/i/iso-codes/iso-codes_4.5.0-6_all.deb
+Size: 251030
+MD5sum: ed9994a1c054a05839ce500a06dc77cb
+SHA1: 4c1d0edd7460ca115060f47990b168ac452765cd
+SHA256: 49901179e9205cb93a5f98343a9c8d8e18857301a99059e632e97e2cfae518dc
+SHA512: 57c46637c4f94eb9f9f100554ac475a90f7b87fe82b21c70cba04f8080f78534b5c3c8b74a57320a0736a94fcd3acc311c983d9eb32bfcdb3f7257cb34c834ff
+Description: Lists of the country, language, and currency names
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+
+Package: lxde-icon-theme
+Installed-Size: 8520
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.5.1-20
+Depends: gtk-update-icon-cache
+Filename: pool/main/l/lxde-icon-theme/lxde-icon-theme_0.5.1-20_all.deb
+Size: 4466306
+MD5sum: 4b7fd9de7101069560c97cd8ce166d5f
+SHA1: 07ae6cc2417a850afde7a5d6e3793ce69194c6f0
+SHA256: 82a185e948b232021b66b5184039e5584fe3176e37ce0fd792818ee33d249b72
+SHA512: c167a62a608035dd0d70b70cedd439b11850112ea0a263c79a25187d112c76690e7dec661dae0c01dc0910343c4a6c8e70afbe319a9bfba1cfb9c0bc82bda799
+Description: LXDE default icon theme based on nuoveXT2
+Homepage: https://sourceforge.net/projects/lxde/
+
+Package: lxmenu-data
+Installed-Size: 260
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.1.5-24
+Filename: pool/main/l/lxmenu-data/lxmenu-data_0.1.5-24_all.deb
+Size: 44568
+MD5sum: 100f2cfbbb5f5a99ab4b4e868f146c63
+SHA1: d54f6024beda4539323095ce6d0b93832ae050ad
+SHA256: 56eb00c2032810406cc0fae1b6d35452bb4d445a046be2e4e66d66e193b23a8c
+SHA512: 2453fda31672f34a009591f7013bc959d86a3522461c32b95ddbdb90c56a6d65069b41d7d94b653db36ba35f3f78deb61f3ab9a3e458594e1f49aba78e0cee01
+Description: Freedesktop.org desktop menus for LXDE
+Homepage: https://sourceforge.net/projects/lxde/
+
+Package: openttd-gfx
+Installed-Size: 5192
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.5.5-22
+Filename: pool/main/o/openttd-gfx/openttd-gfx_0.5.5-22_all.deb
+Size: 2872744
+MD5sum: 9437bf7d1ef430e4c1483db326cd59f0
+SHA1: f5ab4480377872559d373af5bc3168947a0fa4dc
+SHA256: abf1e6d49e09d602e18376d13ef214b35a7b3018158ba65f2771e434001a65e6
+SHA512: 14ffbc76388faee1073776af8beec5f38a3a05e3e242cc12a68de57b37355ac0a4daeaf4cfb2489ff516dfdc02d847d45afe2d38aad3af714ec92ca10974604c
+Description: A free graphics set for openttd
+Homepage: https://dev.openttdcoop.org/projects/opengfx
+
+Package: openttd-msx
+Installed-Size: 808
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.3.1-21
+Filename: pool/main/o/openttd-msx/openttd-msx_0.3.1-21_all.deb
+Size: 87022
+MD5sum: d17d59334c485a0ab471dc74bcfbfeff
+SHA1: 97aac2c8f2fbb32b756cccb6a14575be6166dcef
+SHA256: 8bf3ac3c03e2a2f6459eecae459fc69e07a923c7d3d0fd753020e37e4e409d92
+SHA512: ba06b47c32d654668ae9dfda1adfe64822aba4b82e76f2eeb74a4008a87bf66ff3505ef588238ad03f10f57a49efa1334d31fb77b5e1b3ca2b4a8581ebf77981
+Description: Free music set for openttd
+Homepage: https://bundles.openttdcoop.org/openmsx
+
+Package: openttd-sfx
+Installed-Size: 12896
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.2.3-22
+Filename: pool/main/o/openttd-sfx/openttd-sfx_0.2.3-22_all.deb
+Size: 9465016
+MD5sum: 50b33f4659503e12ee38b4e60a4c357e
+SHA1: 4f3f4b62b10464656dd9f1955e004ad6170ca160
+SHA256: 3944c6cbf94aa42249d33a2746c97a1b81d40b865cba4ff91d4e1eee708537db
+SHA512: 55e6d8ef4ec74f728d610956c3286fe35826a7cfb70a1cb4d5025c92217f1413c4220eafc8a70407f850d3e9ed30971c9af4f5f83de236485a6c60d96fa4355a
+Description: Free sound set for openttd
+Homepage: https://bundles.openttdcoop.org/opensfx
+
+Package: python2-six
+Installed-Size: 168
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.12.0-21
+Depends: python2
+Filename: pool/main/p/python2-six/python2-six_1.12.0-21_all.deb
+Size: 19128
+MD5sum: 8b1b1145fc75f64f62e1c2366a22700b
+SHA1: 631e5aaca624b988402a5ae7abc44318d1e93bdc
+SHA256: 9fb57f7c73f011e3bbb6a4c08b65269b9ed4506133b5e5a8b9ea7b3e2b111e55
+SHA512: 64be4ebf1eb6f2b0394c27a56b37871343f19cc354c9e2b164f65bf332ee4da5e0ca0ce7c3f1961e6234a2b3cd9ae573689425105fef934b8e8efe72b634b7a8
+Description: Python 2 and 3 compatibility utilities
+Homepage: https://pypi.org/project/six/
+
+Package: python2-xlib
+Installed-Size: 1264
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.24-20
+Depends: libx11, python2, python2-six
+Filename: pool/main/p/python2-xlib/python2-xlib_0.24-20_all.deb
+Size: 151372
+MD5sum: 1f07d45bf8a72a665082940029db5915
+SHA1: c49f5b74be7abc906db6bbd22cb5189087528d37
+SHA256: 708c324e6370067fb2f213d0fc1b843c3c0e8892508c39fcf1f84f003a1facb0
+SHA512: d04f5984cabdeb298044dda80bf5e6b15c031f2c4328a4ad19b9402517a5f5067d4c0b07eab44d00fe804c872343635e5ea746e38a1cbf59daf6c84fe79b89f9
+Description: A fully functional X client library for Python programs
+Homepage: https://github.com/python-xlib/python-xlib
+
+Package: xbitmaps
+Installed-Size: 488
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.1.2-28
+Filename: pool/main/x/xbitmaps/xbitmaps_1.1.2-28_all.deb
+Size: 18826
+MD5sum: add794add44b5fe979abe852ad25c4aa
+SHA1: cec12c5763e0098520aaae1b7facefb7fc769a0d
+SHA256: bc6a545a1da8e18215fb20a6f61fb5f78cfd2190732074128803b534483e928c
+SHA512: 55583b3276aff057db3b5c10dadd0cc4f3f6809b526f99e52b0c2817764fb0675984cf9f08874e9bf6c5f5ca851dbbad59836f6d51fd4203cc66049510abac03
+Description: X.org Bitmap files
+Homepage: https://xorg.freedesktop.org/
+
+Package: xfce4
+Installed-Size: 4
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.0-13
+Replaces: xfce
+Provides: xfce
+Depends: thunar, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfwm4
+Conflicts: xfce
+Filename: pool/main/x/xfce4/xfce4_2.0-13_all.deb
+Size: 770
+MD5sum: 63271ba50f67929ad395b433eb3bbdd3
+SHA1: f40ae748fb93e747f15e3d81dbf10d0de2f58028
+SHA256: b98cd92e60e2fc8290700bc51e2e7166a8bcf34a822b42cbc3184f5a9b9cf1cc
+SHA512: 5bf28444f9e3145a96e08777fc267dfe8de93b15d39d334fb099be6c8d3b28d9115175c55e8c3bd92eadb9f6321237ba4cf230c504214c0b2fac0ffdf7987820
+Description: A metapackage that installs all parts of the XFCE desktop environment
+Homepage: https://github.com/termux/x11-packages
+
+Package: xkeyboard-config
+Installed-Size: 4048
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.31-2
+Filename: pool/main/x/xkeyboard-config/xkeyboard-config_2.31-2_all.deb
+Size: 344284
+MD5sum: 8082c097a72ee6ba9a4176e45b6f84c4
+SHA1: f288e663ba1efe4873de460a4bf0885dea2e7d80
+SHA256: 532f2d076457f9b2211c99b0e9e3be4ffdeac7cef64bfe06c95812683b0c67b6
+SHA512: 6a6313d2ffdebb90a726f5bca4009a469f1387853a42399e65532370a8d3cff0fb899000ab0d834b969b6575002294cadc2b7b9d43f9aad7fa2a77a7047c26fa
+Description: X keyboard configuration files
+Homepage: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
+
+Package: xorg-fonts-100dpi
+Installed-Size: 17296
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.0.3-24
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Filename: pool/main/x/xorg-fonts-100dpi/xorg-fonts-100dpi_1.0.3-24_all.deb
+Size: 12378760
+MD5sum: f62656a70ffec6dba7cf0df3077f4c2b
+SHA1: a65c3457fec42e329afc10bf1bf0f4c71b1d36a9
+SHA256: 1867c6fa5dea0f76df112bf21b66c9ae34f498b6d12f15c16ded7791b72f1144
+SHA512: 7727188b3590bbdde81a2f3b605f661214dff7281d3dd96bfb2338a07ae001270aa33a5b185f62d2d12ab9fc8805790ffa378fb851ec620ff9b9e807b9f7da4b
+Description: X.org 100dpi fonts
+Homepage: https://xorg.freedesktop.org/
+
+Package: xorg-fonts-75dpi
+Installed-Size: 16000
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.0.3-24
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Filename: pool/main/x/xorg-fonts-75dpi/xorg-fonts-75dpi_1.0.3-24_all.deb
+Size: 10721660
+MD5sum: 6b492616debd92029b3ad05ebc83caa4
+SHA1: 4bdf1744fe41ad621c199014bbc839633042aac4
+SHA256: 181acc5bf896ea82473623d1968b97641c1eab908ed4a6618866d274f66c14b8
+SHA512: ca19ef57d75b8964bbd71577044e144a22489355e14c74fed3ae69bbec6ac68da67dfdb3820c44b2e4cf3abaccb9db394a2c9d110edfc85983a607defc888ffb
+Description: X.org 75dpi fonts
+Homepage: https://xorg.freedesktop.org/
+
+Package: xorg-fonts-alias
+Installed-Size: 80
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.0.4-2
+Filename: pool/main/x/xorg-fonts-alias/xorg-fonts-alias_1.0.4-2_all.deb
+Size: 2810
+MD5sum: aa482112b1fc5d3cb7362d70983417b6
+SHA1: a1d5697e035d59804483bd25578a43d7150c5f74
+SHA256: d664b188e43ea9819aba6caa9df5cf8f5a0ffaeea2bb69337b61049a94db24f9
+SHA512: a8d59ba60ede451a850138d6586682371f43c6a2f049990419cbe602b84ed197188ff7f87e0d10ccd10fbe342f69c144e8375f115afbe2e4a0a534f61e7736b4
+Description: X.org font alias files
+Homepage: https://xorg.freedesktop.org/
+
+Package: xorg-fonts-encodings
+Installed-Size: 808
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.0.5-21
+Filename: pool/main/x/xorg-fonts-encodings/xorg-fonts-encodings_1.0.5-21_all.deb
+Size: 569444
+MD5sum: b6f08e4fbb09cb526645bfb34d020e43
+SHA1: 493cabe2b4b479e5181a39fc2535384deaf72f37
+SHA256: febd1b54bf8d8c92137dccd56f3d49226bb812e1f2dd4fc69fdc9c41739d02f6
+SHA512: 8008aef5f79179133d167850bbad09052e12093b06331f2ad653a541a777760d625e6aeaa86b792d46516a0fbbe69a71aa1e08b8f3acb1e3fdb6fcae45198f7b
+Description: X.org font encoding files
+Homepage: https://xorg.freedesktop.org/
+

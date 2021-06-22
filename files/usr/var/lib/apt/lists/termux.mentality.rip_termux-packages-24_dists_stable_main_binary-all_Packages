@@ -1,0 +1,1562 @@
+Package: ack-grep
+Installed-Size: 200
+Maintainer: @termux
+Architecture: all
+Version: 3.5.0
+Depends: perl
+Filename: pool/main/a/ack-grep/ack-grep_3.5.0_all.deb
+Size: 40600
+MD5sum: f4bd685519f0f827932705b4efbbe83a
+SHA1: 242d6df1a617a45af77f27ef6308310f26d846a1
+SHA256: d376c4cf6dd6b3e50d1679adab10dd76306f11a2bea24c7a08fccc4c4102ff55
+SHA512: 684fffd7f600f26148eb3b92669d52242b5bac9a0b439f3fd1124a0ebd7635eb395d10bccbfa318dc0778598a6598d9ad5c12084d3d5c6cd7b21cc4665b4c902
+Description: Tool like grep optimized for programmers
+Homepage: https://beyondgrep.com/
+
+Package: ack-grep
+Installed-Size: 200
+Maintainer: Termux members @termux
+Architecture: all
+Version: 3.4.0
+Depends: perl
+Filename: pool/main/a/ack-grep/ack-grep_3.4.0_all.deb
+Size: 40498
+MD5sum: e3a75f24c892fb94c5c5c2eaf2cca2d6
+SHA1: 85743aa32824462798975e6177c1e65d293a13fb
+SHA256: bce58861bc375f35ddf0c4fa946919eb109ed131b9126ad7b49e9eb15666d2df
+SHA512: 55ae82ce22cb68a4f5bc17a7c8a9c7eb1c7d5f2233c2dbc83ee4f3c34df1655f8fa3c49efb665b334ffb98cc143e89be74c6f3389c183b7f0be72045eb02599d
+Description: Tool like grep optimized for programmers
+Homepage: https://beyondgrep.com/
+
+Package: apksigner
+Installed-Size: 368
+Maintainer: Termux members @termux
+Architecture: all
+Version: 30.0.3-1
+Filename: pool/main/a/apksigner/apksigner_30.0.3-1_all.deb
+Size: 325678
+MD5sum: 4663ad3857483f988becdc40dfbced27
+SHA1: e853f2668871dbe8b903b73040d9031dd39d14b9
+SHA256: f7a6ca14529a0d85ca6b30c7033a59f5af88c177500de6543739005e37f21f11
+SHA512: 4a7c74101ccf70a9a65db0d94abbdacac55dc2539516cbf72dbc228745b6ab3b8c630515056cb0d22fba61693e284d578ec929f490f23808abf381f1e16bb80c
+Description: APK signing tool
+Homepage: https://developer.android.com/studio/command-line/apksigner
+
+Package: apt-transport-tor
+Installed-Size: 36
+Maintainer: @termux
+Architecture: all
+Version: 2.3.2
+Depends: tor, apt (= 2.3.2)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.2_all.deb
+Size: 834
+MD5sum: 3e2beafdf7d6c3eb6323103718f5a534
+SHA1: 7a4b15f0f82a62a5a929d2108c331e90a8de95c0
+SHA256: fb1b63ceea0bfe92d843c08449fbcc507abb41559d2063659310080a9162a0ee
+SHA512: ed2f1550921685aa9c0b2d8ba2a9a142e8d39ec79c29287e90d417eaac22b500452274613bbf4c849f1d28009f33a596ba5c1b5ad9040f917972e3cfb53ed254
+Description: APT transport for anonymous package downloads via Tor
+Homepage: https://packages.debian.org/apt
+
+Package: apt-transport-tor
+Installed-Size: 36
+Maintainer: @termux
+Architecture: all
+Version: 2.2.2
+Depends: tor, apt (= 2.2.2)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.2.2_all.deb
+Size: 830
+MD5sum: db70f54cde1f98c0158b9d25035385e7
+SHA1: 0475f52ae664f449dad89c3f22711d4a9a0b9f72
+SHA256: a853b515e03bada47bc90824eb5535dda9bf4aaa3b57a8dbdd355fcd2c6f8926
+SHA512: c09476d1d8d1c540accde39e3bbd51998916b681849c69df1995f69daa8a4f592264933b90e10f5b4435c6ed022a1298ce8197d8baff15c18a36512206491f8c
+Description: APT transport for anonymous package downloads via Tor
+Homepage: https://packages.debian.org/apt
+
+Package: apt-transport-tor
+Installed-Size: 36
+Maintainer: @termux
+Architecture: all
+Version: 2.2.0
+Depends: tor, apt (= 2.2.0)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.2.0_all.deb
+Size: 834
+MD5sum: 5c5013f40324379fd1a601f713667d64
+SHA1: e87fe8c02517c87858d9dd57ff85571f36792b63
+SHA256: c2bc499283dfee619bc6d16e78b93518b4083af774cf879a9a393f4b6bb49ab0
+SHA512: bfcf5e3a693f9a901b651cd75f057255164b65dbcc7d27193ce04cba25ee900018ff014bd489f156719df048200f7d5ab71b56a80d42d331ea79270743a09d64
+Description: APT transport for anonymous package downloads via Tor
+Homepage: https://packages.debian.org/apt
+
+Package: apt-transport-tor
+Installed-Size: 36
+Maintainer: @termux
+Architecture: all
+Version: 2.1.18
+Depends: tor, apt (= 2.1.18)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.1.18_all.deb
+Size: 832
+MD5sum: 2ddf0ba235fe665c7429d02186e66639
+SHA1: 50a0fac6d88b50bb3996380b91e32acb90c09297
+SHA256: 3bef72d870761656a3a2414b91fdabd86e6ed436236a5f42cb30d7f6195c57bc
+SHA512: b1a7c5642639ff4285d5d3789755b3f8f10e42e1819fbdcb5a59212cb5a9b9170bccdcb1b177e3dc1b038e082b48a9ec7ac52065cd3139f954be83a7a4243436
+Description: APT transport for anonymous package downloads via Tor
+Homepage: https://packages.debian.org/apt
+
+Package: asciidoctor
+Installed-Size: 6324
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.0.12
+Depends: ruby
+Filename: pool/main/a/asciidoctor/asciidoctor_2.0.12_all.deb
+Size: 570206
+MD5sum: 97ca744d9bd5e6e7fe0f2416a1f74c7d
+SHA1: 5cd7260a657b0221e1276f9668f61f8315c6960a
+SHA256: b6a3900401bb431b5135177423b896fb74d8d3626731a11f4c6ac156e901e282
+SHA512: 9a152c1778bacdbe18aaafd31bb1f22bffba45d72d2da4b42eb22cff6bdc2bff0b268e4287b7b49bfdb5512e1aab17732f1e8aef9b7f0781dd09049a94eaf347
+Description: An implementation of AsciiDoc in Ruby
+Homepage: https://asciidoctor.org/
+
+Package: asciinema
+Installed-Size: 128
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.0.2-5
+Depends: python, ncurses-utils
+Filename: pool/main/a/asciinema/asciinema_2.0.2-5_all.deb
+Size: 68842
+MD5sum: b7ef057c5cd406f431a70eaa492dfefa
+SHA1: 23d99dfdfb39e29d1bc44231357573bc48f2d28f
+SHA256: c8e244aae866a555de69852b9e6b9ac0ccc53e8e633d13a06cdac5045f94ae0c
+SHA512: f3ab2efcaa7d7dad3eb3d1458b095c5debf5509292daf4279286031c18abfc5b18bbe67d71129ac9aa637c053ac51703e73f2af76e3bb4027b79a85f3da2f231
+Description: Record and share your terminal sessions, the right way
+Homepage: https://asciinema.org/
+
+Package: aspell-de
+Installed-Size: 6008
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1:20161207-1
+Depends: aspell
+Filename: pool/main/a/aspell-de/aspell-de_1:20161207-1_all.deb
+Size: 1201982
+MD5sum: 4caa3a25a41576051e5220e791a4e0ab
+SHA1: 500790fb780a0fe9efbd13127fb500da0256333a
+SHA256: b26161e41e41d2c81ad4738915ffac10ebcc5fcf772a98768fd0a7cee357a5f0
+SHA512: f0c3af21db332c64fad4818d2933c0cae3019cffeafecbb98b3f2f9e1f66628dcf4830822f31957de0d9695bad86bf6b880908c88871c10b740b9bc75d8b6793
+Description: German dictionary for aspell
+Homepage: http://aspell.net/
+
+Package: aspell-en
+Installed-Size: 4556
+Maintainer: @termux
+Architecture: all
+Version: 1:2020.12.07
+Depends: aspell
+Filename: pool/main/a/aspell-en/aspell-en_1:2020.12.07_all.deb
+Size: 1125408
+MD5sum: b0e35c9e321a67fe17e25d59fb9da725
+SHA1: 0707abec882b4d2883697a4fd5b948444e753f4a
+SHA256: eb3317edc7314eb10256812b951a2ae78503fb2ccd7aaadeedcfcb59c2ff097d
+SHA512: f16f7902b0da6d68034f3d37acdaa84e1d4c74fd3be0355af18a09402b4c61629529fbd8d464bac5d74c402dfd7de41af5b0f0ea33b37b8fb876029f655ebdf9
+Description: English dictionary for aspell
+Homepage: http://aspell.net/
+
+Package: aspell-es
+Installed-Size: 1504
+Maintainer: @termux
+Architecture: all
+Version: 2:1.11-2-0
+Depends: aspell
+Filename: pool/main/a/aspell-es/aspell-es_2:1.11-2-0_all.deb
+Size: 452676
+MD5sum: 276b8273adf1751f6a4265ee0a1d6b1c
+SHA1: ed4e53f4aac171c3d8a277897598d2e4daf5c56c
+SHA256: ceacfe117591bdf1a8a5284330a10d7c4e7f1f41c20882b46bf7d99e3ff8e69b
+SHA512: ac195a38ae32e0bda90582d416d899bf6626ee0131749691c28c429cf54f2412f2efdb2775b34bb9fb46d05cfeebfbba7ac448a2368bf922a773f015b067e21d
+Description: Spanish dictionary for aspell
+Homepage: http://aspell.net/
+
+Package: aspell-fr
+Installed-Size: 236
+Maintainer: @termux
+Architecture: all
+Version: 2:0.50-3-0
+Depends: aspell
+Filename: pool/main/a/aspell-fr/aspell-fr_2:0.50-3-0_all.deb
+Size: 2658
+MD5sum: 95aaaaabff1a2920f956a009259fb382
+SHA1: 466e98f7295e7f839c7ce95e65154e30f6254835
+SHA256: d16719d7fbfbfea6a962bd12a46699884f9c118301f70694c0ce72311cee6b24
+SHA512: 64abb73c17173d5fda3d2db5d79b545070acb1b0ea6234af258f37bd4712cc061400bb6106ab077a53adb5f582b25e6de78af18d1abe03eb150f683afe478a5a
+Description: French dictionary for aspell
+Homepage: http://aspell.net/
+
+Package: autoconf
+Installed-Size: 3616
+Maintainer: @termux
+Architecture: all
+Version: 2.71
+Depends: m4, make, perl
+Filename: pool/main/a/autoconf/autoconf_2.71_all.deb
+Size: 613252
+MD5sum: 66aaf72649a2efff258d486cddfcd870
+SHA1: d5914f4ce0d2ce2fe41fd1d3e8e7faff3942f438
+SHA256: 865d3cd37037eff89aec36e85cd5a4504aac222b3d19041b55671aeb3c4957b7
+SHA512: bee73109924797fc3109656acacc842ee8899900f0d9fdd47a42a2c793d3179fe961763d39c668a5bd8444c4999743c4caa10309f67bcfaba439409bc5d6ac95
+Description: Creator of shell scripts to configure source code packages
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+
+Package: autoconf213
+Installed-Size: 976
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.13
+Depends: m4, make, perl
+Filename: pool/main/a/autoconf213/autoconf213_2.13_all.deb
+Size: 147040
+MD5sum: 788ff66672d36d0c4831eacdba90c037
+SHA1: 6cd00f2c240db586244de8cb8d378b01629dcf48
+SHA256: 1c83784fb3f327c0a7168ccbe4ac9f03d60ebba9d57d2e08c37ed7f386e44ba3
+SHA512: 838c1e3900980e68542e43fbcb0338dbb2524b877541a98399c83e7d4ad7babc31e20d041ec56000aa0e876b1fc6b3404940e06fcbbaa36c33330e4ed7330ffe
+Description: Creator of shell scripts to configure source code packages (legacy v2.13)
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+
+Package: automake
+Installed-Size: 2744
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.16.3-1
+Depends: autoconf
+Filename: pool/main/a/automake/automake_1.16.3-1_all.deb
+Size: 550956
+MD5sum: 16579845644d4cbcc508fd12682c5277
+SHA1: bc30b7db225babb5822efdcb655e3fcba3bc74a4
+SHA256: 1d593ddc5257ed46e820fbad457c73006703cd13ca817aca7eec303f986c102e
+SHA512: 3773b52de1cb176421245901ad7c5cbe957aae669f1501619abac62bae75b3a4f9603f5c86a55100d0f450a7a7d12eca84213e68b029a19d86f9bc2419b600c9
+Description: Tool for automatically generating Makefile.in files
+Homepage: https://www.gnu.org/software/automake/
+
+Package: bash-completion
+Installed-Size: 2320
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.11-1
+Depends: bash
+Filename: pool/main/b/bash-completion/bash-completion_2.11-1_all.deb
+Size: 156772
+MD5sum: de90d18c8b9f10aff21d785f8ef1cb6a
+SHA1: d2e9b4ec5cc4effde259a98a01995aa0d950bd5d
+SHA256: 3598907f86243375b64ffe27850ad2310b58dbf29220b2fd63be30bf1e4e93e2
+SHA512: 7a40a14dbe68830e8e3e458625fb52ecabcdf8e4d5ef702f68117bcd1f69382236664762c2f45e62bf726daa099b366f21bd615055eb4e73d924ba81c7e2b43a
+Description: Programmable completion for the bash shell
+Homepage: https://github.com/scop/bash-completion
+
+Package: beanshell
+Installed-Size: 320
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.1.0
+Depends: dash, termux-tools
+Filename: pool/main/b/beanshell/beanshell_2.1.0_all.deb
+Size: 268072
+MD5sum: f520de19ee287d9e40fabe97efbed81b
+SHA1: 3aca601546a944a7a58a91af7cc3922c4cbe2c8c
+SHA256: 89b2ed4995e6f7a965f8d860c127a5489fa96df2e6aba6d9b7007d3868df9968
+SHA512: cf6ced4f6b09e3f4907a18b9345d7df8fd1be08cb34d2e80be90e988ba78e87078f952d7dc3ca6f8b7fa4a2825600f675bff2f8f3e2be6d9a73a1efa8204fd73
+Description: Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java
+Homepage: https://github.com/beanshell/beanshell
+
+Package: blackbox
+Installed-Size: 160
+Maintainer: Rabby Sheikh @xploitednoob
+Architecture: all
+Version: 2.0.0
+Depends: gnupg
+Suggests: git, subversion
+Filename: pool/main/b/blackbox/blackbox_2.0.0_all.deb
+Size: 12518
+MD5sum: 999e2c6f9622c3f6e875834fb4c9737e
+SHA1: cd4a42d7c9b94b7f3f16e04c3fd6edde7e8bf9b0
+SHA256: 4d1f1021e3f7f613ace5975fcec17871788b7558a8c69db3234dbeb6f003c27b
+SHA512: e50ddc92f042c8c01b8404b08db22cd94b35bf2e32c0c4ae95bfa9d73668c5679d577dc7e5f90f9375cbff49cd9672fbc8acd911d5dadfcf4252d52745dbd091
+Description: Safely store secrets in Git/Mercurial/Subversion
+Homepage: https://github.com/StackExchange/blackbox
+
+Package: build-essential
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Architecture: all
+Version: 4.1
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Filename: pool/main/b/build-essential/build-essential_4.1_all.deb
+Size: 810
+MD5sum: 876b267c131f908baff8ce01683250b0
+SHA1: 2833c78fee0dc047124c75bdc46b31be42fcd902
+SHA256: 59501b6d9de19900b5f40d76d77174bac6bfcc96a2f46e8490d122cd0532f23d
+SHA512: 415b9064c5ddd3c9eb90dd821e08e82046b50b8c7a9cb4f4d07673fe90e07b5b85bb02ef6fb1376ef38fa758855dee649524248e45efcdea44775975ac0e54ef
+Description: A metapackage that installs essential development tools
+Homepage: https://github.com/termux/termux-packages
+
+Package: byobu
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 5.133
+Depends: gawk, tmux
+Filename: pool/main/b/byobu/byobu_5.133_all.deb
+Size: 86532
+MD5sum: 2f1b90a10695d4c4bc9702be13011cc0
+SHA1: 299e00f74ed8f91e7ce5edc79b30d0553812ab01
+SHA256: 2a11158766aad828b714c431ec920c9c3847a864ed5cce503f028a307fb0c8ca
+SHA512: b8cea652970edb51c776ed59590eeecf60f3e5c773eaa645bc6721c1339165872a0a32aab1ae6052653121931db4de9e64694b076e7f151bf0ace778b3cc6461
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Homepage: http://byobu.co/
+
+Package: ca-certificates
+Installed-Size: 248
+Maintainer: @termux
+Architecture: all
+Version: 20210413-2
+Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
+Size: 113360
+MD5sum: 616cbf53de3ac309e66c0c16f1439ee9
+SHA1: 2b40b9895e1489834b34fdc17814b6c50df7fdce
+SHA256: 5e8dc65a7de00e24a14c770034ace415eabc72bdc01871a6ec557ffba42c1dbe
+SHA512: c7041c50b1d15ccc955f182400150df0400fdf4a1f609ccd2742bdcd2fd155b9445338201b58a62fe66eb1fc5984ee0664a9f6c822b321033b6fdf87ee9a8b26
+Description: Common CA certificates
+Homepage: https://curl.se/docs/caextract.html
+
+Package: ca-certificates
+Installed-Size: 248
+Maintainer: @termux
+Architecture: all
+Version: 20210125
+Filename: pool/main/c/ca-certificates/ca-certificates_20210125_all.deb
+Size: 113914
+MD5sum: 6b841fad1aac5e7631b9c396c1f1cd7b
+SHA1: bf12a75442a4e77e01bdc400f1d4caa89a862eca
+SHA256: 856072e36bbdf8c8101e8cad9beaaddeeda85d7aacb97cc11ac7dae82aa264d2
+SHA512: 15d4f903e8c0c290142be5b0fdc5737dba89d52de4803fdb7f565324657861ed2c4a55ef454f1ffa3168ac87da73b8d03acd2ead3b36dd1dc9919a1fb0d173a9
+Description: Common CA certificates
+Homepage: https://curl.haxx.se/docs/caextract.html
+
+Package: ca-certificates-java
+Installed-Size: 196
+Maintainer: @termux
+Architecture: all
+Version: 20210413-2
+Depends: ca-certificates (= 20210413-2)
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
+Size: 102970
+MD5sum: 3e25712eecf5afc2ed59f8953b53253f
+SHA1: 33490d38363b210c1745f5276fe3da2f37e85a56
+SHA256: 44c0318e80efcf12eb1c68619661dd8cef43c315df18863aaa39d68b66d469c9
+SHA512: 7ef717b7aef32222d1684334c952eb4d84a9ac0d5cce617cce3e0497c5116edbaae3e13b48952de4dfe6c3be53474a1dca5bbb93779d0778f10bf01f51791381
+Description: Common CA certificates (java keystore format)
+Homepage: https://curl.se/docs/caextract.html
+
+Package: ca-certificates-java
+Installed-Size: 200
+Maintainer: @termux
+Architecture: all
+Version: 20210125
+Depends: ca-certificates (= 20210125)
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210125_all.deb
+Size: 103446
+MD5sum: a310dd4fa414b48fa9c006932c7b6ded
+SHA1: d92b77207cf788c25fb9406b003fecf139e1f32b
+SHA256: ddb7e62f3d6e35f975dfe9430bf2b82da21dba42aebd1572a3dc4d9aa0598817
+SHA512: 6ccdd08560cd670863b7d59e163305a1b8c0fc496863850131176785746da38dc4b5330fa4f2d10c1ed21aea9b83188bcf1f1586b56673ff23244ead5d348d22
+Description: Common CA certificates (java keystore format)
+Homepage: https://curl.haxx.se/docs/caextract.html
+
+Package: colordiff
+Installed-Size: 88
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Architecture: all
+Version: 1.0.19-1
+Depends: perl
+Filename: pool/main/c/colordiff/colordiff_1.0.19-1_all.deb
+Size: 9980
+MD5sum: f2cefd8cd532ba51ca0ae20b5cf0ce64
+SHA1: d78e0786b1276a5a7b300efdae53f9518ae23d48
+SHA256: 2d27abd09e1693eab5f62f058f393a8e6773b5a3d533de441db7e2a846ce446d
+SHA512: 23efde5ab3f95ea3cc62dcaafb966b340ba130bf37aaebfdb9dd7861c23cede9061d5637ab38544a56e57e414eb0351394a3d1ebd107125698c3632b7660d806
+Description: Tool to colorize 'diff' output
+Homepage: https://www.colordiff.org/
+
+Package: composer
+Installed-Size: 2212
+Maintainer: @PuneetGopinath
+Architecture: all
+Version: 2.0.13
+Depends: php
+Filename: pool/main/c/composer/composer_2.0.13_all.deb
+Size: 434122
+MD5sum: 25f1b6d98b2b6df500e56c8623dffbce
+SHA1: ba878f58de17ee9d462a1dc7213f3f5bb80a76a5
+SHA256: e8479e66e016d4fc6bf2bdfdef1bfc04c1286c8eaccbdfa51a3bfad81089bd0f
+SHA512: 6b734c4b10e5db6c62b97f627b0f496da90c7349d32963aed7ea88ea78f001f3746166b9c78d84ca1cb6fc86ad75879d31bc890c49fc70381d1793363d106bb0
+Description: Dependency Manager for PHP
+Homepage: https://getcomposer.org/
+
+Package: composer
+Installed-Size: 2208
+Maintainer: @PuneetGopinath
+Architecture: all
+Version: 2.0.12-1
+Depends: php
+Filename: pool/main/c/composer/composer_2.0.12-1_all.deb
+Size: 433988
+MD5sum: f7ed1395e27799b1f0cef26634627a9f
+SHA1: 0d6c8e28da42ef243be2061e6fcdd076a6465ba4
+SHA256: 4d4d89accebe4e0059ee14dff51c177e45227705ea5e51a7380e159cb890ae8f
+SHA512: bab76258f092fcb52afe32cb01039e04995ac50a063b7a107fc8618219a901e891acc116a096f707461ff4fd5e677f3726a8f17041030b33d57525370be128f2
+Description: Dependency Manager for PHP
+Homepage: https://getcomposer.org/
+
+Package: composer
+Installed-Size: 2208
+Maintainer: @termux
+Architecture: all
+Version: 2.0.12
+Depends: php
+Filename: pool/main/c/composer/composer_2.0.12_all.deb
+Size: 433974
+MD5sum: 247744baae33cdf4e48460772bd5a8e9
+SHA1: 098165edaea624c34bfa25a0e7e903c62767a2c9
+SHA256: 95fa85ec202061adb899c5ae49416622664a6e0519043ad6d1eba3528c8793b4
+SHA512: b7ab7965edf07e0f9c6d3d6e009ff21fbfe41ac348be69cb56a16166819997e6e57ad6e58be5b5fd4a7a4d7b159225939b4b3b5cb72c2ffa43dfc1b0855cf3a7
+Description: Dependency Manager for PHP
+Homepage: https://getcomposer.org/
+
+Package: composer
+Installed-Size: 2200
+Maintainer: @termux
+Architecture: all
+Version: 2.0.9
+Depends: php
+Filename: pool/main/c/composer/composer_2.0.9_all.deb
+Size: 432594
+MD5sum: 55c4f75f209c3ab6608f04b4fc6a69bf
+SHA1: e2c2f9c141cd6f42a4c40d68127f84ca4432df12
+SHA256: 0f1ff8040ac2c0da3c3bd6251a34e74f6d3a8e79a07237a66f50e7138131f6d3
+SHA512: ad7714d689f51fdcb689031c34c0c63a49b4963754bea094b102566e7533ac15500a883ad8e8085f29e5001c4eab292476e02e414ad16aa6d456b07e53f8aefc
+Description: Dependency Manager for PHP
+Homepage: https://getcomposer.org/
+
+Package: cowsay
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 3.04
+Depends: perl
+Filename: pool/main/c/cowsay/cowsay_3.04_all.deb
+Size: 10478
+MD5sum: dea2e5be82407e87a36b7ba3f0f32ec6
+SHA1: f56a8f2c41c8685a24f59add15b0118daac0334e
+SHA256: 7eb13b7b437127e1b108796b1ca949a2cff2fefbf8e520b179759f1148f7315f
+SHA512: 3b9c23b6504cff1c488dd252cbb726d8306fb9cc01edb6e311fe333ae432e06e9117c0e604e039a91ca113aff099dac71af2fb1c9833a2c0779f64fe50568204
+Description: Program which generates ASCII pictures of a cow with a message
+Homepage: https://en.wikipedia.org/wiki/Cowsay
+
+Package: debootstrap
+Installed-Size: 296
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.0.123-1
+Depends: perl, proot, wget
+Filename: pool/main/d/debootstrap/debootstrap_1.0.123-1_all.deb
+Size: 30544
+MD5sum: e550c22f7233d2ee94e1ccb68c8f72c4
+SHA1: 60f7b024e880d90931598b512f41f852e515f824
+SHA256: c98eec50c877dca9ec67fba8214b19bcc19fb4045fcb78af568f825e306866c0
+SHA512: 59248606f0843351140b2ad96b87893fa3c553593cae1c9ae0bbb177ba45ff89d663169ce26bf27b61cd7ed7766ab55f2ee831237b71f5fed947c72938ef9377
+Description: Bootstrap a basic Debian system
+Homepage: https://wiki.debian.org/Debootstrap
+
+Package: docbook-xml
+Installed-Size: 2412
+Maintainer: Termux members @termux
+Architecture: all
+Version: 4.5-3
+Depends: libxml2-utils
+Filename: pool/main/d/docbook-xml/docbook-xml_4.5-3_all.deb
+Size: 79580
+MD5sum: 69f64494b1fca1ab8f33731a502b8968
+SHA1: 9fb39e48dda9718f21f7ea953f66baee17ed27c0
+SHA256: e6443e3cfbd18e9a2cbc3658a5702c35f04b6e4b4eb1edefacb710a935803845
+SHA512: 2b1bd168c16c9aa8bd14e32800de7e13c4d0c15ff9191b8d4e45e304da30e6ab63cd1976828ea1114c882c62e643821888c35dc2ff235f027e2bfd43a3fe49cc
+Description: A widely used XML scheme for writing documentation and help
+Homepage: https://www.oasis-open.org/docbook/
+
+Package: docbook-xsl
+Installed-Size: 33400
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.79.2-1
+Depends: docbook-xml, libxml2-utils, xsltproc
+Filename: pool/main/d/docbook-xsl/docbook-xsl_1.79.2-1_all.deb
+Size: 1248844
+MD5sum: 6bce3d33333450979bd051681c3183b0
+SHA1: 652d08c080cee92a9e95235b359aea9f7621c7e8
+SHA256: b862d4db27f7ed8b0ab2f8a56731eb5a8e97ddced3efd31f68d91a1bad3c1a27
+SHA512: 3618a734239641bff5064a0a99f65147688cce26d2fc29793f42b9f513f38d108219b0e617bb08346409a8ab35d4770e66e38c775e779477780e6b113cf3fd40
+Description: XML stylesheets for Docbook-xml transformations
+Homepage: https://docbook.org/
+
+Package: dx
+Installed-Size: 1472
+Maintainer: @termux
+Architecture: all
+Version: 1:1.16-6
+Filename: pool/main/d/dx/dx_1:1.16-6_all.deb
+Size: 1433458
+MD5sum: 72d01890af70bf2b241006170df305e6
+SHA1: 75d1e47e4afb601e995c0aa19de3474e51c079e8
+SHA256: e8c3d3900b8d6fe4d51fb9698d96da2bfc36dc58e2e29fc5eb655b861f589bb7
+SHA512: b20145c1753e7f8a8d6680ca3d6a7c766dc8f21f1974a311fc1f2057806aaa3b52d38b97e804f695e79cdbd656c465eec562d816b10e685535e05a139c88b23d
+Description: Command which takes in Java class files and converts them to format executable by Dalvik VM
+Homepage: http://developer.android.com/tools/help/index.html
+
+Package: ecj
+Installed-Size: 8192
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1:4.12-3
+Conflicts: ecj4.6
+Filename: pool/main/e/ecj/ecj_1:4.12-3_all.deb
+Size: 6780470
+MD5sum: 8931199bf78d6626c71cacc9c8e90a72
+SHA1: a683ad3e3f94203701e9ac1e2159d4319e7642fa
+SHA256: 314928c4669b4d1708c7cfba4d56b63d1449c4ddf111caceef2329999b92e537
+SHA512: d872f093c46fe081c5c120c858ee4c22796552daef16f9f1fe7fcb9cccc93cc4f3e9f453281c69bbbab90249eac8588047c058128bcd1bb52a7f389c0d857fd0
+Description: Eclipse Compiler for Java
+Homepage: http://www.eclipse.org/jdt/core/
+
+Package: elixir
+Installed-Size: 11408
+Maintainer: @termux
+Architecture: all
+Version: 1.11.3
+Depends: dash, erlang
+Suggests: clang, make
+Filename: pool/main/e/elixir/elixir_1.11.3_all.deb
+Size: 4554848
+MD5sum: 01cfe4588ad9246cd6805c4cc0b36f65
+SHA1: b80c2160f23efe212bdf0aa964d7f9c2c26d5a59
+SHA256: 56586a77ac2e6e5f401844b69755974ba22de7c8db6457894a941510476a19be
+SHA512: 8eacb60d864c6904d8cd65266cf425b8233eab745d32b1511267eb9bbead9e0519cbe400fd7daab2e7560d5e134fa07c445934c08dfe74c154101af88b762f07
+Description: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
+Homepage: https://elixir-lang.org/
+
+Package: emscripten
+Installed-Size: 63648
+Maintainer: @truboxl
+Architecture: all
+Version: 2.0.17
+Depends: python, nodejs
+Recommends: emscripten-llvm, emscripten-binaryen
+Filename: pool/main/e/emscripten/emscripten_2.0.17_all.deb
+Size: 13032308
+MD5sum: 0d69d68f4bc2783638de64bfe6af89e7
+SHA1: 3d59e62314b525dabfa9c46a53557d296ce85927
+SHA256: 45bcc7f326cdd6ed59676a934ddab534d7ce6d26d6cd19ae1ef58ef8c58c6299
+SHA512: f89278d0d192667896e17d4baa7013fefc63885f9531ea54179ec665ec77b678792137960b9e2852acdf69077eb1ad4c7e04512a6dbb12c5c985e8514564cbd9
+Description: Emscripten: An LLVM-to-WebAssembly Compiler
+Homepage: https://emscripten.org
+
+Package: game-repo
+Installed-Size: 52
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 1.3
+Depends: termux-keyring
+Filename: pool/main/g/game-repo/game-repo_1.3_all.deb
+Size: 1042
+MD5sum: ce5cbf854e8f2000879b6d897e4cc69d
+SHA1: aa7498074348be4e65a3226b74bc386f676f2c92
+SHA256: 7b09e444cb59702e315e2250dcd76dd92bcef63c8c8bbf1fa52e4d56ffc19319
+SHA512: 73a0b461bab5fff20099f0d3d9642d62a6f41fe662592bdc7579e7f1900c6a7c75efa340363424c0427ce674536ad09c6b229ad5597a02fbad051d83bae2e70e
+Description: Package repository containing games for termux
+Homepage: https://github.com/termux/game-packages
+
+Package: geoip2-database
+Installed-Size: 71704
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 20191221-2
+Filename: pool/main/g/geoip2-database/geoip2-database_20191221-2_all.deb
+Size: 23221458
+MD5sum: 313eaeb1178368c7af496f5d957fd788
+SHA1: 66361b5c428b22a16563b7f5d1ce0fbe2f7ad50f
+SHA256: 408c7fe19ec06eef40af8f946e0206975377fbc3a87077740218a734e1e52598
+SHA512: aca6caefe8209ea35d3d707ca455d6209e1a70339f5e1d97abc077e4af54a023452014db4b92319c93e099f6c259c005db28cb56bdb80bced4ab47941ce6fe07
+Description: GeoLite2 IP geolocation databases compiled by MaxMind
+Homepage: https://dev.maxmind.com/geoip/geoip2/geolite2/
+
+Package: help2man
+Installed-Size: 96
+Maintainer: @termux
+Architecture: all
+Version: 1.48.1
+Depends: perl
+Filename: pool/main/h/help2man/help2man_1.48.1_all.deb
+Size: 15600
+MD5sum: 72be3f67a06aac2a44ae9dcf5216c8ab
+SHA1: d0d33c110eb84175184eb69b9e3913658e8a9e86
+SHA256: 713f05200ca562550a5c67f298c673050be1147b870029f72a840922221cef71
+SHA512: 35ec1482c5aaa353585fd5a7c10c8ee959b75a622aae7a645219116632924d67dac36e7c405ce09b3c5b0f95b3fa368aa3f09aff0a02db315390e462407ee7c1
+Description: Conversion tool to create man files.
+Homepage: https://www.gnu.org/software/help2man/
+
+Package: hollywood
+Installed-Size: 2456
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.21-3
+Depends: bmon, byobu, cmatrix, coreutils, dash, gawk, htop-legacy, man, tree, util-linux
+Recommends: apg
+Filename: pool/main/h/hollywood/hollywood_1.21-3_all.deb
+Size: 2279164
+MD5sum: 6fcfc193471697ec158f45466d03c9a8
+SHA1: 688a99cb35cdef6fe4d7faf299e8bf85eacb5c23
+SHA256: 071633e754467829e0a9af2c13cd0726e30e3035e29d91f4c0dbc29f49d3ecee
+SHA512: 94c90e5b259a4b82985545d2650658bc65fb7d08a6410769dfe41f903a4b62dae55a2e9dd1fd0dfc63f64d81d31314aa4d6a7430463b9fcd09346d003e9ccfb8
+Description: Fill your console with Hollywood melodrama technobabble
+Homepage: https://launchpad.net/hollywood
+
+Package: hunspell-en-us
+Installed-Size: 584
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 20181025-1
+Filename: pool/main/h/hunspell-en-us/hunspell-en-us_20181025-1_all.deb
+Size: 161848
+MD5sum: 71a0ae911a94584d9efe393739b4a0ce
+SHA1: 92b8ec4439f880aab3874ad3025362ea86d2fe77
+SHA256: c4ed77771c5604f386d8041f0f248cdac02d1b0577193bd4ce907dc335f85845
+SHA512: 85d9bd8ae07b8143aafde250a4c4f4cfa75e157f89eec5329a5b671a543a584c1b829d6f9fe6ba4411cf5e8131108efa9d6d18b84e62f866d4faab572cbf40d3
+Description: American english dictionary for hunspell
+Homepage: https://hunspell.github.io
+
+Package: hunspell-ru
+Installed-Size: 3504
+Maintainer: Termux members @termux
+Architecture: all
+Version: 20200604
+Filename: pool/main/h/hunspell-ru/hunspell-ru_20200604_all.deb
+Size: 462288
+MD5sum: 440b3c48a9023d5b23f7c70b98cf86e3
+SHA1: 0e4dba79b8aafc423f2d104dfcba998066feb1b1
+SHA256: 87cb81850c8727cf872a17f8e372cd8fa4523f517d5f388fc360e6f8e7e1f163
+SHA512: f1b3ae7c94342e597e5a64254d58f7fffcc43719fc70fa58b9482191fc6503038a3b6ceff47efd50b494b74b8700304f754b6e9892cbc9687930d05e4c55b22c
+Description: Russian dictionary for hunspell
+Homepage: https://hunspell.github.io
+
+Package: keychain
+Installed-Size: 104
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.8.5-1
+Depends: dash, gnupg
+Filename: pool/main/k/keychain/keychain_2.8.5-1_all.deb
+Size: 21554
+MD5sum: debf98792a26896bc4fddb160cd77197
+SHA1: cba99288af99f2a103794380e362644ed133ff8d
+SHA256: 9e824714bd350adff1439725d0af027145b5090e370525445244e395476eef91
+SHA512: d167e6f02dbf7a22981a7bbc79f33e601140dddd243f0389e7cc9625b7668c84812fba76c9088290cb01c821e96f2e41ed2c8168de387e460f4a3cc13c9ea7ee
+Description: keychain ssh-agent front-end
+Homepage: https://www.funtoo.org/Keychain
+
+Package: luarocks
+Installed-Size: 912
+Maintainer: Termux members @termux
+Architecture: all
+Version: 3.1.3-5
+Depends: curl, lua53
+Filename: pool/main/l/luarocks/luarocks_3.1.3-5_all.deb
+Size: 113686
+MD5sum: 7c5c2832c76554af717fc41c2dd5a1d5
+SHA1: b2219e283411f06da81fa3b865c1a37c491208b4
+SHA256: fc98203c46bfda736b5554ab312a519785f30bba0f32015700523f9dca628950
+SHA512: 3d73ad9ffdfe03385dabdfb9e692f18708816598f3066bc6fcbd5f179057606482858a04c68087d9b4dada7edc721e72bae4de6aec8ce990d39382d72ec8fd23
+Description: Deployment and management system for Lua modules
+Homepage: https://luarocks.org/
+
+Package: manpages
+Installed-Size: 16248
+Maintainer: @termux
+Architecture: all
+Version: 5.10
+Replaces: linux-man-pages
+Provides: linux-man-pages
+Depends: man
+Conflicts: linux-man-pages
+Filename: pool/main/m/manpages/manpages_5.10_all.deb
+Size: 5893506
+MD5sum: 4ca68b648476e37b615d08a1b791fc6b
+SHA1: a2bf68a29f68fb9396381430565fe6adc63945f2
+SHA256: 516f7f801f9516b68984f0b73e30a3248b212baf44a43a2eda45dffdedc5eca1
+SHA512: 64e1bec43fd42c96bee9814116772536ef98fff0dd66bea8148c6aa15f2440d840501c58e3c83f99ff535dce51b98358b77a27040de171ca798287726144c197
+Description: Man pages for linux kernel and C library interfaces
+Homepage: https://www.kernel.org/doc/man-pages/
+
+Package: mime-support
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 3.64
+Conflicts: mutt (<< 1.8.3-1)
+Filename: pool/main/m/mime-support/mime-support_3.64_all.deb
+Size: 7572
+MD5sum: 889e3a22295fad216a21809391891428
+SHA1: 21c8abbf3b590145aac263521b0c4bbbf45b09c4
+SHA256: 68ffdea46cd7b3f3d9aedc7d1d415fa17fd7b293b004fe980dfa827edf472314
+SHA512: 8c88b580a608f233d81dceee5e8f27c45d2fb65fc57959b29d4451fc248e41eeee3da42a73f95fef764fd4a272229e0cbface4162bc619b2185e323c7fa00be9
+Description: MIME type associations for file types
+Homepage: https://packages.debian.org/en/stretch/mime-support
+
+Package: myrepos
+Installed-Size: 232
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Architecture: all
+Version: 1.20180726-4
+Depends: git, perl
+Filename: pool/main/m/myrepos/myrepos_1.20180726-4_all.deb
+Size: 42820
+MD5sum: a161deae735e6bc42ff3160b3007d5ce
+SHA1: 7dd67a461675c86a370ac4d71531ccf09ccd1a75
+SHA256: 60bfcc51b65fa04973181eb4c272b4dabc13229128952c29577df1ce401c1ede
+SHA512: 7f8ae5709c540ceb5510e5a6b0533589d06a3c683fc9552ab1b0edc8f59470821711869205984d73280372dcde1c2a418aa67ed23cd2fffa896abe41ce750c0f
+Description: Tool to manage all your version control repos
+Homepage: https://myrepos.branchable.com/
+
+Package: ndk-multilib
+Installed-Size: 136276
+Maintainer: Termux members @termux
+Architecture: all
+Version: 21d
+Filename: pool/main/n/ndk-multilib/ndk-multilib_21d_all.deb
+Size: 22062984
+MD5sum: f655e76886bee2e72be7ad5ae8de7d5b
+SHA1: 275dc479f6eeb46f67e23685f76ad3f5177eb1d0
+SHA256: 7f4389a76b96449e6d31eacf492f2cce3c10de6086f6b440463ae8c3ba1907e4
+SHA512: 6f6bc22d74820e18abe0017ae067538343f17dbba7a9028320c48b8b737132ddf7586bc501fd59f84c41d24a674dae5857517b7d697e659c96d0ffbf68c90dbb
+Description: Multilib binaries for cross-compilation
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+
+Package: neofetch
+Installed-Size: 396
+Maintainer: Termux members @termux
+Architecture: all
+Version: 7.1.0
+Depends: bash
+Filename: pool/main/n/neofetch/neofetch_7.1.0_all.deb
+Size: 80114
+MD5sum: db7ca774eb137232cc4dbe3d8b858d0f
+SHA1: b616f18263c906da047f8d028883e0ce4a6067f0
+SHA256: cb9aaaa84724dc3803c08112ee1b55d6e3f77eea0428ad4817913e3ee0c8b295
+SHA512: 96843c33448e05618539bcf573acb0bdca4f52b91bf6b075dbd930b198f0e378d6d7c1a286b612985d833d9f446d2676f3d65135c8bf9f40153eafa7855c2635
+Description: Simple system information script
+Homepage: https://github.com/dylanaraps/neofetch
+
+Package: ovmf
+Installed-Size: 297436
+Maintainer: @termux
+Architecture: all
+Version: 20201222.1526.ge2747dbb5a
+Filename: pool/main/o/ovmf/ovmf_20201222.1526.ge2747dbb5a_all.deb
+Size: 12158054
+MD5sum: 86cc88b325bbeb237aec31f52dff51f3
+SHA1: 6c876cc830704529a6446483937d4d60e6253db2
+SHA256: fcb15ce2cb6d31d5137d1d6ab92c086c38698cf5f39364dc55669a459f705bd2
+SHA512: 37dc01bd0bddda4f92ae3597733963e03032958b3db6d1ff6f06616630b59c24fb1b9e441d4c6b232b2971d5c48d2d618e2d6e9f673b75205c056512bf0c175a
+Description: Open Virtual Machine Firmware
+Homepage: https://www.tianocore.org/
+
+Package: parallel
+Installed-Size: 3556
+Maintainer: @termux
+Architecture: all
+Version: 20201222
+Depends: perl
+Filename: pool/main/p/parallel/parallel_20201222_all.deb
+Size: 1653002
+MD5sum: 22fa6182bef2570a935ddcb87937cc95
+SHA1: d6aaa23789a315ef2e90b34f9decab1488b39cbc
+SHA256: 44c9b999c5543ed56090dbbbeacac959dce16ac749ad75fb6b1df0e9358932ac
+SHA512: 4a2a38817d0d4761ef0a38d270048ea00845708d6b090b2a16a410c26e32c68eb2cc22f3acb95f797edf135a972e518b9f15d248e86d93256789035f2627ead7
+Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+Homepage: https://www.gnu.org/software/parallel/
+
+Package: pass
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 1.7.3-2
+Depends: bash, coreutils, gnupg (>= 2.2.9-1), tree
+Recommends: git
+Suggests: pass-otp
+Filename: pool/main/p/pass/pass_1.7.3-2_all.deb
+Size: 16956
+MD5sum: 7a74cbba0317e789ba873f7a7c0501be
+SHA1: 315e39d4e19306336f82602509689efac71bc16f
+SHA256: 2bbb5ec9f361c5ae00d4f0a8ce3ec86be040bab26345ad3f8b8cf16e77b99bfa
+SHA512: 77cbe7202b4bd0aed19a460104b997ae82e57a51ee90cb1365b8c51a7367cb74e7831713e037d00f422ff857188795f84a851719701e874142111c2ae92432b6
+Description: Lightweight directory-based password manager
+Homepage: https://www.passwordstore.org
+
+Package: pass-otp
+Installed-Size: 88
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 1.2.0-2
+Depends: debianutils, oathtool, pass
+Suggests: libqrencode
+Filename: pool/main/p/pass-otp/pass-otp_1.2.0-2_all.deb
+Size: 6536
+MD5sum: 65cd0b099d253f8c790376edd4f93947
+SHA1: 094ec4359e20d059a21811a81c69c16bac863376
+SHA256: 44bfd5a54875adad41020f7710bc5b20b8f04d5c66313a3fffc43893855316b9
+SHA512: 751c55a32d18624143c19acc0744ed02f7747b04c57b6cf87b06a57f1a2c57e0203818ecf17ed74c1df00c46b2efb7aa32328bda25592d48ee8b5c6a890d5510
+Description: A pass extension for managing one-time-password (OTP) tokens
+Homepage: https://github.com/tadfisher/pass-otp
+
+Package: pastebinit
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 1.5.1-1
+Depends: python
+Filename: pool/main/p/pastebinit/pastebinit_1.5.1-1_all.deb
+Size: 7696
+MD5sum: d4b7d09ac8a5ceac0ad07a1101cf2156
+SHA1: a601d23c696e472a4060bf1cf371879f09842e69
+SHA256: e1505473bd5dedb3c864bcc4efa17b2629ef804e4028edb4e489cc95c04fe25a
+SHA512: 73675def10a94f6b96861218cbc5b2b7edd696594775ad5407791f4347a6bf97dd9384acb4f8ded8ddf7c6391aa33b910fba4d3fd71501b93a4a47e2ba04ba03
+Description: Command-line pastebin client
+Homepage: https://launchpad.net/pastebinit
+
+Package: pathpicker
+Installed-Size: 568
+Maintainer: Termux members @termux
+Architecture: all
+Version: 0.9.2-1
+Depends: bash, python
+Filename: pool/main/p/pathpicker/pathpicker_0.9.2-1_all.deb
+Size: 39308
+MD5sum: 238e2872f7b783f9ac09a7ee602232a5
+SHA1: 1b125c59ff9dce9450e890295c998be0025cad64
+SHA256: e17d896420f0bcb1fe65443248bd697c42f7d43c92d8102e282a274ff5269dfd
+SHA512: a1ca05d1dffa9ed7c30d6f6e48e3d4383da5f42f6d7fb28027ccb0dcae807709d0dc708a97de4076b6f2993313f22fc778d1c6c91d6aa4d29d1dec78652e3339
+Description: Facebook PathPicker - a terminal-based file picker
+Homepage: https://facebook.github.io/PathPicker/
+
+Package: proot-distro
+Installed-Size: 136
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.6.1
+Depends: bash, bzip2, coreutils, curl, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, xz-utils
+Filename: pool/main/p/proot-distro/proot-distro_1.6.1_all.deb
+Size: 16442
+MD5sum: 955fd594a14988b2563741f478a7fb04
+SHA1: 8a2ec5eafaf8e271904ebc32584ddc06e74ab4c9
+SHA256: 21e958965c2dd0e719adf0a464aa07b91b5d93cae6a832a47108d99b88e884ef
+SHA512: 6b0fabdc69f08d8973840baeb35f16b709c1fb2c8cd37d223191d79594ae35a4100bce77a1d19b15caa231b47285b9f4af239723e0a28520baa7285039c4c71c
+Description: Termux official utility for managing proot'ed Linux distributions
+Homepage: https://github.com/termux/proot-distro
+
+Package: psutils
+Installed-Size: 180
+Maintainer: @termux
+Architecture: all
+Version: 2.04-1
+Depends: ghostscript, perl
+Filename: pool/main/p/psutils/psutils_2.04-1_all.deb
+Size: 25856
+MD5sum: 3212c909c47d14811feb7e66ebbddec3
+SHA1: aefd218d9ae6e86bc5092e42b94e5a63cfdb4c63
+SHA256: 92d30dba69f706944115dd93cccd21cf6b57376c227fa1b6b84776f3a63b7473
+SHA512: f7a185caf7ebe3f90f9688d147be61d1195e98b868243065bf6b5ed802d4a79e49209b959c4534d4f70866ed262436cb4f8ccb4ed9130563381b1cc1a1c2ccfd
+Description: A set of postscript utilities
+Homepage: https://github.com/rrthomas/psutils
+
+Package: ranger
+Installed-Size: 1332
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.9.3-1
+Depends: python, file
+Filename: pool/main/r/ranger/ranger_1.9.3-1_all.deb
+Size: 181780
+MD5sum: 1704d7e2501c4999800821d57c1f6719
+SHA1: 805dc99e3d9d6a8fa5a8d57599f4db1664af455d
+SHA256: 32aa4b394d28a1a0f7ad1b40dfdf911d0e1753a3c31554f840fc7dec3b7f01d9
+SHA512: 3b80f8a5e21d1218373afb466ff462f8c06ce8b1343d514beee48fc3bac25834db8523bd55c605dfce49f9df935b70146e73a207097c23ef9b9def4850f06be4
+Description: File manager with VI key bindings
+Homepage: https://ranger.github.io/
+
+Package: rcm
+Installed-Size: 124
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.3.4
+Depends: bash
+Filename: pool/main/r/rcm/rcm_1.3.4_all.deb
+Size: 19510
+MD5sum: 128f632d679f77145af318f721e1ca1d
+SHA1: 14fa18536524b2bbc6174ee09eb0072bec4b57e1
+SHA256: dd0656c4703a83c4f11d41ac00500b54f0f61d35193cdec1c97c72ac51142969
+SHA512: 99b1b26b49b509c63e04909ecf08743b24567cf309abb9b5074613c9f6c47f2107fd80beecdea654d7085fe82147ff5b554faf59c92a1ee8a04dbbec1db60c8c
+Description: Dotfiles management
+Homepage: https://github.com/thoughtbot/rcm
+
+Package: root-repo
+Installed-Size: 52
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 1.7
+Depends: termux-keyring
+Filename: pool/main/r/root-repo/root-repo_1.7_all.deb
+Size: 1052
+MD5sum: 52e1b9be440138aa28728fab719664be
+SHA1: e7d043d6f51e842cb35399b4677fc819e3136141
+SHA256: d3933e8890ff6b82ec5bb43b54ff16b5ff28ed887fb619b716590f61497fd673
+SHA512: 076e319f8df2706776992158b6937e90c7fc8ca7c37f748d66ac6c01785541cbc1f9894b07e8e2afe34e94c8bd5d12e0cb410e86dc02f342b422b147b988c392
+Description: Package repository containing programs for rooted devices
+Homepage: https://github.com/termux/termux-root-packages
+
+Package: rsnapshot
+Installed-Size: 320
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 1.4.3
+Depends: coreutils, openssh, perl, rsync
+Filename: pool/main/r/rsnapshot/rsnapshot_1.4.3_all.deb
+Size: 69986
+MD5sum: 587812f968e5fc32e849d440bab6dc1d
+SHA1: 05a6d356f8ea36cf95e947cd5d82a58fd8681ee2
+SHA256: b25130309ab48678667f6dff4d825eb15e91248f2158810256f8f2c5bb29d38f
+SHA512: d3d6a1d7658d9e64805797711248807465bf32c213bb3541ac78f3f16dc904842dbec2bf61900fcd065aefe5abce676ebd49e529c19f1d75205a0fad02b39683
+Description: A remote filesystem snapshot utility
+Homepage: https://www.rsnapshot.org/
+
+Package: ruby-ri
+Installed-Size: 54960
+Maintainer: @termux
+Architecture: all
+Version: 3.0.0
+Depends: ruby (= 3.0.0)
+Filename: pool/main/r/ruby-ri/ruby-ri_3.0.0_all.deb
+Size: 1563784
+MD5sum: 42aa373b2b94c73b4be3203494420e9b
+SHA1: e17150c44f071d7834dd67e91cd2e8061a458d09
+SHA256: ced8ad57a3b7d72667ccd1c40582e3d6bd69c2bb6d8840d850d88f75a0b4598e
+SHA512: db4aef2975c32992db8c8dfbecacc156c410422ae92449c2b8c01c76a3c42dd4a0943956f8f0ba697f7c5e1a1e9cd5bd13c6ece93b7a3af5b65f036521d33c93
+Description: Ruby documentation index
+Homepage: https://www.ruby-lang.org/
+
+Package: rust-std-wasm32
+Installed-Size: 59164
+Maintainer: Kevin Cotugno @kcotugno
+Architecture: all
+Version: 1.51.0-1
+Depends: rust (= 1.51.0-1)
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.51.0-1_all.deb
+Size: 12628696
+MD5sum: 8cda25cf5ce04a8ff8908078483c5313
+SHA1: 3fc3d0a5c5ddfce2f46db6082c631fdfb27c5f7d
+SHA256: 82656d67c980fd943511f60f19e76553503262fcf3c43e196ed8b250a922bad2
+SHA512: f37addeb292f45c52087401f44ada7034b91dabdb0220920f33d7bb4488d9c51cc3c14284f8b04c6fb593c4c2e21a25c43afe7f3cfbff85a755658a87799e291
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org/
+
+Package: rust-std-wasm32
+Installed-Size: 59164
+Maintainer: Kevin Cotugno @kcotugno
+Architecture: all
+Version: 1.51.0
+Depends: rust (= 1.51.0)
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.51.0_all.deb
+Size: 12651234
+MD5sum: 2392274f0bc43101c3fb59a3573854a0
+SHA1: 3af60c218790dd64bee2d828a50b1d1911e5f22a
+SHA256: 3fda8f196ba25909e2ce011a48aa9683c8702c98bc5053df83b8233b5466e3c7
+SHA512: 9bda00efe785114ec78ff8d5115e72fe91604d3c0844b810e13cc7fe085ad1df5ba854cde967ae470d0ceab839831e24d40107ed5c2fd4e0d50c71056d481266
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org/
+
+Package: rust-std-wasm32
+Installed-Size: 56448
+Maintainer: Kevin Cotugno @kcotugno
+Architecture: all
+Version: 1.50.0
+Depends: rust (= 1.50.0)
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.50.0_all.deb
+Size: 12681802
+MD5sum: 4902c996dd1ead264115006606c1f392
+SHA1: 21f9ee6fb41175f3a9d7cb23d09fcaa6510ec4c9
+SHA256: 1a7ed5ba3290b88adaf737ae8517d806e57a8c8713a84e17fc11f91cb85213f9
+SHA512: 1dbe3edbc0a6b6ac03ad95fa1c97a079ad079c2900c02c76d44c3c5d4973ca5d1d5a7b0ff53b53f36c6b7466f037c8a8dc79550003c8a8622c0481323c315e69
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org/
+
+Package: rust-std-wasm32
+Installed-Size: 54968
+Maintainer: Kevin Cotugno @kcotugno
+Architecture: all
+Version: 1.49.0-2
+Depends: rust (= 1.49.0-2)
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.49.0-2_all.deb
+Size: 12392360
+MD5sum: 0f1d65e4b91b94d953586ef2f9b4032a
+SHA1: 3208d6be8fe53ce4e86ce43ad11ce389c6e7392c
+SHA256: 50d655c5972bdc6b0e7b4a8a60d8b57a78bd55cb54f3828eac9f9de17ec8315a
+SHA512: 21b8a2c013d3d0b219d35ff4f9338578c9c0891151ef3ad2e72379d8af2209e43e3efcf74a80eebebbf0718fb1a722c3105b5b2f3e9c24fda771683513ab033c
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org/
+
+Package: rust-std-wasm32
+Installed-Size: 54968
+Maintainer: Kevin Cotugno @kcotugno
+Architecture: all
+Version: 1.49.0
+Depends: rust (= 1.49.0)
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.49.0_all.deb
+Size: 12373120
+MD5sum: 0677e888b424695d4724c63ffd26e76c
+SHA1: a69b111c11e96f5935e22d440afd2df99a45a643
+SHA256: 0f5c187fc5afeba3ca0e64f34215182beb107e47b618e00a73e40b73aac7d9b9
+SHA512: df02acd8b84770714db0b46ac6b9aa278b44f354c627fd6b141548030a22dbf679738292cb30ceb9269447cbec0a9a27e0e097e4319192604623e01135f3aeac
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org/
+
+Package: science-repo
+Installed-Size: 52
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 1.2
+Depends: termux-keyring
+Filename: pool/main/s/science-repo/science-repo_1.2_all.deb
+Size: 1046
+MD5sum: a4a4162f16d0c1752a60bfb763945e0c
+SHA1: af575307468355b56ed713a31ee9e353c8915f42
+SHA256: 1dc90a85da142b9fec07f0703220e6a6bef004a72737fdab12207e25a650270e
+SHA512: f59b3f822ecb72386a9fd166c85a94db0307dbca7a369589a9d6de2f6a4140bd52adba4cf7382af066c6a40146c04c0e1c91cf27ead9ad4440a5dce344eadac3
+Description: Package repository containing science software
+Homepage: https://github.com/termux/science-packages
+
+Package: screenfetch
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 3.9.1-1
+Depends: bash
+Filename: pool/main/s/screenfetch/screenfetch_3.9.1-1_all.deb
+Size: 50576
+MD5sum: b6ca97d9895c85a1f0a967591ce39f22
+SHA1: e058c4e58438dd8562bb30f5bfc6d3c37d556759
+SHA256: 97a32cbb22862f60ea2f184022980b89f07d04e0c49e4dceae5b89b22c5a76bc
+SHA512: 41c65b4379a25cd50c6d8ebb647d01028ea8a93d695f65845a3ee1fe5d97cce1f458a6465a68c766c06b1f21ac53329151908044394e78f846512180974e4917
+Description: Bash Screenshot Information Tool
+Homepage: https://github.com/KittyKatt/screenFetch
+
+Package: sensible-utils
+Installed-Size: 92
+Maintainer: @termux
+Architecture: all
+Version: 0.0.14
+Filename: pool/main/s/sensible-utils/sensible-utils_0.0.14_all.deb
+Size: 4596
+MD5sum: 21e503886aebdd0a591946bc34b41736
+SHA1: 975c5ca8dad4f2de201fa4f05ceeb04a0f1a2d2b
+SHA256: ddf968f7feaf5ec47a6f17bc5b3b2772424ea5bc39ddad83c6864c5c1af5b478
+SHA512: b78d32e20b634b66d4ff75272a2027ae4efc88f2535d9dba60ce692a9ec32e57f833d2ee4899e0585435267190fd5cbc5f26976a158f8594c9a4754e2c7e9cd8
+Description: Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager
+Homepage: https://packages.debian.org/sid/sensible-utils
+
+Package: stdman
+Installed-Size: 18360
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2020.11.17-1
+Depends: man
+Filename: pool/main/s/stdman/stdman_2020.11.17-1_all.deb
+Size: 3178590
+MD5sum: e8a8d19ba597aab49c92dccea2ef4c93
+SHA1: cd4309bb5bf6af0dd46772d51310da827a9609d2
+SHA256: a0908cbdb46385ce3d127ae54adc5a0f9bd9ae2e4beb638818512e5a68e6709c
+SHA512: 0e91303ba4ffc3424f5100c7b85a733f3808165eae6d19727c3568176747cbb7c4b4090767f8c0bc561d77c71cccddd5d0301c2293e6d6fb708f3cc5d1554c26
+Description: Formatted C++20 stdlib man pages (cppreference)
+Homepage: https://github.com/jeaye/stdman
+
+Package: stow
+Installed-Size: 1104
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 2.3.1
+Depends: perl
+Filename: pool/main/s/stow/stow_2.3.1_all.deb
+Size: 368498
+MD5sum: 540b2f36fc636ddfcfff06c443198552
+SHA1: 61e3f790c8e553f46fad9088b9f4ca52c9f59fde
+SHA256: ae0beb3a8e0a00d5708da1523973dc6f4fd20a6f4875b8f38bacbb0843e943d7
+SHA512: 44c6dfe7312bb05e3e5618442879d5740a9b343d6e31e89e8a01a8a74f684eef1918a07a4e6560288cbd2802beada1ee5a78182b554405c3f509dfd28f3765a3
+Description: Tool for managing the installation of multiple software packages into a single directory
+Homepage: https://www.gnu.org/software/stow/
+
+Package: swaks
+Installed-Size: 256
+Maintainer: Termux members @termux
+Architecture: all
+Version: 20201014.0-1
+Depends: perl
+Filename: pool/main/s/swaks/swaks_20201014.0-1_all.deb
+Size: 53564
+MD5sum: c82f9ca0192ddaf86c809f146075a577
+SHA1: 4604d93c271a8f210d0cdca21177f5bdfe7f14d9
+SHA256: 3f6a5fd247aff101788a4bad6420302070cf19f4e8eacbc316f5fd5487d53bdb
+SHA512: f420f148b9c1a55a4028f01401f7b34f621c8f9299032f512f69e354368ac180c9bddfab14b03e48c6446d4966e7e81ae38763301e101e403501a92d68257754
+Description: Swiss Army Knife for SMTP
+Homepage: http://jetmore.org/john/code/swaks/
+
+Package: termux-am
+Installed-Size: 72
+Maintainer: Michal Bednarski @michalbednarski
+Architecture: all
+Version: 0.4
+Conflicts: termux-tools (<< 0.51)
+Filename: pool/main/t/termux-am/termux-am_0.4_all.deb
+Size: 17144
+MD5sum: 2d2401ab460556a1c6f6704ad21efee8
+SHA1: d80dd8437a0259706b787966d08f0c95ef053956
+SHA256: 34f1032492d1b4486ed072c9388d8f9dabf8853f0985a07c1eb5d1acca6e22de
+SHA512: 5f4a4d1fe82a21b91e0c8074e027ad9a1c3f5f29c5e918b46ce55b6abcbe4b6476ec4194c02e1497cb0217726822e0cf99fc61691f7f921d6bc5fb491f565b72
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/termux/TermuxAm
+
+Package: termux-apt-repo
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 0.4
+Depends: binutils, python, tar
+Filename: pool/main/t/termux-apt-repo/termux-apt-repo_0.4_all.deb
+Size: 3582
+MD5sum: b19a2cf0a3d3494eee98c9af0a7e3538
+SHA1: 847c9b332c7741d27387b7ec491601da1c9615a7
+SHA256: 5d58235302fee377d3dfe63a15684fbb177ce2d3457b8bb24b3aafabe62c1f39
+SHA512: 43536273abb202645378b9ef4cc20dfd68ada38ed0d8e7a81ae7a9a2a2e972f91dcd8edd582d07b6e11405a3559f4d896a72355e230bc75baf306ac52cf0cc2a
+Description: Script to create Termux apt repositories
+Homepage: https://github.com/termux/termux-apt-repo
+
+Package: termux-create-package
+Installed-Size: 48
+Maintainer: Termux members @termux
+Architecture: all
+Version: 0.10
+Depends: python
+Filename: pool/main/t/termux-create-package/termux-create-package_0.10_all.deb
+Size: 3056
+MD5sum: 5742ab95f708353a0ebe8f080861fcb8
+SHA1: b401b1f815e10fa2cd00b2b0feeb61cc14a8e88e
+SHA256: 030f72e2493c250652f4643d1b22319c0d58581f328956508ef445fec9104752
+SHA512: f57bd46677a5c909ea56aedf4e4b238fc743026a3a9fa1c442fb773e0f2a1acf411ec0c0e1eba0e214b8707bac8cf02083dc3c083c13481169cd9b1d6f5f3519
+Description: Utility to create Termux packages
+Homepage: https://github.com/termux/termux-create-package
+
+Package: termux-keyring
+Installed-Size: 88
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.4
+Filename: pool/main/t/termux-keyring/termux-keyring_1.4_all.deb
+Size: 34082
+MD5sum: 7b94c646e191a47daca4a9285f7a1584
+SHA1: a67e2783a2dfc06c601096612ff546cb24bc163f
+SHA256: fe354a08bbd3fabc2d944bc5ca19a267de8bf2e00eb598113f3a3f6c2645f48a
+SHA512: 3e3e6ff0c66e69ccad8048a396a4e577fce4d561a09ce7d1e87ff480fb8fc7bf8d422553e34918f1e14ee8e54a3a4f3bec1b4dc6a08695771f39c057903c23f2
+Description: GPG public keys for the official Termux repositories
+Homepage: https://github.com/termux
+
+Package: termux-licenses
+Essential: yes
+Installed-Size: 372
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.0-1
+Filename: pool/main/t/termux-licenses/termux-licenses_2.0-1_all.deb
+Size: 52114
+MD5sum: 7cf2c5fc64d0029db6ed984127ac1158
+SHA1: f9f617f33cea2821e48503324a5dbf056752b2d7
+SHA256: e44e199953e0e8f11fb0bea452ff66ddc18331e81b4ebf908558e30737f21089
+SHA512: dc4ef5ef0c076a7cadaecb24f2ab04632f11cf90ebf44a74b43158baab0af6fb95a3091946bf1f48c8bdadd0f09e0ea5ab96b7f755e07a10fd5004cbe8179adb
+Description: Contains LICENSE files for common licenses
+Homepage: https://termux.com
+
+Package: termux-services
+Installed-Size: 84
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 0.13
+Depends: runit, coreutils
+Filename: pool/main/t/termux-services/termux-services_0.13_all.deb
+Size: 1892
+MD5sum: b62db38db2b872a0c9af09ec12fa46a1
+SHA1: 27be2d096c5964b1561af5ce373fcba17e372947
+SHA256: 9d535d776fdb833524e0de97e8093e42eb23d4c37e21bb0c16fff1f8a9d90b00
+SHA512: 39fc577e93a67ba0999667e840a31efe0f4aa9ee68e855460842cb6a9b17efbf659554a4790b772c914deaab2873cd11b8252ca5912b672dbac81431b0fa48e9
+Description: Service daemon for Termux
+Homepage: https://github.com/termux/termux-services/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.118
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.118_all.deb
+Size: 18180
+MD5sum: c8fd27722a664037ed3657e13af486e2
+SHA1: 28c9d601175b0c026976f2209fd0fda4a3de1ee4
+SHA256: 3e027e9cb606347f8513697be3ea74c08af3df409cb5c659bc13bf7d15792ee0
+SHA512: f6f4d57436850759fb88c5b1d5479a3b48081ff7a38911987b26e27f76852341d1daa5f76c5e1192e87f4ab7745fbaaba97304b1837f2ef4e32f3a579902c279
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.117
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.117_all.deb
+Size: 18198
+MD5sum: 750624379ac1bb9ad99c001b3341d566
+SHA1: 931515612d9c43c03f599620d984ecd874a78248
+SHA256: 14e93cf1eb60fad709fa0d1f70851cfeacd58eef1a08e6d46f1f1dd74bc6efbd
+SHA512: 7bde20e3fbeefba5ca241515918d4c3da8d6905620f14cd4f6496006e060fc41a033f8e7a766c79786691e8444120b8dc3186e4859ce1d3a178b9be7094b2a86
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.116
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.116_all.deb
+Size: 18210
+MD5sum: ada7a7d22d5500b263a928bce1e2c618
+SHA1: 3a566a6737e4872720f0592ce302d71356269a56
+SHA256: 4f3442b64b72ae01a683b19dcc411d96b21409777314c6977e4a2cd8f180b70f
+SHA512: 301d74263b6649f929236ba6dd63643f025972d16e96696f442deea9f58047597c3397e63d60c1726a0b6cb4983991b65cbc777e2ecfde78f44b73c084f16f74
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.115
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.115_all.deb
+Size: 18082
+MD5sum: 3876704a8121d9b2a735838636da269a
+SHA1: bb1476ff7eedb76defbf2634a60081930c755766
+SHA256: 9bec3476c33347c35e8f63f671e9468e9b0e4e6ccd96de71adf9cd8a4bf75ee8
+SHA512: d9be6556dabe8f65fae1d9ba278ecb77c639c440c6f1d691975927ddc730526dae0ac86b7dad24de3303e59eec9e6dab4152de065885447cb0f81e132c1921c8
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.114
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.114_all.deb
+Size: 18060
+MD5sum: 76288e4543208d5f49b6e8d5489c22b3
+SHA1: 198f3f49d0f185a4727b3e511ef09cc0517b0745
+SHA256: 105852cb2265ea0672e772587d4f7e94307883e9d8fee6d1f0b43f9d3f029add
+SHA512: d2c5bef52512e76a2ac25d9ab40dcf8c63a59ba9d69b37e70c26cec5efcf9ae8090453f629f6c0f956955f1b2901dae0664091ec751f0e475c7474e9f6f4ab89
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.113
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.113_all.deb
+Size: 17990
+MD5sum: 5317a29c743615f8a9e50f661c7953cd
+SHA1: 98b366a0bf8cae983c04e26d8761ae8fc7191682
+SHA256: 5bd1c6bab7b59c043fb57c223d4bb4e7573fe24953aea67dc4343ddbca459147
+SHA512: 8c62e7181f1d36f6c4d56623e8deca329821340859880df7a50ae124a4deffe143944f56e04dddfd1706f29f7ec566541a4d7f0664d94b7b8bad35f7fc07c64b
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.112
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.112_all.deb
+Size: 17954
+MD5sum: 246d8a1bc9aa29aef3f054e7dd4d46a7
+SHA1: 4bec691e694c8dc86b0177bf68f8d358c37f6ebc
+SHA256: 66a68c3f2ca45fbcd4be3e3c799485f630dc6d431b7af30aed319fa2778bf544
+SHA512: e1180eeae2efb9ec5edd26007895542fcb66026980f7496a5a8eef4d7167f0205307248d919dfe6857afadfb41ebffb18a74e944c37de37d637ee04cb3e1a3a1
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: termux-tools
+Essential: yes
+Installed-Size: 196
+Maintainer: @termux
+Architecture: all
+Version: 0.111
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_0.111_all.deb
+Size: 18008
+MD5sum: 84b240489e240bd3756a20da617a6b4b
+SHA1: b982eb768af9b2ac18f6cfc4810934fcf65a21c9
+SHA256: 8d2e4bed4d19928df769b2a01057ce0c7e7f69fe78ba5d30f1db6eca5b7a2d61
+SHA512: e74501b1f0e9d8faec056e59f1cee8ec7175c07ab11e57712d08d354883160d7eefef1bd4306892a5e915eb6b98a1ef63b2eb6f187dbf502a0486151e7029f15
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: translate-shell
+Installed-Size: 248
+Maintainer: Termux members @termux
+Architecture: all
+Version: 0.9.6.12
+Depends: bash, curl, gawk, less, rlwrap
+Recommends: hunspell, mpv
+Filename: pool/main/t/translate-shell/translate-shell_0.9.6.12_all.deb
+Size: 39056
+MD5sum: 136fe6dc7a719a015b37061ff6baa269
+SHA1: fa853f8521fcc00d8efa5a2c4c540c200de381b5
+SHA256: 02d85d1aabca4ef26850ae4dd6e1079ff4677f56f36aef0be2fc03a474db3d57
+SHA512: bd6d7f4771ba73acddb07dd4ed1c2cb421c008b56ceac63c84a2b0c5b6cf542728b8d421e664b7923750f2d204598f8ba35e6b88f9de6106376c89a31326de94
+Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+Homepage: https://www.soimort.org/translate-shell
+
+Package: tsu
+Installed-Size: 56
+Maintainer: @termux
+Architecture: all
+Version: 8.5.1-3
+Filename: pool/main/t/tsu/tsu_8.5.1-3_all.deb
+Size: 4410
+MD5sum: 1584e31de171c63e98241d38d4b8ce9a
+SHA1: 51fefb24409aade7d0e83957d6171a290bf87573
+SHA256: aa56504836d6391f9a2a18ea2a14b5381cf5512fa706d76f19f73d9bd2112773
+SHA512: 06e83f6c656c514a35aff0ef4316ed88422bd674ff9db7376ba36572d5c541f275387851f80e9c7ab1eff406c7b354050b3143ca0d8edf373cc1376054d09435
+Description: A su wrapper for Termux
+Homepage: https://github.com/cswl/tsu
+
+Package: ttf-dejavu
+Installed-Size: 10108
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.37-8
+Filename: pool/main/t/ttf-dejavu/ttf-dejavu_2.37-8_all.deb
+Size: 2468280
+MD5sum: 53bffcb95d1775cde5da1cd747a1c6a4
+SHA1: e6739b8777f79e9387ed07d002b6c7ab3f0f375b
+SHA256: 3fa9352d528cb19aebcdd2de5d1fb0cb67b201be3ae264207fc1a277d2cfd6da
+SHA512: 74be7e2e4c26e1132cc12eaa25648c70062ba6ca91cebc146ae9ebc9b28de368970cf068fdfe0f21e0b618b926e94df3fbed7f4657f2fc208b298afd65363d8b
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Homepage: https://dejavu-fonts.github.io/
+
+Package: unstable-repo
+Installed-Size: 52
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 6.0
+Depends: termux-keyring
+Filename: pool/main/u/unstable-repo/unstable-repo_6.0_all.deb
+Size: 1104
+MD5sum: c1898c26bbc3ace2f8004038da6dd994
+SHA1: dfe8d8a760d27a70e91fdcd38ecf70578a739357
+SHA256: e31b5f8d8073dc10d057c35d783b0dc16cee96784a00b075990bcb58ada6fec6
+SHA512: e9cd3fbe1e761afc855d46d9c76dd5cf7b7b42ffb7fb5c337501cafb3711e6b29c9f5357f178c15d8ae655fb524d3d7fe414ae93786a3f0faeefd45b74ad6585
+Description: Package repository containing new/unstable programs and libraries.
+Homepage: https://github.com/termux/unstable-packages
+
+Package: vcsh
+Installed-Size: 84
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 1.20151229
+Depends: git
+Filename: pool/main/v/vcsh/vcsh_1.20151229_all.deb
+Size: 11990
+MD5sum: 741539210b7c440a2811af7424c84d41
+SHA1: 1c207c383471378a807a6ec9ff566fb209431d73
+SHA256: 7832b70a0e192a1c9119d2992bca5377c3da6286de0a0d1237492e3719abc877
+SHA512: efc6d079503d2da5e2f6bb092be7fca735775ca432b6b7dcfb160d8a9207aebd12338046c6ed988d235c839fa5ea51825fd84837dea56dad970d56ec825f5f5e
+Description: Config manager based on Git
+Homepage: https://github.com/RichiH/vcsh
+
+Package: vim-runtime
+Installed-Size: 23532
+Maintainer: @termux
+Architecture: all
+Version: 8.2.2450
+Filename: pool/main/v/vim-runtime/vim-runtime_8.2.2450_all.deb
+Size: 4252410
+MD5sum: bbc8b02eb671e251238578ea09510071
+SHA1: a47685a545b1641c64fb8d29583b5e4e495dd030
+SHA256: c07554e6fb4dc7795c544b1afc4b6c7cbc58dc523deaf479502768f6df8e3831
+SHA512: 5cc90f640603722bfccf77f218d81fb2c3e71058e9d1ab38ec8c1ff1c0e7fd99bd4227113c3e4da5cc9a848c0225fe4f3ed0f2b252b979ccde303d79c5556026
+Description: Vi IMproved - Runtime files
+Homepage: https://www.vim.org
+
+Package: whatprovides
+Installed-Size: 44
+Maintainer: Krishna kanhaiya @kcubeterm
+Architecture: all
+Version: 2.2.1
+Depends: bash, coreutils, curl, gawk, gzip, sqlite
+Filename: pool/main/w/whatprovides/whatprovides_2.2.1_all.deb
+Size: 2636
+MD5sum: a9977d8d5a4924e3ab42287b19846aac
+SHA1: 2160d1b1f10763ec09bb31cb4fedc2bc315e9091
+SHA256: bc151b54108bd1d1211bc867facfbf4a93d928ea205a0d6cd8d0e880fe075c00
+SHA512: 959a4ac836cdab7fe8af4660bb3a0d2ba4faca06e064e8afdf2130f16afddfbbcb141b6babefcba2fcd184c0465508e0ad7c1fb6cc44b41d4ad716454e2f184d
+Description: Find out packages using specific files
+Homepage: https://github.com/termux/whatprovides
+
+Package: x11-repo
+Installed-Size: 52
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 6.0
+Depends: termux-keyring
+Filename: pool/main/x/x11-repo/x11-repo_6.0_all.deb
+Size: 1098
+MD5sum: d808b58eae2c14c433dcbe2f60f676e4
+SHA1: 5785f0dd1552865151ba53a32780fbabc3227451
+SHA256: 6bddad43b1bd53c91c9efcbd85ba3bce5f74ceee3eaaf1dad03306aac7a43863
+SHA512: 37f71a728515e292620f25140fc4abe8734d6dbe9e351e4cdbe8b87f1efe33e34692440e2c91f5beae336cbd3d299de52a0b3b0ca95de330a2f906d9d39144ff
+Description: Package repository containing X11 programs and libraries
+Homepage: https://github.com/termux/x11-packages
+
+Package: xcb-proto
+Installed-Size: 1024
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.14.1
+Replaces: xcbproto
+Conflicts: xcbproto
+Filename: pool/main/x/xcb-proto/xcb-proto_1.14.1_all.deb
+Size: 103234
+MD5sum: 5184904a0046ab9d869d1ed455ede063
+SHA1: 8a15f5ce45b01797426065d53e3d20c73a9f4e07
+SHA256: 4fae7c4613e4bf580ee9150736302f5db94726f42dfbf5548c8453c7a9b596bb
+SHA512: a1fe4bd35bb3fa3482a0f37e865058865526ca699362bb93bc31d2fa8dde3101c4d411be60f2f97f77fe4dbd866c5f8df9671b418e19fd17956a8f0bd5aedff0
+Description: XML-XCB protocol descriptions
+Homepage: https://xcb.freedesktop.org/
+
+Package: xorg-util-macros
+Installed-Size: 148
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.19.3
+Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.19.3_all.deb
+Size: 21812
+MD5sum: cdc20cf62893f50fc43dd5933f425ead
+SHA1: e889a6032aa1297b0db0b7cde9ef78507b7b9182
+SHA256: e5bfbfb436518b2c644f4d9714a890e2f3fca0621a49b869635e30125814f93b
+SHA512: 3b7ad6a4ba4353e59ce363f306d0d4314f099920c3055bbd4426e10de07431f4760730ae583c148f6150c16695a92d16d882c8a0079e1c3f8b4ac2906476b698
+Description: X.Org Autotools macros
+Homepage: https://xorg.freedesktop.org/
+
+Package: xorgproto
+Installed-Size: 1912
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2020.1-1
+Replaces: x11-proto
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Filename: pool/main/x/xorgproto/xorgproto_2020.1-1_all.deb
+Size: 176090
+MD5sum: f66c1606d2bdd718c6e5274f3991ace6
+SHA1: 6101a31c0844f8a82e84c5ec1b733053b53f9b6e
+SHA256: a3441338e082db7f5b4a1f835e1c765b8f1e98ee79eb573465c48a66cc9b71e4
+SHA512: e0e853402b7360e88cad2e884fb5e31f15bfafcf88a57da5376632f1762bb67a370da98277082a03c82ffc935f35738c32093d2d56cc1495cf77c09e4bcaa04a
+Description: X.Org X11 Protocol headers
+Homepage: https://xorg.freedesktop.org/
+
+Package: xtrans
+Installed-Size: 324
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.4.0-8
+Filename: pool/main/x/xtrans/xtrans_1.4.0-8_all.deb
+Size: 43048
+MD5sum: d7f3d1eeb7c37cf625953758f6f6eccb
+SHA1: aa76c6b370a0010ed180569c1dbc747f707abb71
+SHA256: 0019c72d5f68dce638333c3978940d9000a09bb2f96174a2607d5f32dfa613d8
+SHA512: 2976a358161fd8849125096be84c77e2137dc4e545a4192260e3479bf8de6b92fec1898bdb7995a14777f60e3396b33fe304064092bd321f6ba537cb532adb86
+Description: X transport library
+Homepage: https://xorg.freedesktop.org/
+
+Package: yarn
+Installed-Size: 5284
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.22.10
+Depends: nodejs | nodejs-lts
+Filename: pool/main/y/yarn/yarn_1.22.10_all.deb
+Size: 891358
+MD5sum: f4e345879556eb3137b16705648fbd5a
+SHA1: d6bd3777e93698f093cbea415d09096338f4f572
+SHA256: 6099c1c8904f400750b35c444f0e9b079440abeb001b0b024d1c6749d63297c7
+SHA512: 077a20ab84534788802a258b7fb5afc2272026e428cb87d344cb9c8b66590ec3771d5aacca6a1d4b517c80fb0ac9aafea861dd19039014f9204853895c79fb50
+Description: Fast, reliable, and secure dependency management
+Homepage: https://yarnpkg.com/
+

@@ -1,0 +1,946 @@
+Package: texlive
+Installed-Size: 127536
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Replaces: texlive-bin (<< 20190410), texlive-tlmgr (<< 20190410)
+Depends: perl, texlive-bin (>= 20200406-4)
+Conflicts: texlive (<< 20170524-5), texlive-bin (<< 20190410), texlive-tlmgr (<< 20190410), texlive-binextra (<= 20190410-2), texlive-langother (<= 20190410-2), texlive-langgerman (<= 20190410-2), texlive-plaingeneric (<= 20190410-2), texlive-fontsrecommended (<= 20190410-2), texlive-latexrecommended (<= 20190410-2), texlive-latexextra (<= 20190410-2), texlive-xetex (<= 20190410-2)
+Breaks: texlive-installer
+Filename: pool/stable/t/texlive/texlive_20200406-4_all.deb
+Size: 19928644
+MD5sum: c3201d995c0d26c7e70fafbea4b7a7bc
+SHA1: 62d682524fef7f21d543261115ff8df3de2bbf7b
+SHA256: 9f8f85c6486939540c5c11bddb5fac1dc4026d3857bb4124ba26ca1436fca3d0
+SHA512: 04520465e64f67bf41032ffd0e6eb2fde17090e731610a9af4e4b02dcb89a09d71d9f7070ac5eabc9cfb4600d68fa3efab0b52dc1de9d09511c8c7a02d0ef87f
+Description: TeX Live is a distribution of the TeX typesetting system.
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-alegreya
+Installed-Size: 87732
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-alegreya/texlive-alegreya_20200406-4_all.deb
+Size: 24539832
+MD5sum: 281b363c07684179510232f3811482c5
+SHA1: 8b734be936e68f161c76201a382b9d4754e11766
+SHA256: b41c744e5656aa4db70a811fa9b474fc01d6542cbb3d7133540e204d1da17d96
+SHA512: f5bed75e4f5e84d9e772f7e541f6948f4a725e4685a1d24b970866598dafe75c1a75df4e217f438609f6835e8d08804978295bbf7d5370e4ab1a26cdfb90ed2d
+Description: Texlive's alegreya package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-antt
+Installed-Size: 21184
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-antt/texlive-antt_20200406-4_all.deb
+Size: 4715766
+MD5sum: a288e1cb9c38eca69812dd07ceaf7b43
+SHA1: f14ca368e23eafbc1c4a1cd9afff02eab962b214
+SHA256: 9364c7ce74a23821ab9a099c60d731faeb0da6c547de73b8789694e1ab37c400
+SHA512: b25cceecf55c466c70694d01657174c8731b17694d07d40903ca168716d3c3b37394da751554732c660c7e5bab380b1ceb6f157aa4a1ccb97f223492027f14b5
+Description: Texlive's antt package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-bibtexextra
+Installed-Size: 28404
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-binextra, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<= 20190410-2)
+Filename: pool/stable/t/texlive-bibtexextra/texlive-bibtexextra_20200406-4_all.deb
+Size: 3212866
+MD5sum: 194d49370b97313aeb6e68e48bd17a80
+SHA1: 13d1270bf2eda889ece7851371c47e3250a723bb
+SHA256: a92776d421dde29b5c3e643fbc386875f689fa507c5fed13fc114e87df74a2c7
+SHA512: 5ca308154bd57453c2ff978d4e18729afc2d70a10db200892cf98ec4d0be197cd7f337ec4373ca756feba40ce2da3a33deb44b3ecf37eb507e102ad8e8e8dac3
+Description: Texlive's collection-bibtexextra
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-binextra
+Installed-Size: 114468
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<= 20190410-2)
+Filename: pool/stable/t/texlive-binextra/texlive-binextra_20200406-4_all.deb
+Size: 95381668
+MD5sum: 9c829a7bc68b8dc482c8081e19dd6f23
+SHA1: db4507d644686ade64b4ae610c017e3693bbc8c8
+SHA256: 9aa0e1c5a7acc0e8e478c0ab3c3c7e34bec38174a74c49c4935316ce044d4342
+SHA512: c4e0415ebb9b2ce621c50c8e3569f5291b2e8925121c6d3abe5595f11e999d56587b2210f8fbadfc46a9db3b1af43d9378718d7f3b1ef6f1d63088012d34a16f
+Description: Texlive's collection-binextra
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-cm-unicode
+Installed-Size: 27868
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-cm-unicode/texlive-cm-unicode_20200406-4_all.deb
+Size: 14121868
+MD5sum: 5a0f5352b62e225f8a36e503ea9bae11
+SHA1: d60633d8dbd3dd88fdd1c766864108637bcf5cc9
+SHA256: 958a876ebe3c049843414c4311e12e0d1b335f824ade78458c405ae42c1f1b90
+SHA512: 03dd4dc6715e0eea1608a2bb732bd76170cdc0237ac992b44bd29b910789fda82958eab4c58d3d399d91a8ca797aaad1957fd791cda1651acc41de7046b3da70
+Description: Texlive's cm-unicode package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-context
+Installed-Size: 66064
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-mathscience, texlive-fontsrecommended, texlive-metapost, texlive-xetex, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-context/texlive-context_20200406-4_all.deb
+Size: 8684686
+MD5sum: 4da089a8eb3ff3cbb2432f5867bbeb96
+SHA1: 9a8c48ba1a0e07863cb4958764c8f907c4ca3ffe
+SHA256: 4db84dfc8789434dc5f2b99f6609d811dd6ef1c6327105247f81ebb4417feb6c
+SHA512: 25f5d53aaccf3ad249f4e312b16626aea70d8430fab2dcc7263072523b7846da4d603451a4025e46668263d3bba9fed23338e381940514f5d76a4bccd53b2860
+Description: Texlive's collection-context
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-cormorantgaramond
+Installed-Size: 21216
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-cormorantgaramond/texlive-cormorantgaramond_20200406-4_all.deb
+Size: 5590484
+MD5sum: a0cf3a1e0099482cb3e37a32d701eced
+SHA1: 8a6eb3eefc530ef6fb1e09506460600285473473
+SHA256: b43a5f290ab7e7382beab70cd48f634dd94c9edb0838403e4010bcadb7213d4b
+SHA512: 317a127c4298bfddbd3f2daa92a749220e7c064d6b52ab8ba5d52075d3e3e9aa2c0136e5e826196ed9e8d7f09a69a0b35bbc67fb7372e098fcb6848454057e12
+Description: Texlive's cormorantgaramond package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-dejavu
+Installed-Size: 25040
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-dejavu/texlive-dejavu_20200406-4_all.deb
+Size: 10751810
+MD5sum: 5a87ab2dd049ef9784fd00fc1d9aa194
+SHA1: 31b789cbc8150b98073eeec168628327e96d09db
+SHA256: 8a73cac1500213e3d73aae3403750109b5536c6edca8f765d3f7978ae666904f
+SHA512: e3a1dc7d6bc85c47efdf88e1b30fb89911bb90c0d4fe896a3818af91f9d7e8fa29d1495b01059041442f5273964f31fd335b8de0392246750d39cf241e8300e6
+Description: Texlive's dejavu package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-drm
+Installed-Size: 32748
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-drm/texlive-drm_20200406-4_all.deb
+Size: 13070792
+MD5sum: c89cdc8cbf85b4bacba4aacd0e32fd5d
+SHA1: 588d7b559dd496526bf59c89d6a4a4b426c2310a
+SHA256: 4e5921482aa197282a9b0a94b38443c656207fff75aa958f3cd2faf9ff643dea
+SHA512: eb5a33df1b6fce5f545c426ce3277741e7a98782348f0e38d595c2631f2aa6c2bf95ee5e28ef4ed3287dcab0c53189b0d979c0e32d58509e40846b829918de0d
+Description: Texlive's drm package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-ebgaramond
+Installed-Size: 24428
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-ebgaramond/texlive-ebgaramond_20200406-4_all.deb
+Size: 11861182
+MD5sum: 4dd630dd923934b1aca7c24a8d15e530
+SHA1: 15de389e38db2747396469a52c06fa9f9ddd1bcb
+SHA256: 66d92de5f2b58f1ae6066113cb04aacf2b3d791340bedc1a60192405049ab9e5
+SHA512: 6253e905ee2f681217935e3dac32955dfb46d156e95766fdf75ac667b8da2b9fd1c6ab9cd8507e3b90d03c42f862df87821408bdcb209026c8fba1223bcf8552
+Description: Texlive's ebgaramond package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-fira
+Installed-Size: 57356
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-fira/texlive-fira_20200406-4_all.deb
+Size: 15889610
+MD5sum: 25bbdeb5163df494fd3f1ef1e411f023
+SHA1: f4fe653b1de3e55f0bf4b42585eb58f62e20388d
+SHA256: c11bb91c91de60650673042953a1eec6eefbeaa7dc8ce896ef811ed80a11dfac
+SHA512: 131c8e5945699f7827bf1b2e0109d85b741203627a67ba083b26a3a0ec1859903f80a4294b60e820419efef8fc94f7585d6e7d4b965e0a12c52dc619441b9ff2
+Description: Texlive's fira package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-fontsextra
+Installed-Size: 695456
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-plaingeneric, texlive-noto, texlive-alegreya, texlive-montserrat, texlive-fira, texlive-lato, texlive-mpfonts, texlive-libertine, texlive-drm, texlive-poltawski, texlive-cm-unicode, texlive-roboto, texlive-dejavu, texlive-plex, texlive-stickstoo, texlive-ebgaramond, texlive-ipaex-type1, texlive-paratype, texlive-antt, texlive-cormorantgaramond, texlive-libertinus-type1, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410), texlive-latexextra (<= 20190410-2), texlive-fontutils (<= 20190410-2)
+Filename: pool/stable/t/texlive-fontsextra/texlive-fontsextra_20200406-4_all.deb
+Size: 225187302
+MD5sum: a4eab934b787ba9208defd0ae9d6c8c7
+SHA1: 92595e7027068156400e38851d1b9ac42c767139
+SHA256: f7a5e35e06ced91f49a2cd036c17a79fc3c07ce01a7b8216a4355d599305dff4
+SHA512: a3d49ffd584dd92f38d5ac537dd9a6ad25edc696130f0279171beb75c78eb57c4dafd18096b06d340db87237115df8d6207603a707960b4e961f07fcb3d504b0
+Description: Texlive's collection-fontsextra
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-fontsrecommended
+Installed-Size: 121832
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-fontsrecommended/texlive-fontsrecommended_20200406-4_all.deb
+Size: 81511600
+MD5sum: 804e3daecb8c9feb9c91a3329ab423e8
+SHA1: efebe4a55f271e3db7dd42e56e472401b1bbcf5e
+SHA256: e506054c39591adb65a849d11b7b048acf1de01c39c13af7bef182b7d2fbe97f
+SHA512: 1d9ee5bc9f0d67ea293bcfd1bc27b77f8ff90cbf274ec4cdb8c8ab05098f121504cef0e8323a33391e14d30e4cb24840ada64179a83d16bc83f5525aa2c52c11
+Description: Texlive's collection-fontsrecommended
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-fontutils
+Installed-Size: 2656
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-fontutils/texlive-fontutils_20200406-4_all.deb
+Size: 269332
+MD5sum: f24f864c729ce0c13500aa6318880103
+SHA1: eb3e68b159fc367a8e8a385b9ab3477e94eb17e0
+SHA256: 34c0fd69c6345cd7ab31fa7f9e2712b13e3d97f1bf54d79383d2bc239762d50b
+SHA512: 5cc2c824490452d230c0798e8ce09376b4f9e0602f525b677816d87d4a76a91654be8e997c6d8276d7439dc0117b2b2c541cfd9c85cd997b5269dbba65bac804
+Description: Texlive's collection-fontutils
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-formatsextra
+Installed-Size: 10748
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-langcyrillic, texlive-mathscience, texlive-fontsrecommended, texlive-plaingeneric, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-formatsextra/texlive-formatsextra_20200406-4_all.deb
+Size: 1646570
+MD5sum: 4bf4a54692270f4c884cb0e3fe5ef34a
+SHA1: 25953d635ba0b5e834eaaa4e7ecb3aa808ff01e7
+SHA256: 6a3dcb04791e83f49dc5e2793ab8fbf0ce8feb8e671e2bad481fc802dced0661
+SHA512: 7cb7962de3ab4f39f79776a123cc3341bc04ef7a5f899d755ce4e7699f6c2d29042de376b54393745c1c19d35f3fd244a836399d79364624282338607ea54bd3
+Description: Texlive's collection-formatsextra
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-full
+Installed-Size: 16784
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-bibtexextra, texlive-binextra, texlive-context, texlive-fontsextra, texlive-fontsrecommended, texlive-fontutils, texlive-formatsextra, texlive-games, texlive-humanities, texlive-langarabic, texlive-langchinese, texlive-langcjk, texlive-langcyrillic, texlive-langczechslovak, texlive-langenglish, texlive-langeuropean, texlive-langfrench, texlive-langgerman, texlive-langgreek, texlive-langitalian, texlive-langjapanese, texlive-langkorean, texlive-langother, texlive-langpolish, texlive-langportuguese, texlive-langspanish, texlive-latexextra, texlive-latexrecommended, texlive-luatex, texlive-mathscience, texlive-metapost, texlive-music, texlive-pictures, texlive-plaingeneric, texlive-pstricks, texlive-publishers, texlive-xetex, texlive (= 20200406-4)
+Conflicts: texlive-tlmgr
+Filename: pool/stable/t/texlive-full/texlive-full_20200406-4_all.deb
+Size: 2201046
+MD5sum: 288d304a72e2f9d6febdd174082ff305
+SHA1: 33daa0914d7a4ec1a5c2c00bf6ff2879ae1982eb
+SHA256: 8121b40f90f93cee4768fed66c046977d66c55b28890265be8de21d598c6e0da
+SHA512: 55ef6beab46b83455ff0bade610df0a592b6ad4e91c04e66512e9e29ef820ca33ae961552aed75220a73f88dd3a4cfbea969f06f48d2932b9ef1152de19c4a47
+Description: Texlive-full, meta package that depends on all texlive-collections
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-games
+Installed-Size: 4492
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-games/texlive-games_20200406-4_all.deb
+Size: 452008
+MD5sum: 81e92d0d1df077e3f1e7f68995d071d7
+SHA1: 199e0d19e20387733549a27c19782432bc287d7b
+SHA256: 95c61cbeb84d6a878c0fa5366c1698d50641b6316b01c456a0900c78aff20478
+SHA512: 9aaeda14b84c55239cf949f0b8c5da32e6e837256a9c93e07798d6851933b09786b905d8723a155c2f6cf541f21f89001df71ee2486427e484d73927129b0b0e
+Description: Texlive's collection-games
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-humanities
+Installed-Size: 2516
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-latexextra, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-humanities/texlive-humanities_20200406-4_all.deb
+Size: 310362
+MD5sum: 299610dba43b781ec86bfb8fddfcad50
+SHA1: 4abac302d123cea6226c98413ce8133d04d790bc
+SHA256: 29972ee9b44b6790c703c6baf60bba12de48e86a7a49a3cf3db01ed113e86f63
+SHA512: 36d511bc00b50bf006d0d48a951ffea9a881f85d461c9914c1749431e9149cf92527ef43a1988000a29353399ce180a40eb16be9e465b803ea202a708d78f479
+Description: Texlive's collection-humanities
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-ipaex-type1
+Installed-Size: 23660
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-ipaex-type1/texlive-ipaex-type1_20200406-4_all.deb
+Size: 13187554
+MD5sum: 1624b51619c9c7c54998cf4260bd450c
+SHA1: d15518792a26471ab729c11c1f2ccf6baca4acba
+SHA256: 4a128a3ed623f2eeb3c0dd7a4ce24dc2831f815c53e6b162068f9823fe3d3f50
+SHA512: eb7da56cd57e2be2eb8c1741af1041fe7f76d456f11cf06c39ab01a8b7393448b3beefcda357a1377eebd04f75eb4907ce51d67c104a410f3f6eaf116f44dfd7
+Description: Texlive's ipaex-type1 package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langarabic
+Installed-Size: 25292
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langarabic/texlive-langarabic_20200406-4_all.deb
+Size: 3482642
+MD5sum: 40efa2566a36f06944b76e4e7da8809c
+SHA1: 0380f8bd3df5eb008d18ce80da253c8fc924e4bb
+SHA256: ead8473bcfb603a9c0e9fd7af85bb6f031d8d74f14faeae6ab43d99991672a03
+SHA512: 2aaceba14d4a2042b2aa23ecbf3fcc1e8fc96131645a6a1777f6d1886620baddf4d4903df93ac630ae67dbb891aa5e001f66927f9cacc53e2b50c51698ca355e
+Description: Texlive's collection-langarabic
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langchinese
+Installed-Size: 98120
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-langcjk, texlive-fontutils, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langchinese/texlive-langchinese_20200406-4_all.deb
+Size: 34588852
+MD5sum: 13aa0e91ae5a1a2e6fb39b14ee383eab
+SHA1: 80afb30f0f63cf314e92bb618d461099808c700b
+SHA256: 61a232ed685c221cd912441ab8aeec8953157280ee5e293fdb39e2bec15917ec
+SHA512: cce400fbfe285c1c3300a904ca79c4b4613a4a57e30adc60b6edf1efe1fe61b52e48e3734887b02ed79d27daf5a342ee36cc7706a5c82b3167d7112cf4ad0f1d
+Description: Texlive's collection-langchinese
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langcjk
+Installed-Size: 113088
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-langother, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langcjk/texlive-langcjk_20200406-4_all.deb
+Size: 54315362
+MD5sum: 7285a71f1c7789629a44d00a1b31a3d0
+SHA1: 6bc80bd735d98fc2e15b76160a9381692d6c1ca1
+SHA256: 35f650577f3128edc8d28a4377dbde182d74fc472db345275522587e1a0e5b45
+SHA512: 935784ee1062eed177311be8ffd89e382768cc4343d5c8630d98d2fe6fafddfd199eaf8ed967c85f8d26ca62bb9d2f0f33f9957227e32aac2049ac749418c20b
+Description: Texlive's collection-langcjk
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langcyrillic
+Installed-Size: 16952
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-fontsextra, texlive-fontsrecommended, texlive-langgreek, texlive-latexrecommended, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langcyrillic/texlive-langcyrillic_20200406-4_all.deb
+Size: 3083970
+MD5sum: 85556805e3361c6b356ce6f6bc7232f1
+SHA1: c8fcfd40d2112c69f4a3fd0b8189e3f07d565843
+SHA256: f0e42dc07162e4f15bcf948ce0515229f49b1856d70c78de36583d81f91331cf
+SHA512: b3a81f66a8df026be3bdb40de2da7c2aabf2dd6c1cd01fc901d8af0bccefac387b8e4e390480bf6e7fa0f23c622a04c1d8ad54fa0b082ba81a6eb79ff9a6c996
+Description: Texlive's collection-langcyrillic
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langczechslovak
+Installed-Size: 5260
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-fontsextra, texlive-luatex, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langczechslovak/texlive-langczechslovak_20200406-4_all.deb
+Size: 1973478
+MD5sum: 3dec8f05c712eabef93e3c4d056d77c4
+SHA1: b2a96c9de435a363f78accd99952f72b52761019
+SHA256: 6d8e567f89433b62df1eb08466b3b3053b08cf7c1774835f447073617a95f8d9
+SHA512: f1dff8ba7f80b15683e40e6ced30885251398f230f1fe9461969f05afed1eadca101de18c4efbaf182dc9063d8b892fb5dbe8dadb1f572b4f52c4989e7234e20
+Description: Texlive's collection-langczechslovak
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langenglish
+Installed-Size: 284
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langenglish/texlive-langenglish_20200406-4_all.deb
+Size: 42314
+MD5sum: 025d6240dea576df27c6ee797f423166
+SHA1: 44a8eec4c4d43f1c33c4efc1252dbc1efd3f7b57
+SHA256: a9bbb689575c43e724101904fa96daa7d0d01da2e28cdf8221dc65d1dba36dfb
+SHA512: a86bbddea177160e2553760f6828d0e7e7099bdad038fb0350ed0d54466971db00d43354a0aa9d9a88ce770f9401218eaac2fb4e3edf5d7d180f9cc6ba50d211
+Description: Texlive's collection-langenglish
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langeuropean
+Installed-Size: 8328
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langeuropean/texlive-langeuropean_20200406-4_all.deb
+Size: 1434472
+MD5sum: 0f5979c3ee017954134730e43c3fd6a6
+SHA1: 3231302fad0921d08222247c4e5b43c9fbb2ba40
+SHA256: 742c99ccbee31a0c373d3c2d41c196334f5da581a1d5c7d1f5c39c9038011ade
+SHA512: bdcc4dc7134aa963c94aa1f7fae9c172a6c11e95746e91366256bb6c70d4fd5699a952fd7d69b7be3f3abe1ea9e1f699cd3e44a02c96e16b3be76d5578f7141a
+Description: Texlive's collection-langeuropean
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langfrench
+Installed-Size: 1336
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langfrench/texlive-langfrench_20200406-4_all.deb
+Size: 129464
+MD5sum: f535f848ddfdbef2bc7001a64eec4486
+SHA1: ab68f7a61234f17b0191a057a5b0bd5f8f409909
+SHA256: c2157290d02a56ba66ab01f8363ff235eef4b358ebdbf2a5ecec6fe8c5109ea3
+SHA512: 056c3b5d02b514d9f7af5db83b1e411ce1d28e69137ea46c78ede47a913c7ee04cfedb75f4ba259afb3f73677e23822b3107dca167d0331cbd2ce3ae37531927
+Description: Texlive's collection-langfrench
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langgerman
+Installed-Size: 2704
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langgerman/texlive-langgerman_20200406-4_all.deb
+Size: 320470
+MD5sum: 8a2c0ed61d8e8f993095bf85b053fe77
+SHA1: 28ca119cf39c3321409710a9bde9a81e411ed3ec
+SHA256: ee6d2ca7980bf2f631e9e5736bd715512c7bfb719d970fa0edd0bf51562802fb
+SHA512: 7630cae3a1d7a64ddf2b6aae05996d97f8ef140656642d26923cb78aa2ea56aa53dd58beabd42fb88d24c5b140f239e1302dd9198cf066a5ada041d3f3781535
+Description: Texlive's collection-langgerman
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langgreek
+Installed-Size: 88836
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langgreek/texlive-langgreek_20200406-4_all.deb
+Size: 68642482
+MD5sum: 6025600e68445e14b8e03d01464e728f
+SHA1: 8323710d376b2f66e2138697cd16173343c8a84b
+SHA256: 50e0eb3bb0ce38e12b2b13419c75f4c908556811ef9a32dea4107d97d2d931c5
+SHA512: c5d1c0af7d0919e660adc16bf553d7f8dbb5f78e8e5a3f30507e06433522f56af896b0497fcd042fe776b9df59051aa0ac1f0debb02695373eee1c1c59b139e7
+Description: Texlive's collection-langgreek
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langitalian
+Installed-Size: 184
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langitalian/texlive-langitalian_20200406-4_all.deb
+Size: 17984
+MD5sum: c533770ef02d85ecdd51555d952aadfd
+SHA1: a04bc5f0d8bedcae95198063ecf81f559fcc6fc9
+SHA256: 75252c39dc5e5ae3b491ccd606abd0a310c31faa72b8fbde6026ccc8d176818e
+SHA512: c2cad967924f3d74322ea0b48a47a35e4e9a7db34ec72bb9100930f21c39270fa2568ee89ce0859baa494c0b35ea89178bb320f30578f8435a6a932779141036
+Description: Texlive's collection-langitalian
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langjapanese
+Installed-Size: 491016
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-langcjk, texlive-langchinese, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410), texlive-luatex (<= 20190410-2)
+Filename: pool/stable/t/texlive-langjapanese/texlive-langjapanese_20200406-4_all.deb
+Size: 77149108
+MD5sum: 8c5566fd91ae0eb8a90a4bcedc2bea95
+SHA1: 1a6ee8b24665532b2eefc410c00af461339b0d53
+SHA256: 17a47cbd7f3f9e61159d3371696d1ba849107813326ee8cf790c208f4b25a812
+SHA512: 258960a4c9ad133d28eee590352893b7d34aa3ee87c704255c907f69961c45d4de387b8b1129b982fe05c438c928e69ec8b523092bb1a2e1fa6db9ab1bd7d4e7
+Description: Texlive's collection-langjapanese
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langkorean
+Installed-Size: 92340
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-langjapanese, texlive-langcjk, texlive-latexrecommended, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langkorean/texlive-langkorean_20200406-4_all.deb
+Size: 49898992
+MD5sum: 18a1a963e0c2a197951f492712e50b9f
+SHA1: d1d817271a2fb4825e2673ade40364d686306e66
+SHA256: 9ed8432503906b161ee6e4bf6eef00e533901fcc3d289c8b79209cc1e098160e
+SHA512: a434e14bc0c67280ba2a1da344a3b6771c8eb238b8504dc8c9a226459b9114d507f43f92142a78c4f836b0f1de1bdf33a8e96fc13c22f3e4bac62b92e5fca336
+Description: Texlive's collection-langkorean
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langother
+Installed-Size: 41496
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langother/texlive-langother_20200406-4_all.deb
+Size: 20956698
+MD5sum: 0b1a8bd2d547f1e3a894b486b67c9e7a
+SHA1: ee9f9103a77a77fec38ef6bdf11bd1be774ab5c3
+SHA256: 915ce84f64983363a3602c3a916ec6c12625304da6f17af78adbc6306afc4f36
+SHA512: 9fd09ec7ea57ddc07b391b90d45991fc4f764fcc1c66dfb008c9f0e0a9be8639a91a645fb2cd9195e379ee89e139c2fdb8f29a18f52d1392d21f9c7afd547c4b
+Description: Texlive's collection-langother
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langpolish
+Installed-Size: 6400
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langpolish/texlive-langpolish_20200406-4_all.deb
+Size: 2513220
+MD5sum: fd71655ed82af3df45b9ffe88db66a6c
+SHA1: 46e9c8fa62447b181ffdd59ba3165637cd515f66
+SHA256: d0c2cfba434d119a18fc8ac599aca94e1be5748599c3912b6f42b14ceed509d7
+SHA512: f64f58a00d86fb82d80cc48d780b147e1e98dd2dc2ca938d6a9550e386c7396d230d934b7f83fce11b3862343f2945433eceded207bc27847758586e3b54ee88
+Description: Texlive's collection-langpolish
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langportuguese
+Installed-Size: 156
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langportuguese/texlive-langportuguese_20200406-4_all.deb
+Size: 13986
+MD5sum: 80e957326a95329537b2f4119f5814b2
+SHA1: a70556bc732a0029dcdc276abad0db25393e008a
+SHA256: 588fd2d064b4a153776af068bce7245915c006e74277d488030c0c4af2f0bf46
+SHA512: 0b4b363d9533aef996c07baf977b9f5f16c21fbae6dc5cfcc15d07386a6d966d36cbf026c359c4b03ccc5bf703c1e07f33008584d9aa4143f0d3f81163ee3c45
+Description: Texlive's collection-langportuguese
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-langspanish
+Installed-Size: 396
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-langspanish/texlive-langspanish_20200406-4_all.deb
+Size: 39832
+MD5sum: a0b80cf303f585ff70a3303d537473bd
+SHA1: b0b45434785619150b6295acd06a7329563149fa
+SHA256: 5741d00e55b3d1d3decce5940c9dce0160a415969dfd0d5bd2d8bafcf87a27ec
+SHA512: 2861f4073bed0911b595c0e730310e0848b30de7110cd39e6a1ef52fc794f686b89e36a0107d379cd6a0473b18430e243f2a71074cfb50fe3887162460b9139b
+Description: Texlive's collection-langspanish
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-latexextra
+Installed-Size: 73540
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-fontsextra, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<= 20190410-2), texlive-latexrecommended (<= 20190410-2), texlive-pictures (<= 20190410-2), texlive-luatex (<= 20190410-2), texlive-plaingeneric (<= 20190410-2)
+Filename: pool/stable/t/texlive-latexextra/texlive-latexextra_20200406-4_all.deb
+Size: 13615944
+MD5sum: 5a4ed8a763ac3625821e362a40f51b8c
+SHA1: bf0b05252f837902b05858cb26779c07d3d3e778
+SHA256: 7a2a454f673d40be071929ba80323886f533ab6ff5588a8f536616cdda6ec4a9
+SHA512: 00488022046388a548c3b72cbccf1bcfd6dcc4f5e3e56dc36f94e5174ba6c9c68fab09beb6117b6bc2d1c4ed98ccb52a2d034b274d33781e97962f2082560490
+Description: Texlive's collection-latexextra
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-latexrecommended
+Installed-Size: 12980
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-fontsrecommended, texlive-latexextra, texlive-pictures, texlive-plaingeneric, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-latexrecommended/texlive-latexrecommended_20200406-4_all.deb
+Size: 1287514
+MD5sum: 4f3249947de4a6a4de1ce442826ffc46
+SHA1: 20a487b760428f62ad5ac052ced3dcdabbba89d5
+SHA256: 3853530fbdddd3c6edfd8f71a11da58e5a6d014e8ac7e7f44cb9aa702a5b0b20
+SHA512: adc4e1ad7c887df3afed911839d50c84f03345ca548cc2c1acf48c35e167a15987ead667261e0d99f36526114806757b223c363f25acce019262e644c2ba6357
+Description: Texlive's collection-latexrecommended
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-lato
+Installed-Size: 47400
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-lato/texlive-lato_20200406-4_all.deb
+Size: 12723744
+MD5sum: f649ed1c7348747aa6eb72ceb48e6808
+SHA1: 02a7f5553c0638c25ae57a136ebd8e838d31fe48
+SHA256: b6c458900ef8ae2d8c1829cafdc4c44ed1e71b82a76070c96c490debfecc100c
+SHA512: a283b294898077927aefab502e3445bbbcee936b72c21649c8e8f7ef5eda437a9360e26715fcfe944caaec64b6f9f5419e2290829bb60b2627a65084e727ec7a
+Description: Texlive's lato package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-libertine
+Installed-Size: 33024
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-libertine/texlive-libertine_20200406-4_all.deb
+Size: 13962978
+MD5sum: 275db108e7087d1dd48232075e5bf712
+SHA1: 88795100c21a52f81ae3940be954bc4a9aed3aa7
+SHA256: b4ae05f0b2f621c1bcd8e0f3d789aa128630f6655b3c94d9d0ff332a4bc88709
+SHA512: 1cb10e6373bdd1471af0280780362e7e00825b8c55a51ea0b9eeae6932a69660d9a5322a587d90e248f04c2810f9d22469417a5dc6e219dbb64f76277103a48d
+Description: Texlive's libertine package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-libertinus-type1
+Installed-Size: 20932
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-libertinus-type1/texlive-libertinus-type1_20200406-4_all.deb
+Size: 9428106
+MD5sum: e6396a414c753297f16d525c87c0a08b
+SHA1: 8b2b2dcfddf62f6b727250909f6664a5506943e9
+SHA256: 44be1b94e1f49dfc9bea2283f1242d12ecace6ac98ba5e12bb684ecde8e8a50a
+SHA512: 3679e514dc19a9bb77736a75a1aa65653e1c8f0374a2ee001beb2db73e60068d7477597a65a6c1582211d70ed7686db3b5f199e2b4e65acfd2946c894807826e
+Description: Texlive's libertinus-type1 package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-luatex
+Installed-Size: 3228
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<= 20190410-2), texlive-fontsrecommended (<= 20190410-2)
+Filename: pool/stable/t/texlive-luatex/texlive-luatex_20200406-4_all.deb
+Size: 437676
+MD5sum: fa72dc0ae3d623ef63d828b3dda29e72
+SHA1: 53f623a6b295b2dd3feb3122979a4d528ec673a5
+SHA256: f37dfbe145ec2320ca6c76c6b2496d55220bdbf0941a958107a660a8559c0512
+SHA512: 45b84cef82d97ae0a583255b513abdb94f33729bdfed0fd98d24f01c63de0b586998841268c7686e40dbed137428b7d954e26142fba0749f1bb96c49a55e1656
+Description: Texlive's collection-luatex
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-mathscience
+Installed-Size: 16304
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-langgreek, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<= 20190410-2)
+Filename: pool/stable/t/texlive-mathscience/texlive-mathscience_20200406-4_all.deb
+Size: 3185938
+MD5sum: a7b9bd33ca1c7afd69caca23038fc535
+SHA1: 249d99ec765c44f52252acc9e00bfd89ac526849
+SHA256: 02c12d882fe71911177efa32fed2254583d100ec3b9a6d532345c48ac2a86db7
+SHA512: 9d95c05388fb72aa15cd5eea31c1ed1c8053343201bb050e056a559c0a78c01317959760ac7474f0135dd0b6f137095d253ee25ab43bc97df45abf0470752478
+Description: Texlive's collection-mathscience
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-metapost
+Installed-Size: 3340
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-metapost/texlive-metapost_20200406-4_all.deb
+Size: 464678
+MD5sum: f7ec96680d333bfb684cf080c77dc076
+SHA1: 87ec4084c2f91a55eb6c5ff411b410741c4e2c1c
+SHA256: e7a4323a62111353e726e8667b202f0397103003f60bb098855c6d5a69e96189
+SHA512: aa09d6860e188a27d55ec703589b379d9f4e03564a3effd82b57ecb8af38a310ffac6d1f886e070e26960b1d87c34a5e35ebd8219092db1efb205c76a48e81a8
+Description: Texlive's collection-metapost
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-montserrat
+Installed-Size: 61748
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-montserrat/texlive-montserrat_20200406-4_all.deb
+Size: 13295428
+MD5sum: aad425927413a24705e2f3856d3652eb
+SHA1: 60f2417b74efae1c7fb43c6380b40f7b3c78a067
+SHA256: 603a09b64ce6f92d6181ddd046a13e5d090dd8a29fdc17860cbda63754bd6609
+SHA512: 2c346f31bd04c20ce7f584106d112bbf28163e5004098dfe554710d5101eb92d01dbb1f58430cce9b5074a70db1aef8a8befdad9e127791677fa542257400814
+Description: Texlive's montserrat package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-mpfonts
+Installed-Size: 37488
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-mpfonts/texlive-mpfonts_20200406-4_all.deb
+Size: 6167798
+MD5sum: 006cc1146c1fe521cdc0630f94570211
+SHA1: cfdd1de40c3550d7d62844b36bab623e0b5d0132
+SHA256: ad75310ee3ce39e810c3787d0b3dc57ff8c09177149f05841ac134dd8d1f632e
+SHA512: 595592a0dbf6c4386fa858eebd7082e5b473064a65298735353a21d81ed578c4f03293ec7aa975c63421c048bf170bd6377772b719c995d4ba1d63c5079c18d9
+Description: Texlive's mpfonts package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-music
+Installed-Size: 38520
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-music/texlive-music_20200406-4_all.deb
+Size: 14784178
+MD5sum: 4cd8c132de19ffc51881bf0070f548d2
+SHA1: 293f8272da53f8ce69cb755d22afe083a7666fae
+SHA256: eaf77c94aca8138a5df69b8d06c0d31019824aea812c06f8d67005c7dcfb5fa8
+SHA512: 0fbc7985fa41151168cd326df69deccceefe096cc50bd026522a784513c50abd78b2fe0b23e5ad047c7cbeab46e1968a9311adc16bce89ff8bb748bfb52d356b
+Description: Texlive's collection-music
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-noto
+Installed-Size: 203368
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-noto/texlive-noto_20200406-4_all.deb
+Size: 67448072
+MD5sum: 490369826b7577105e59c1c78a7fca9a
+SHA1: 651999e8f15ddbeb4acd68601029b49c13b5ac50
+SHA256: b8b11a5122e512eef920760f68b493b929ec060bbcb9e7699ee6b34c7654d12a
+SHA512: 8b86ca506753891abf241a8681123e959124be972ba2f55ba14b316b7726ea8ea8396cf09eed870c63f4a7820a5fc483c99d65db7181870f2a23e21bdf83f41d
+Description: Texlive's noto package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-paratype
+Installed-Size: 21652
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-paratype/texlive-paratype_20200406-4_all.deb
+Size: 4171794
+MD5sum: 74e3d204a256ea65c2dcf08d56b45aeb
+SHA1: 145df6fd86cdca9342592abc73a98de1b5f55a22
+SHA256: f8c9aa2eedef4945588ac39171be55b97a1877045014763b89f3f2c5d5fe2c22
+SHA512: 9d6b5f6504d67ca54ebff17ec2bc3923c90700ddde1519c805a7cb97f5c2f756b276399d9f6f642a4736f4a3580fcac4e80e79bf94401ac619f13bfe666d5123
+Description: Texlive's paratype package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-pictures
+Installed-Size: 24516
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-latexextra, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-pictures/texlive-pictures_20200406-4_all.deb
+Size: 3158808
+MD5sum: 01e0f99255438583bdcf3ba241ed9004
+SHA1: 36c8b65589580d9b3e205994a4b391db0626ffce
+SHA256: 3a1a60283b348893851173d149cb95cbdafc5fa4543684cd7ebd7a1b710563da
+SHA512: 7d995f5df303442691b0c5d02194832e2cc73137d41f563bea6c85bec7ec7bd56ff9b7060c684d7b87b29318a08ce8c64da9cdc452f7127a13d0f666624f89d5
+Description: Texlive's collection-pictures
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-plaingeneric
+Installed-Size: 44792
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-plaingeneric/texlive-plaingeneric_20200406-4_all.deb
+Size: 1664692
+MD5sum: d147d3ad5f1a81c4028a89f79dfd2fda
+SHA1: 76006b52f7b471c90e836d1d46973f913464ef2a
+SHA256: fca550d40075bb62e2fe80cce947abc56eb94ae328f12eaa6dc336f75c87ae7a
+SHA512: a5a85163b2220dfa263f30106e3e46cda77b7c4dbe611922b1a499bf2e7569c5fd5602131b99e942704c3fa70b8bf9dd57494214f719a0fb7847c38649e52626
+Description: Texlive's collection-plaingeneric
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-plex
+Installed-Size: 24808
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-plex/texlive-plex_20200406-4_all.deb
+Size: 10548164
+MD5sum: 784a9eaf41e5eed59b6fd78f26509519
+SHA1: fe52bad98b0df229f9c11ca6532df70cdb6c6537
+SHA256: 52a8ac6465bfa12d2c662f5b5a23bc14ac4c47e5df8ded3779f01e61f5a13ffa
+SHA512: f00295a4ce3e202b4b4b4b4f97f4ad4ace39548d88af5a6bda19fae7ba5c97c38023692f371e037155c5f86edf9ae5a498a65dc321d5139f6ccdb2f30ed357c8
+Description: Texlive's plex package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-poltawski
+Installed-Size: 29048
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-poltawski/texlive-poltawski_20200406-4_all.deb
+Size: 6856820
+MD5sum: 404a5d0ad071df85d2999e3187c6920d
+SHA1: 7b4c0e8724865d68746046eaca28689dd9d686dd
+SHA256: dd312b10dc9dadfe2c48d90220ea0b677b2af6c61444ad73fff6d0baa0d2c47d
+SHA512: 564d73ee9f3fa065794968ddb03137849fecb673f90ce20e5fbcc5eff368c99ce2ad3faaff9bdb41041acca4f6df693855e50c6a9c64b4adef67e1987cc98cf7
+Description: Texlive's poltawski package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-pstricks
+Installed-Size: 42204
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive-plaingeneric, texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410), texlive-latexextra (<= 20190410-2)
+Filename: pool/stable/t/texlive-pstricks/texlive-pstricks_20200406-4_all.deb
+Size: 26524482
+MD5sum: dcd34f49a2230d73063014cd19530a36
+SHA1: 48cae1ecbfe63fbab24de65218edc70356943c4b
+SHA256: 57e92fcb807d4379a56305c0b08e1561886685296e315e487ef6f1f8d3b3d3a5
+SHA512: 5331347bace3409bd22e2f8e6ad169d177ee18a0ba723e18b8cd4316e5e0c8e60bc6ca22969aab094588b99f25dab5b9e2822ff1f8e190647073b721febcc18b
+Description: Texlive's collection-pstricks
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-publishers
+Installed-Size: 66656
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<= 20190410-2)
+Filename: pool/stable/t/texlive-publishers/texlive-publishers_20200406-4_all.deb
+Size: 16127260
+MD5sum: 38af80381506b7573c839ba473b1b11b
+SHA1: fc43e399047aedcca8fe4d8899b055cfab8afa92
+SHA256: e1484704525bbc4f5a4b7132ae554b3c259d9b52e5f6924822afe8c6d69c036b
+SHA512: 3583da85c16826e88a54621fa91563fad550dbfc8a3837849a51f67273dcc9dce1d5a22a1926f60f5fb3e6f81b11416425d3b882de392977cdae1b2a2d882fec
+Description: Texlive's collection-publishers
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-roboto
+Installed-Size: 27580
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-roboto/texlive-roboto_20200406-4_all.deb
+Size: 9910146
+MD5sum: 1a74a08b7c86026ff8b1586dd55b1bf2
+SHA1: 70f5d2e3db23596df72b8b6659344cf6c27e6208
+SHA256: 8e4f03291b3e00c147d2f2bbe8b9ab45b9a1bae51a493568cda91e68cff53ab5
+SHA512: 02b82a490f6e2bad4912d936e28d33307a2bbc50a11993dcbf9c180df98fde23e55536e5d616cb99a84948965f1385e05bab0dd88acdc1463a6506ecfc54f8f7
+Description: Texlive's roboto package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-stickstoo
+Installed-Size: 24528
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-fontsextra (<< 20200406-3)
+Filename: pool/stable/t/texlive-stickstoo/texlive-stickstoo_20200406-4_all.deb
+Size: 2736218
+MD5sum: c17744f10f4a57e890fa521970ea1cbd
+SHA1: 2a7faeac69a6262a43bcbbf84bbf92d3090bc10e
+SHA256: a4009d603616b5b50fda81925d59ee2c2ee50c0a199448510acd186bb02a2363
+SHA512: accfb49bba3e11ae3d1d4ecf4c67a0a88aaf718e6299bd2a41956d510dcbdf3393c650fa1228db5381ffac36691c36973ef5dd3b053cba9f16d8b44d81f9e963
+Description: Texlive's stickstoo package
+Homepage: https://www.tug.org/texlive/
+
+Package: texlive-xetex
+Installed-Size: 16108
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-4
+Depends: texlive (= 20200406-4)
+Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
+Filename: pool/stable/t/texlive-xetex/texlive-xetex_20200406-4_all.deb
+Size: 2548968
+MD5sum: aac38b7b4c56352d952ce1a9794a59a9
+SHA1: b6333480354db6793aacca6c1c414a5757dd059b
+SHA256: 5fcb230bd799a862070b0f1befc6314b80bc1c45e3fac3207455192290542e34
+SHA512: 6ced8dd2d41beb93eb286416fa9ef2e7d2cb5110c3d923dce12ee9dc1dc3b168c9a84679a560d8463efa757d936ec639dcee78e8278b6714c424bb53de0c7501
+Description: Texlive's collection-xetex
+Homepage: https://www.tug.org/texlive/
+

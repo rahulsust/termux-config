@@ -1,0 +1,10 @@
+a68902a430e32200263d182d44924d47  data/data/com.termux/files/usr/share/doc/libuv/LICENSE
+90afc13c062dce970d73109028a9ba9c  data/data/com.termux/files/usr/lib/pkgconfig/libuv.pc
+910bee5bbee4ef045a1e9b9277d908b8  data/data/com.termux/files/usr/lib/libuv.so
+cade62b4c6a391229123a518633d0020  data/data/com.termux/files/usr/include/uv.h
+5521f38c04d85805897d75103d60937a  data/data/com.termux/files/usr/include/uv/threadpool.h
+76c63d4f7c7cf2ee65f2832dec6f0ea3  data/data/com.termux/files/usr/include/uv/errno.h
+e36f92cd598293f920aba95cfcbc65ae  data/data/com.termux/files/usr/include/uv/version.h
+a9c63da0614d480dbf129bfaa5cb0ad4  data/data/com.termux/files/usr/include/uv/linux.h
+8e0f779bae06b6e8b0830ac7ab1d31dc  data/data/com.termux/files/usr/include/uv/android-ifaddrs.h
+ac08754c58be608003b7698e33608298  data/data/com.termux/files/usr/include/uv/unix.h

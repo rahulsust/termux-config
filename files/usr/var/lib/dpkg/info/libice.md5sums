@@ -1,0 +1,11 @@
+2c16572cc32441d367a17f871e2e2f4a  data/data/com.termux/files/usr/include/X11/ICE/ICEutil.h
+e2b54505a6e51968459adc1118861ef1  data/data/com.termux/files/usr/include/X11/ICE/ICE.h
+acbff19a1c96dea778222abded4afafb  data/data/com.termux/files/usr/include/X11/ICE/ICEmsg.h
+5a0ded59499c546378970630e2a13e92  data/data/com.termux/files/usr/include/X11/ICE/ICEconn.h
+7f0ed9778831aaaba323be3fe689d208  data/data/com.termux/files/usr/include/X11/ICE/ICEproto.h
+a6d6fbd545cb5ed642a063ad77f016fd  data/data/com.termux/files/usr/include/X11/ICE/ICElib.h
+662ee12d7ebef368c76a7b2eca5e68a7  data/data/com.termux/files/usr/lib/pkgconfig/ice.pc
+16e211fd7b432adca4441c48e095481a  data/data/com.termux/files/usr/lib/libICE.so
+b3020c24412f37d105113df3b9f1406d  data/data/com.termux/files/usr/share/doc/libICE/ICElib.xml
+c2d6e7d29237051a6ef660cdc653cf86  data/data/com.termux/files/usr/share/doc/libICE/ice.xml
+d162b1b3c6fa812da9d804dcf8584a93  data/data/com.termux/files/usr/share/doc/libice/LICENSE

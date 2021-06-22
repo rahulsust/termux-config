@@ -1,0 +1,6 @@
+do{ my $x = {
+       'blib' => 1,
+       'pod2htm*' => 1,
+       't/Sample/pod2htm*' => 1
+     };
+$x; }

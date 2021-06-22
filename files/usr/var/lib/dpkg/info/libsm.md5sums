@@ -1,0 +1,8 @@
+790e74e8e382e86e956ec4e848d45196  data/data/com.termux/files/usr/include/X11/SM/SMproto.h
+0691aa5164b6d668922be777ccf62711  data/data/com.termux/files/usr/include/X11/SM/SMlib.h
+24717be33f1335cc802c757fb4c78eb3  data/data/com.termux/files/usr/include/X11/SM/SM.h
+a1ba006bc580e5d56ba68dac3c856def  data/data/com.termux/files/usr/lib/libSM.so
+3c1391b2b22b5312ecc7cd0dc0b4a4c5  data/data/com.termux/files/usr/lib/pkgconfig/sm.pc
+30ccbc91a8096e26c6cca52493be4324  data/data/com.termux/files/usr/share/doc/libSM/SMlib.xml
+9345bdabfe20562189c6688cfedf50ae  data/data/com.termux/files/usr/share/doc/libSM/xsmp.xml
+c0fb37f44e02bdbde80546024400728d  data/data/com.termux/files/usr/share/doc/libsm/LICENSE

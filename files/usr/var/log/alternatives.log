@@ -1,0 +1,5 @@
+update-alternatives 2021-02-10 06:44:28: run with --install /data/data/com.termux/files/usr/bin/editor editor /data/data/com.termux/files/usr/bin/nano 20
+update-alternatives 2021-02-10 06:44:28: link group editor updated to point to /data/data/com.termux/files/usr/bin/nano
+update-alternatives 2021-02-10 20:37:47: run with --install /data/data/com.termux/files/usr/bin/editor editor /data/data/com.termux/files/usr/bin/micro 25
+update-alternatives 2021-02-10 20:37:47: link group editor updated to point to /data/data/com.termux/files/usr/bin/micro
+update-alternatives 2021-03-17 21:31:30: run with --install /data/data/com.termux/files/usr/bin/editor editor /data/data/com.termux/files/usr/bin/nano 20

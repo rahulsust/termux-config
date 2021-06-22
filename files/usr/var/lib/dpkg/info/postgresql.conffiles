@@ -1,0 +1,4 @@
+/data/data/com.termux/files/usr/var/service/postgres/run
+/data/data/com.termux/files/usr/var/service/postgres/down
+/data/data/com.termux/files/usr/var/service/postgres/log/run
+/data/data/com.termux/files/usr/var/service/postgres/log/down

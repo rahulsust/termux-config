@@ -1,0 +1,10 @@
+6d7be2b919719556ad555cfec199e8b5  data/data/com.termux/files/usr/include/ffitarget.h
+b0bfb2a8c64a5d657bf8522de56531c7  data/data/com.termux/files/usr/include/ffi.h
+20362de96d43534fd46ac92f1a26ce9d  data/data/com.termux/files/usr/lib/libffi.so
+36464e1626d7942873c140246407a5ab  data/data/com.termux/files/usr/lib/pkgconfig/libffi.pc
+051b77e225150d236ff9ae8bda7b3b06  data/data/com.termux/files/usr/share/man/man3/ffi.3.gz
+53dba0653ac971e397bd0916e30d31e2  data/data/com.termux/files/usr/share/man/man3/ffi_prep_cif.3.gz
+2cca8e3c73c80a5b04011766b3406b15  data/data/com.termux/files/usr/share/man/man3/ffi_prep_cif_var.3.gz
+740939c4d96ba9229cc1b6957533d61a  data/data/com.termux/files/usr/share/man/man3/ffi_call.3.gz
+a78e8af8afb8f0bcae6d351f298bb9d1  data/data/com.termux/files/usr/share/info/libffi.info
+492385fe22195952f5b9b197868ba268  data/data/com.termux/files/usr/share/doc/libffi/LICENSE

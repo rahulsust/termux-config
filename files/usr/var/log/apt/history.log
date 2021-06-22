@@ -1,0 +1,301 @@
+
+Start-Date: 2021-02-08  08:23:22
+Commandline: apt install openssh
+Install: libedit:aarch64 (20191231-3.1-1, automatic), termux-auth:aarch64 (1.4, automatic), openssh:aarch64 (8.4p1-1), libdb:aarch64 (18.1.40-2, automatic), krb5:aarch64 (1.19, automatic), ldns:aarch64 (1.7.1-3, automatic)
+End-Date: 2021-02-08  08:23:25
+
+Start-Date: 2021-02-09  21:57:40
+Commandline: apt install nmap
+Install: liblua53:aarch64 (5.3.5-6, automatic), resolv-conf:aarch64 (1.3, automatic), nmap:aarch64 (7.91), netcat:aarch64 (7.91, automatic), libpcap:aarch64 (1.10.0, automatic)
+End-Date: 2021-02-09  21:57:43
+
+Start-Date: 2021-02-10  06:09:09
+Commandline: apt install curl
+Upgrade: libcurl:aarch64 (7.72.0, 7.75.0-1), curl:aarch64 (7.72.0, 7.75.0-1)
+End-Date: 2021-02-10  06:09:11
+
+Start-Date: 2021-02-10  06:13:04
+Commandline: apt install unstable-repo
+Install: unstable-repo:aarch64 (5.0)
+End-Date: 2021-02-10  06:13:09
+
+Start-Date: 2021-02-10  06:17:40
+Commandline: apt install postgresql
+Install: libicu:aarch64 (68.2-1, automatic), libandroid-shmem:aarch64 (0.2.1-1, automatic), postgresql:aarch64 (13.1-4), libxml2:aarch64 (2.9.10-4, automatic), libuuid:aarch64 (1.0.3-4, automatic)
+End-Date: 2021-02-10  06:17:46
+
+Start-Date: 2021-02-10  06:30:09
+Commandline: apt install megatools
+Install: libffi:aarch64 (3.3-2, automatic), glib:aarch64 (2.66.1, automatic), megatools:aarch64 (1.10.3-1)
+End-Date: 2021-02-10  06:30:10
+
+Start-Date: 2021-02-10  06:33:26
+Commandline: apt remove megatools
+Remove: megatools:aarch64 (1.10.3-1)
+End-Date: 2021-02-10  06:33:26
+
+Start-Date: 2021-02-10  06:37:29
+Commandline: apt install git
+Install: pcre2:aarch64 (10.36, automatic), git:aarch64 (2.30.1)
+End-Date: 2021-02-10  06:37:30
+
+Start-Date: 2021-02-10  06:41:11
+Commandline: apt full-upgrade -y
+Install: libunistring:aarch64 (0.9.10-4, automatic), liblz4:aarch64 (1.9.3, automatic), libgnutls:aarch64 (3.6.15, automatic), xxhash:aarch64 (0.8.0-1, automatic), libnettle:aarch64 (3.7, automatic), libidn2:aarch64 (2.3.0-2, automatic)
+Upgrade: libgcrypt:aarch64 (1.8.6, 1.9.1), science-repo:aarch64 (1.1, 1.2), dos2unix:aarch64 (7.4.1-1, 7.4.2), ed:aarch64 (1.16-1, 1.17), dialog:aarch64 (1.3-20200327-0, 1.3-20210117-0), openssl:aarch64 (1.1.1h, 1.1.1i), dash:aarch64 (0.5.11.2-2, 0.5.11.3), apt:aarch64 (1.4.10-6, 2.1.18), libgmp:aarch64 (6.2.0-1, 6.2.1), lsof:aarch64 (4.93.2, 4.94.0), nano:aarch64 (5.2, 5.5), util-linux:aarch64 (2.36, 2.36.1), coreutils:aarch64 (8.32-4, 8.32-7), termux-am:aarch64 (0.3, 0.4), debianutils:aarch64 (4.11.1, 4.11.2), net-tools:aarch64 (1.60.2017.02.21-3, 2.10.0), game-repo:aarch64 (1.2, 1.3), dpkg:aarch64 (1.20.5-2, 1.20.7.1-1), psmisc:aarch64 (23.3-2, 23.4), readline:aarch64 (8.0.4-1, 8.1.0), tar:aarch64 (1.32-6, 1.33), termux-tools:aarch64 (0.94, 0.104), gpgv:aarch64 (2.2.23, 2.2.27-1), grep:aarch64 (3.4-1, 3.6), ncurses:aarch64 (6.2.20200725, 6.2.20200725-2), bash:aarch64 (5.0.18-2, 5.1.4), findutils:aarch64 (4.7.0-2, 4.8.0), libtirpc:aarch64 (1.2.6-1, 1.3.1), ca-certificates:aarch64 (20200722, 20210125), command-not-found:aarch64 (1.57, 1.60), libgpg-error:aarch64 (1.39, 1.41), less:aarch64 (551-1, 563), libnghttp2:aarch64 (1.41.0-1, 1.43.0), termux-exec:aarch64 (0.5, 1:0.8)
+End-Date: 2021-02-10  06:44:28
+
+Start-Date: 2021-02-10  06:47:36
+Commandline: apt install python -y
+Install: libllvm:aarch64 (11.0.0-1, automatic), gdbm:aarch64 (1.19, automatic), make:aarch64 (4.3-1, automatic), ndk-sysroot:aarch64 (21d, automatic), pkg-config:aarch64 (0.29.2, automatic), clang:aarch64 (11.0.0-1, automatic), python:aarch64 (3.9.1-1), ncurses-ui-libs:aarch64 (6.2.20200725-2, automatic), binutils:aarch64 (2.36.1, automatic), libsqlite:aarch64 (3.34.0-1, automatic)
+End-Date: 2021-02-10  06:48:02
+
+Start-Date: 2021-02-10  07:15:45
+Commandline: apt install -y git python2
+Install: python2:aarch64 (2.7.18-4)
+End-Date: 2021-02-10  07:15:53
+
+Start-Date: 2021-02-10  07:55:42
+Commandline: apt install figlet -y
+Install: figlet:aarch64 (2.2.5-2)
+End-Date: 2021-02-10  07:55:43
+
+Start-Date: 2021-02-10  07:55:58
+Commandline: apt-get install tor -y
+Install: libevent:aarch64 (2.1.12, automatic), tor:aarch64 (0.4.4.7)
+End-Date: 2021-02-10  07:56:00
+
+Start-Date: 2021-02-10  07:56:52
+Commandline: apt-get install perl -y
+Install: perl:aarch64 (5.32.1)
+End-Date: 2021-02-10  07:56:58
+
+Start-Date: 2021-02-10  07:57:39
+Commandline: apt-get install php -y
+Install: fontconfig:aarch64 (2.13.1-6, automatic), freetype:aarch64 (2.10.4, automatic), libwebp:aarch64 (1.2.0, automatic), giflib:aarch64 (5.2.1-2, automatic), php:aarch64 (8.0.2-3), libxslt:aarch64 (1.1.34-1, automatic), libgd:aarch64 (2.3.1, automatic), libjpeg-turbo:aarch64 (2.0.6, automatic), libtiff:aarch64 (4.2.0, automatic), ttf-dejavu:aarch64 (2.37-8, automatic), oniguruma:aarch64 (6.9.6, automatic), tidy:aarch64 (5.7.28-2, automatic), libpng:aarch64 (1.6.37-3, automatic), libzip:aarch64 (1.7.3-1, automatic)
+End-Date: 2021-02-10  07:57:45
+
+Start-Date: 2021-02-10  07:58:11
+Commandline: apt-get install apache2 -y
+Install: apr:aarch64 (1.7.0-3, automatic), apr-util:aarch64 (1.6.1-3, automatic), libexpat:aarch64 (2.2.10, automatic), apache2:aarch64 (2.4.46-4)
+End-Date: 2021-02-10  07:58:14
+
+Start-Date: 2021-02-10  07:58:16
+Commandline: apt-get install cowsay -y
+Install: cowsay:aarch64 (3.04)
+End-Date: 2021-02-10  07:58:16
+
+Start-Date: 2021-02-10  07:58:41
+Commandline: apt-get install ruby -y
+Install: libyaml:aarch64 (0.2.5-4, automatic), ruby:aarch64 (3.0.0)
+End-Date: 2021-02-10  07:58:44
+
+Start-Date: 2021-02-10  11:24:15
+Commandline: apt install proot -y
+Install: proot:aarch64 (5.1.107-36), libtalloc:aarch64 (2.3.2, automatic)
+End-Date: 2021-02-10  11:24:16
+
+Start-Date: 2021-02-10  12:31:58
+Commandline: apt install wget
+Install: wget:aarch64 (1.21.1)
+End-Date: 2021-02-10  12:31:58
+
+Start-Date: 2021-02-10  13:18:12
+Commandline: apt install texinfo
+Install: texinfo:aarch64 (6.7)
+End-Date: 2021-02-10  13:18:13
+
+Start-Date: 2021-02-10  14:33:51
+Commandline: apt install termux-api
+Install: termux-api:aarch64 (0.54)
+End-Date: 2021-02-10  14:33:52
+
+Start-Date: 2021-02-10  19:31:10
+Commandline: apt-get install sl
+Install: sl:aarch64 (5.02-2)
+End-Date: 2021-02-10  19:31:11
+
+Start-Date: 2021-02-10  20:37:46
+Commandline: apt install micro
+Install: micro:aarch64 (2.0.8)
+End-Date: 2021-02-10  20:37:47
+
+Start-Date: 2021-02-11  08:44:52
+Commandline: apt install -y axel
+Install: axel:aarch64 (2.17.10)
+End-Date: 2021-02-11  08:44:53
+
+Start-Date: 2021-02-11  08:44:55
+Commandline: apt upgrade -y
+Upgrade: termux-tools:aarch64 (0.104, 0.107), unstable-repo:aarch64 (5.0, 6.0)
+End-Date: 2021-02-11  08:45:03
+
+Start-Date: 2021-02-11  08:59:16
+Commandline: apt-get -y install build-essential
+Install: jsoncpp:aarch64 (1.9.4, automatic), build-essential:aarch64 (4.1), libltdl:aarch64 (2.4.6-8, automatic), automake:aarch64 (1.16.3-1, automatic), bison:aarch64 (3.7.5, automatic), flex:aarch64 (2.6.4-3, automatic), autoconf:aarch64 (2.71, automatic), libuv:aarch64 (1.40.0, automatic), rhash:aarch64 (1.4.1, automatic), libarchive:aarch64 (3.5.1, automatic), gperf:aarch64 (3.1-4, automatic), libtool:aarch64 (2.4.6-8, automatic), bc:aarch64 (1.07.1-1, automatic), m4:aarch64 (1.4.18-3, automatic), cmake:aarch64 (3.19.4, automatic)
+End-Date: 2021-02-11  08:59:25
+
+Start-Date: 2021-02-11  18:44:25
+Commandline: apt install x11-repo
+Install: x11-repo:aarch64 (6.0)
+End-Date: 2021-02-11  18:44:30
+
+Start-Date: 2021-02-12  07:13:38
+Commandline: apt install -y git zsh
+Install: zsh:aarch64 (5.8-5)
+End-Date: 2021-02-12  07:13:40
+
+Start-Date: 2021-02-12  08:33:27
+Commandline: apt install curl wget tsu wget git
+Install: tsu:aarch64 (8.5.1-3)
+End-Date: 2021-02-12  08:33:28
+
+Start-Date: 2021-02-12  08:35:23
+Commandline: apt install -y libiconv zlib autoconf bison clang coreutils curl findutils git apr apr-util libffi libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 libxslt ncurses pkg-config wget make ruby libgrpc termux-tools ncurses-utils ncurses unzip zip tar termux-elf-cleaner
+Install: protobuf:aarch64 (2:3.14.0, automatic), c-ares:aarch64 (1.17.1-1, automatic), zip:aarch64 (3.0-5), libgrpc:aarch64 (1.35.0), libprotobuf:aarch64 (2:3.14.0, automatic), ncurses-utils:aarch64 (6.2.20200725-2), termux-elf-cleaner:aarch64 (1.7)
+End-Date: 2021-02-12  08:35:26
+
+Start-Date: 2021-02-12  16:50:47
+Commandline: apt remove zsh
+Remove: zsh:aarch64 (5.8-5)
+End-Date: 2021-02-12  16:50:47
+
+Start-Date: 2021-02-12  16:51:34
+Commandline: apt install zsh
+Install: zsh:aarch64 (5.8-5)
+End-Date: 2021-02-12  16:51:36
+
+Start-Date: 2021-02-15  12:40:34
+Commandline: apt install figlet toilet python curl -y
+Install: libxext:aarch64 (1.3.4-11, automatic), libcaca:aarch64 (0.99.beta19-8, automatic), libsm:aarch64 (1.2.3-17, automatic), libxt:aarch64 (1.2.1, automatic), xorg-xauth:aarch64 (1.1-19, automatic), libxdmcp:aarch64 (1.1.3-10, automatic), imlib2:aarch64 (1.7.1, automatic), libid3tag:aarch64 (0.15.1b-3, automatic), toilet:aarch64 (0.3-1), libice:aarch64 (1.0.10-15, automatic), libx11:aarch64 (1.7.0, automatic), libxau:aarch64 (1.0.9-9, automatic), libxcb:aarch64 (1.14-3, automatic), libxmu:aarch64 (1.1.3-20, automatic)
+End-Date: 2021-02-15  12:40:43
+
+Start-Date: 2021-02-18  12:43:09
+Commandline: apt full-upgrade
+Upgrade: tar:aarch64 (1.33, 1.34), termux-tools:aarch64 (0.107, 0.111)
+End-Date: 2021-02-18  12:43:10
+
+Start-Date: 2021-02-18  13:13:13
+Commandline: apt install golang
+Install: golang:aarch64 (2:1.16)
+End-Date: 2021-02-18  13:13:32
+
+Start-Date: 2021-02-20  19:50:42
+Commandline: apt remove golang
+Remove: golang:aarch64 (2:1.16)
+End-Date: 2021-02-20  19:50:43
+
+Start-Date: 2021-02-25  14:29:48
+Commandline: apt install w3m
+Install: w3m:aarch64 (0.5.3.20190105-5), libgc:aarch64 (8.0.4-2, automatic)
+End-Date: 2021-02-25  14:29:50
+
+Start-Date: 2021-03-02  20:25:04
+Commandline: apt upgrade
+Upgrade: apt:aarch64 (2.1.18, 2.2.0), libllvm:aarch64 (11.0.0-1, 11.1.0), xorg-xauth:aarch64 (1.1-19, 1.1-20), termux-tools:aarch64 (0.111, 0.112), clang:aarch64 (11.0.0-1, 11.1.0), termux-exec:aarch64 (1:0.8, 1:0.9), python:aarch64 (3.9.1-1, 3.9.2), cmake:aarch64 (3.19.4, 3.19.6), libxmu:aarch64 (1.1.3-20, 1.1.3-21)
+End-Date: 2021-03-02  20:25:48
+
+Start-Date: 2021-03-04  20:56:17
+Commandline: apt install wget openssl-tool proot -y
+Install: openssl-tool:aarch64 (1.1.1i)
+End-Date: 2021-03-04  20:56:17
+
+Start-Date: 2021-03-09  17:43:04
+Commandline: apt full-upgrade
+Upgrade: proot:aarch64 (5.1.107-36, 5.1.107-37)
+End-Date: 2021-03-09  17:43:05
+
+Start-Date: 2021-03-09  17:49:34
+Commandline: apt remove git
+Remove: git:aarch64 (2.30.1)
+End-Date: 2021-03-09  17:49:35
+
+Start-Date: 2021-03-09  17:49:51
+Commandline: apt install git
+Install: git:aarch64 (2.30.1)
+End-Date: 2021-03-09  17:49:52
+
+Start-Date: 2021-03-16  14:07:00
+Commandline: apt install cmatrix
+Install: cmatrix:aarch64 (2.0)
+End-Date: 2021-03-16  14:07:00
+
+Start-Date: 2021-03-17  20:53:05
+Commandline: apt install nodejs
+Install: nodejs:aarch64 (14.15.4-1)
+End-Date: 2021-03-17  20:53:14
+
+Start-Date: 2021-03-17  21:31:27
+Commandline: apt upgrade
+Upgrade: git:aarch64 (2.30.1, 2.30.2), termux-tools:aarch64 (0.112, 0.113), nano:aarch64 (5.5, 5.6.1)
+End-Date: 2021-03-17  21:31:30
+
+Start-Date: 2021-03-23  20:09:34
+Commandline: apt install git python php curl openssh grep
+Upgrade: git:aarch64 (2.30.2, 2.31.0), python:aarch64 (3.9.2, 3.9.2-1), openssh:aarch64 (8.4p1-1, 8.4p1-2)
+End-Date: 2021-03-23  20:09:50
+
+Start-Date: 2021-03-23  21:41:06
+Commandline: apt upgrade
+Upgrade: python2:aarch64 (2.7.18-4, 2.7.18-5), termux-tools:aarch64 (0.113, 0.114)
+End-Date: 2021-03-23  21:41:14
+
+Start-Date: 2021-03-26  09:27:33
+Commandline: apt install root-repo
+Install: root-repo:aarch64 (1.7)
+End-Date: 2021-03-26  09:27:40
+
+Start-Date: 2021-03-26  09:29:18
+Commandline: apt remove root-repo
+Remove: root-repo:aarch64 (1.7)
+End-Date: 2021-03-26  09:29:18
+
+Start-Date: 2021-03-26  09:31:20
+Commandline: apt install man
+Install: man:aarch64 (1.14.5-2)
+End-Date: 2021-03-26  09:31:28
+
+Start-Date: 2021-04-08  09:48:03
+Commandline: apt install -y git python2
+Upgrade: git:aarch64 (2.31.0, 2.31.1)
+End-Date: 2021-04-08  09:48:12
+
+Start-Date: 2021-04-29  12:22:45
+Commandline: apt purge ruby -y
+Purge: ruby:aarch64 (3.0.0)
+End-Date: 2021-04-29  12:22:56
+
+Start-Date: 2021-04-29  12:24:20
+Commandline: apt install -yq patchelf
+Install: patchelf:aarch64 (0.12)
+End-Date: 2021-04-29  12:24:23
+
+Start-Date: 2021-04-29  12:46:05
+Commandline: apt install ruby
+Install: ruby:aarch64 (3.0.0)
+End-Date: 2021-04-29  12:46:16
+
+Start-Date: 2021-04-29  12:50:17
+Commandline: apt remove ruby
+Remove: ruby:aarch64 (3.0.0)
+End-Date: 2021-04-29  12:50:25
+
+Start-Date: 2021-04-29  12:57:14
+Commandline: apt upgrade
+Upgrade: termux-api:aarch64 (0.54, 0.56), inetutils:aarch64 (1.9.4-10, 1.9.4-11), apt:aarch64 (2.2.0, 2.3.2), dialog:aarch64 (1.3-20210117-0, 1.3-20210324-0), php:aarch64 (8.0.2-3, 8.0.3), w3m:aarch64 (0.5.3.20190105-5, 0.5.3.20190105-6), zsh:aarch64 (5.8-5, 5.8-6), bison:aarch64 (3.7.5, 3.7.6), libcurl:aarch64 (7.75.0-1, 7.76.1), libandroid-shmem:aarch64 (0.2.1-1, 0.3), termux-tools:aarch64 (0.114, 0.118), ca-certificates:aarch64 (20210125, 20210413-2), oniguruma:aarch64 (6.9.6, 6.9.7), curl:aarch64 (7.75.0-1, 7.76.1), python:aarch64 (3.9.2-1, 3.9.4), libnettle:aarch64 (3.7, 3.7.2), openssl-tool:aarch64 (1.1.1i, 1.1.1k-2), openssl:aarch64 (1.1.1i, 1.1.1k-2), libsqlite:aarch64 (3.34.0-1, 3.35.5)
+End-Date: 2021-04-29  12:57:52
+
+Start-Date: 2021-04-29  15:06:37
+Commandline: apt autoremove
+Remove: libyaml:aarch64 (0.2.5-4)
+End-Date: 2021-04-29  15:06:38
+
+Start-Date: 2021-04-29  15:12:05
+Commandline: apt install fakeroot
+Install: fakeroot:aarch64 (1.25.3)
+End-Date: 2021-04-29  15:12:14
+
+Start-Date: 2021-05-29  11:29:39
+Commandline: apt install openssh
+Upgrade: openssh:aarch64 (8.4p1-2, 8.6p1)
+End-Date: 2021-05-29  11:29:48

@@ -1,0 +1,58 @@
++requirements_termux_libs_install:2> pkg install bash curl patch bzip2 ca-certificates gawk clang coreutils curl gawk git gnupg gpgv libc++ libclang libclang-dev libllvm libxml2 make ncurses ncurses-ui-libs openssl openssl-dev openssl-tool readline sqlite tar zlib zlib-dev
+Checking availability of current mirror: bad
+Testing the available mirrors:
+[*] https://termux.org/packages: ok
+[*] https://ipfs.io/ipns/k51qzi5uqu5dg9vawh923wejqffxiu9bhqlze5f508msk0h7ylpac27fdgaskx: ok
+[*] https://grimler.se/termux-packages-24: ok
+Picking mirror: https://ipfs.io/ipns/k51qzi5uqu5dg9vawh923wejqffxiu9bhqlze5f508msk0h7ylpac27fdgaskx
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://ipfs.io/ipns/k51qzi5uqu5dg9vawh923wejqffxiu9bhqlze5f508msk0h7ylpac27fdgaskx stable InRelease [14.0 kB]
+Get:2 https://ipfs.io/ipns/k51qzi5uqu5dj05z8mr958kwvrg7a0wqouj5nnoo5uqu1btnsljvpznfaav9nk unstable InRelease [14.0 kB]
+Get:3 https://ipfs.io/ipns/k51qzi5uqu5dgu3homski160l4t4bmp52vb6dbgxb5bda90rewnwg64wnkwxj4 x11 InRelease [14.0 kB]
+Ign:4 https://grimler.se/game-packages-24 games InRelease
+Get:5 https://ipfs.io/ipns/k51qzi5uqu5dg9vawh923wejqffxiu9bhqlze5f508msk0h7ylpac27fdgaskx stable/main aarch64 Packages [238 kB]
+Ign:6 https://grimler.se/science-packages-24 science InRelease
+Hit:7 https://grimler.se/game-packages-24 games Release
+Hit:8 https://grimler.se/science-packages-24 science Release
+Fetched 280 kB in 6s (44.7 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package libclang is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libllvm
+
+Package libclang-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libllvm
+
+Package openssl-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  openssl
+
+Package zlib-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  zlib
+
+E: Package 'libclang' has no installation candidate
+E: Package 'libclang-dev' has no installation candidate
+E: Package 'openssl-dev' has no installation candidate
+E: Package 'zlib-dev' has no installation candidate
++requirements_termux_libs_install:2> return 100

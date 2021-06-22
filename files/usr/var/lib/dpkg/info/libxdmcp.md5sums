@@ -1,0 +1,5 @@
+a83136503ec509b489354bc1d7c49184  data/data/com.termux/files/usr/include/X11/Xdmcp.h
+a7ef8fa9057a5caa726d38766b98bda9  data/data/com.termux/files/usr/lib/libXdmcp.so
+afda12d794776e54010722ac6112b8a7  data/data/com.termux/files/usr/lib/pkgconfig/xdmcp.pc
+dea6f1ce3b3f7414dd028b5df93ee4e4  data/data/com.termux/files/usr/share/doc/libXdmcp/xdmcp.xml
+d559fb26e129626022e052a5e6e0e123  data/data/com.termux/files/usr/share/doc/libxdmcp/LICENSE

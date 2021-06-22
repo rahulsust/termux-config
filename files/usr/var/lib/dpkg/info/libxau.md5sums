@@ -1,0 +1,13 @@
+6d986154987dca2aa3474b17fd7c9540  data/data/com.termux/files/usr/include/X11/Xauth.h
+0e975ce117c2fb125e67f9b65329a166  data/data/com.termux/files/usr/lib/pkgconfig/xau.pc
+7e801def043434d603d838cf030fc6cc  data/data/com.termux/files/usr/lib/libXau.so
+fb9af2b98f76333642d2cc7cb404b89e  data/data/com.termux/files/usr/share/man/man3/XauGetBestAuthByAddr.3.gz
+d995f0c9892480499047c942e5973f49  data/data/com.termux/files/usr/share/man/man3/XauReadAuth.3.gz
+0347bb2a1883d348c80878051a73d804  data/data/com.termux/files/usr/share/man/man3/XauWriteAuth.3.gz
+b91db4860fa896442982c331f7a3f26e  data/data/com.termux/files/usr/share/man/man3/XauLockAuth.3.gz
+9d748e04545fe5999bb6260c2c565c24  data/data/com.termux/files/usr/share/man/man3/XauUnlockAuth.3.gz
+4c098af7f09d151f994b2a1abc02d023  data/data/com.termux/files/usr/share/man/man3/Xau.3.gz
+a76972d239899ca9e45da9e2b90506ac  data/data/com.termux/files/usr/share/man/man3/XauFileName.3.gz
+7de6423d64bc974a3276f252b2c82ed1  data/data/com.termux/files/usr/share/man/man3/XauDisposeAuth.3.gz
+fbb53e88ac2a4cea16a52ba07a5150f6  data/data/com.termux/files/usr/share/man/man3/XauGetAuthByAddr.3.gz
+7908e342491198401321cec1956807ec  data/data/com.termux/files/usr/share/doc/libxau/LICENSE

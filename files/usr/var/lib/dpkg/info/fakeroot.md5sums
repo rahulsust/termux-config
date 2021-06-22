@@ -1,0 +1,5 @@
+60cc52484a0c4447cc829624a5054ceb  data/data/com.termux/files/usr/bin/fakeroot
+9b5f71cc6686e9cb62a93a1356e426c7  data/data/com.termux/files/usr/bin/faked
+2e78e27b131b2334b1ebd7e0dd6836a7  data/data/com.termux/files/usr/lib/libfakeroot-0.so
+9399b67254f25d4837f372daea67246b  data/data/com.termux/files/usr/share/man/man1/faked.1.gz
+60061298497ad0986d1b10a829ce886b  data/data/com.termux/files/usr/share/man/man1/fakeroot.1.gz

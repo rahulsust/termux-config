@@ -1,0 +1,16 @@
+/.
+/data
+/data/data
+/data/data/com.termux
+/data/data/com.termux/files
+/data/data/com.termux/files/usr
+/data/data/com.termux/files/usr/include
+/data/data/com.termux/files/usr/include/id3tag.h
+/data/data/com.termux/files/usr/lib
+/data/data/com.termux/files/usr/lib/libid3tag.so.0.3.0
+/data/data/com.termux/files/usr/share
+/data/data/com.termux/files/usr/share/doc
+/data/data/com.termux/files/usr/share/doc/libid3tag
+/data/data/com.termux/files/usr/lib/libid3tag.so.0
+/data/data/com.termux/files/usr/lib/libid3tag.so
+/data/data/com.termux/files/usr/share/doc/libid3tag/LICENSE

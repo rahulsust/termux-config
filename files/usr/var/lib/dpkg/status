@@ -1,0 +1,1981 @@
+Package: apache2
+Status: install ok installed
+Installed-Size: 31256
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.4.46-4
+Replaces: apache2-dev
+Depends: apr, apr-util, pcre, openssl, libcrypt, libandroid-support, libnghttp2, libexpat, libuuid, zlib
+Breaks: apache2-dev
+Conffiles:
+ /data/data/com.termux/files/usr/etc/apache2/httpd.conf e333403eaf6cf8fb3ad7944cbc77ada5
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-autoindex.conf 44af5bb3b649af569c58507ddae09940
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-dav.conf 6b840dc7e9dd2af80863501be065ca8b
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-default.conf 1f49af812d7f383d47dc75ee236e9e6f
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-info.conf f99f8170eb4fae7ee4ef31b8a370fda9
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-languages.conf 3584ae9dbe665a19dcf9f41f028f3055
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-manual.conf 81ea173043283a95ec69a844f7517aa8
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-mpm.conf b04e53de71242063ec0c0324bc87127a
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-multilang-errordoc.conf c8cc9295713c8906c7cce2945c5078f7
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-ssl.conf c25a85c0fe2248d08e338518a7e128e7
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-userdir.conf c6a794e690bfbf9887d1ef6dea21b70b
+ /data/data/com.termux/files/usr/etc/apache2/extra/httpd-vhosts.conf 386ec14e5943201a572203aacd70bbd2
+ /data/data/com.termux/files/usr/etc/apache2/extra/proxy-html.conf fcfc05b103652a1ecf852ed989a71539
+ /data/data/com.termux/files/usr/etc/apache2/mime.types e9d4c9b0e05438a015175a86d166bee6
+ /data/data/com.termux/files/usr/etc/apache2/magic a75b8cf9c6a2a30a0577f02d787eaea7
+ /data/data/com.termux/files/usr/var/service/httpd/run 05a1a60011ca9439fc8f2858e804764e
+ /data/data/com.termux/files/usr/var/service/httpd/down d41d8cd98f00b204e9800998ecf8427e
+ /data/data/com.termux/files/usr/var/service/httpd/log/run nonexistent
+ /data/data/com.termux/files/usr/var/service/httpd/log/down newconffile
+Description: Apache Web Server
+Homepage: https://httpd.apache.org
+
+Package: apr
+Status: install ok installed
+Installed-Size: 1204
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 1.7.0-3
+Replaces: apr-dev
+Depends: libuuid
+Breaks: apr-dev
+Description: Apache Portable Runtime Library
+Homepage: https://apr.apache.org/
+
+Package: apr-util
+Status: install ok installed
+Installed-Size: 572
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 1.6.1-3
+Replaces: apr-util-dev
+Depends: apr, libcrypt, libexpat, libiconv, libuuid
+Breaks: apr-util-dev
+Description: Apache Portable Runtime Utility Library
+Homepage: https://apr.apache.org/
+
+Package: apt
+Essential: yes
+Status: install ok installed
+Installed-Size: 3744
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.3.2
+Replaces: apt-transport-https, libapt-pkg
+Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libcurl, libgnutls, liblz4, liblzma, sed, termux-licenses, xxhash, zlib
+Recommends: game-repo, science-repo
+Suggests: gnupg, unstable-repo, x11-repo
+Conflicts: apt-transport-https, libapt-pkg
+Conffiles:
+ /data/data/com.termux/files/usr/etc/apt/sources.list 467bcb2478efa81774834abca368a245
+ /data/data/com.termux/files/usr/etc/apt/trusted.gpg edd9b2ff8e4f19b4640a50391d1fa277
+Description: Front-end for the dpkg package manager
+Homepage: https://packages.debian.org/apt
+
+Package: autoconf
+Status: install ok installed
+Installed-Size: 3616
+Maintainer: @termux
+Architecture: all
+Version: 2.71
+Depends: m4, make, perl
+Description: Creator of shell scripts to configure source code packages
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+
+Package: automake
+Status: install ok installed
+Installed-Size: 2744
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.16.3-1
+Depends: autoconf
+Description: Tool for automatically generating Makefile.in files
+Homepage: https://www.gnu.org/software/automake/
+
+Package: axel
+Status: install ok installed
+Installed-Size: 100
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.17.10
+Depends: openssl
+Description: light command line download accelerator
+Homepage: https://github.com/axel-download-accelerator/axel
+
+Package: bash
+Essential: yes
+Status: install ok installed
+Installed-Size: 4036
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.1.4
+Replaces: bash-dev
+Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools
+Recommends: command-not-found
+Breaks: bash-dev
+Conffiles:
+ /data/data/com.termux/files/usr/etc/bash.bashrc 63223865ea41f3e021d56cc75c012aa4
+ /data/data/com.termux/files/usr/etc/profile d87651602a37863f2f809e08517fe00d
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: https://www.gnu.org/software/bash/
+
+Package: bc
+Status: install ok installed
+Installed-Size: 180
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 1.07.1-1
+Depends: readline, flex
+Description: Arbitrary precision numeric processing language
+Homepage: https://www.gnu.org/software/bc/
+
+Package: binutils
+Status: install ok installed
+Installed-Size: 17092
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.36.1
+Replaces: binutils-dev
+Depends: libc++, zlib
+Breaks: binutils-dev
+Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: bison
+Status: install ok installed
+Installed-Size: 2376
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.7.6
+Depends: m4
+Description: General-purpose parser generator
+Homepage: https://www.gnu.org/software/bison/
+
+Package: build-essential
+Status: install ok installed
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Architecture: all
+Version: 4.1
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Description: A metapackage that installs essential development tools
+Homepage: https://github.com/termux/termux-packages
+
+Package: bzip2
+Essential: yes
+Status: install ok installed
+Installed-Size: 128
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.0.8-6
+Depends: libbz2 (= 1.0.8-6)
+Description: Tools for working with bzip2 compression
+Homepage: http://www.bzip.org/
+
+Package: c-ares
+Status: install ok installed
+Installed-Size: 468
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.17.1-1
+Replaces: c-ares-dev
+Breaks: c-ares-dev
+Description: Library for asynchronous DNS requests (including name resolves)
+Homepage: https://c-ares.haxx.se
+
+Package: ca-certificates
+Status: install ok installed
+Installed-Size: 248
+Maintainer: @termux
+Architecture: all
+Version: 20210413-2
+Description: Common CA certificates
+Homepage: https://curl.se/docs/caextract.html
+
+Package: clang
+Status: install ok installed
+Installed-Size: 111876
+Maintainer: @buttaface
+Architecture: aarch64
+Version: 11.1.0
+Replaces: libllvm (<< 11.0.0-1), clangd
+Depends: libllvm (= 11.1.0)
+Breaks: libllvm (<< 11.0.0-1), clangd
+Description: C language frontend for LLVM
+Homepage: https://clang.llvm.org/
+
+Package: cmake
+Status: install ok installed
+Installed-Size: 34736
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.19.6
+Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, make, clang, zlib
+Description: Family of tools designed to build, test and package software
+Homepage: https://cmake.org/
+
+Package: cmatrix
+Status: install ok installed
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 2.0
+Depends: ncurses
+Description: Command producing a Matrix-style animation
+Homepage: https://github.com/abishekvashok/cmatrix
+
+Package: command-not-found
+Status: install ok installed
+Installed-Size: 336
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.60
+Description: Suggest installation of packages in interactive shell sessions
+Homepage: https://github.com/termux/command-not-found
+
+Package: coreutils
+Essential: yes
+Status: install ok installed
+Installed-Size: 2412
+Maintainer: @termux
+Architecture: aarch64
+Version: 8.32-7
+Replaces: chroot, busybox (<< 1.30.1-4)
+Depends: libandroid-support, libgmp, libiconv
+Breaks: chroot, busybox (<< 1.30.1-4)
+Description: Basic file, shell and text manipulation utilities from the GNU project
+Homepage: https://www.gnu.org/software/coreutils/
+
+Package: cowsay
+Status: install ok installed
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 3.04
+Depends: perl
+Description: Program which generates ASCII pictures of a cow with a message
+Homepage: https://en.wikipedia.org/wiki/Cowsay
+
+Package: curl
+Essential: yes
+Status: install ok installed
+Installed-Size: 316
+Maintainer: @termux
+Architecture: aarch64
+Version: 7.76.1
+Depends: libcurl (= 7.76.1)
+Description: Command line tool for transferring data with URL syntax
+Homepage: https://curl.se/
+
+Package: dash
+Essential: yes
+Status: install ok installed
+Installed-Size: 172
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.5.11.3
+Description: Small POSIX-compliant implementation of /bin/sh
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+
+Package: debianutils
+Status: install ok installed
+Installed-Size: 132
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 4.11.2
+Description: Small utilities which are used primarily by the installation scripts of Debian packages
+Homepage: https://packages.debian.org/debianutils
+
+Package: dialog
+Status: install ok installed
+Installed-Size: 256
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.3-20210324-0
+Depends: ncurses
+Description: Application used in shell scripts which displays text user interface widgets
+Homepage: https://invisible-island.net/dialog/
+
+Package: diffutils
+Essential: yes
+Status: install ok installed
+Installed-Size: 544
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 3.7-3
+Depends: libiconv
+Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+Homepage: https://www.gnu.org/software/diffutils/
+
+Package: dos2unix
+Status: install ok installed
+Installed-Size: 332
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 7.4.2
+Depends: libandroid-support
+Description: Converts between DOS and Unix text files
+Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
+
+Package: dpkg
+Essential: yes
+Status: install ok installed
+Installed-Size: 1128
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.20.7.1-1
+Replaces: dpkg-dev
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, tar, xz-utils, zlib
+Breaks: dpkg-dev
+Description: Debian package management system
+Homepage: https://packages.debian.org/dpkg
+
+Package: ed
+Status: install ok installed
+Installed-Size: 168
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Architecture: aarch64
+Version: 1.17
+Description: Classic UNIX line editor
+Homepage: https://www.gnu.org/software/ed/
+
+Package: fakeroot
+Status: install ok installed
+Installed-Size: 136
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.25.3
+Description: Tool for simulating superuser privileges (with tcp ipc)
+Homepage: http://packages.debian.org/fakeroot
+
+Package: figlet
+Status: install ok installed
+Installed-Size: 840
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.2.5-2
+Description: Program for making large letters out of ordinary text
+Homepage: http://www.figlet.org/
+
+Package: findutils
+Essential: yes
+Status: install ok installed
+Installed-Size: 792
+Maintainer: @termux
+Architecture: aarch64
+Version: 4.8.0
+Depends: libandroid-support
+Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
+Homepage: https://www.gnu.org/software/findutils/
+
+Package: flex
+Status: install ok installed
+Installed-Size: 904
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.6.4-3
+Replaces: flex-dev
+Depends: m4
+Conflicts: flex-dev
+Description: Fast lexical analyser generator
+Homepage: https://github.com/westes/flex
+
+Package: fontconfig
+Status: install ok installed
+Installed-Size: 616
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.13.1-6
+Replaces: fontconfig-dev
+Depends: freetype, libxml2, libpng, libuuid, ttf-dejavu, zlib
+Breaks: fontconfig-dev
+Description: Library for configuring and customizing font access
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+
+Package: freetype
+Status: install ok installed
+Installed-Size: 1508
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.10.4
+Replaces: freetype-dev
+Depends: libbz2, libpng, zlib
+Breaks: freetype-dev
+Description: Software font engine capable of producing high-quality output
+Homepage: https://www.freetype.org
+
+Package: game-repo
+Status: install ok installed
+Installed-Size: 52
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 1.3
+Depends: termux-keyring
+Description: Package repository containing games for termux
+Homepage: https://github.com/termux/game-packages
+
+Package: gawk
+Essential: yes
+Status: install ok installed
+Installed-Size: 2896
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 5.1.0-1
+Replaces: gawk-dev
+Depends: libandroid-support, libgmp, libmpfr, readline
+Breaks: gawk-dev
+Description: Programming language designed for text processing
+Homepage: https://www.gnu.org/software/gawk/
+
+Package: gdbm
+Status: install ok installed
+Installed-Size: 428
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.19
+Replaces: gdbm-dev
+Depends: readline
+Breaks: gdbm-dev
+Description: Library of database functions that use extensible hashing
+Homepage: https://www.gnu.org.ua/software/gdbm/
+
+Package: giflib
+Status: install ok installed
+Installed-Size: 100
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 5.2.1-2
+Replaces: giflib-dev
+Breaks: giflib-dev
+Description: A library for reading and writing gif images
+Homepage: https://sourceforge.net/projects/giflib/
+
+Package: git
+Status: install ok installed
+Installed-Size: 12940
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.31.1
+Depends: libcurl, libiconv, less, openssl, pcre2, zlib
+Description: Fast, scalable, distributed revision control system
+Homepage: https://git-scm.com/
+
+Package: glib
+Status: install ok installed
+Installed-Size: 5860
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.66.1
+Replaces: glib-dev
+Depends: libffi, libiconv, pcre, libandroid-support, zlib
+Breaks: glib-dev
+Description: Library providing core building blocks for libraries and applications written in C
+Homepage: https://developer.gnome.org/glib/
+
+Package: gperf
+Status: install ok installed
+Installed-Size: 260
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 3.1-4
+Depends: libc++
+Description: A perfect hash function generator
+Homepage: https://www.gnu.org/software/gperf
+
+Package: gpgv
+Status: install ok installed
+Installed-Size: 364
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.2.27-1
+Depends: libbz2, libgcrypt, libgpg-error, zlib
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+
+Package: grep
+Essential: yes
+Status: install ok installed
+Installed-Size: 360
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 3.6
+Depends: libandroid-support, pcre
+Description: Command which searches one or more input files for lines containing a match to a specified pattern
+Homepage: https://www.gnu.org/software/grep/
+
+Package: gzip
+Essential: yes
+Status: install ok installed
+Installed-Size: 320
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.10-4
+Description: Standard GNU file compression utilities
+Homepage: https://www.gnu.org/software/gzip/
+
+Package: imlib2
+Status: install ok installed
+Installed-Size: 1136
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.7.1
+Depends: freetype, giflib, libandroid-shmem, libbz2, libid3tag, libjpeg-turbo, libpng, libtiff, libxext, zlib
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Homepage: https://sourceforge.net/projects/enlightenment/
+
+Package: inetutils
+Status: install ok installed
+Installed-Size: 1120
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.9.4-11
+Depends: readline
+Description: Collection of common network programs
+Homepage: https://www.gnu.org/software/inetutils/
+
+Package: jsoncpp
+Status: install ok installed
+Installed-Size: 920
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.9.4
+Replaces: jsoncpp-dev
+Depends: libc++
+Breaks: jsoncpp-dev
+Description: C++ library for interacting with JSON
+Homepage: https://github.com/open-source-parsers/jsoncpp
+
+Package: krb5
+Status: install ok installed
+Installed-Size: 3772
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.19
+Replaces: krb5-dev
+Depends: libandroid-support, libandroid-glob, readline, openssl, libdb
+Breaks: krb5-dev
+Conffiles:
+ /data/data/com.termux/files/usr/etc/krb5.conf c54eb0cc492068648215838179336664
+ /data/data/com.termux/files/usr/var/krb5kdc/kdc.conf d4a6559a9c7178219cb89a72665cd043
+Description: The Kerberos network authentication system
+Homepage: https://web.mit.edu/kerberos
+
+Package: ldns
+Status: install ok installed
+Installed-Size: 2780
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.7.1-3
+Replaces: ldns-dev
+Depends: openssl
+Breaks: ldns-dev
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+
+Package: less
+Essential: yes
+Status: install ok installed
+Installed-Size: 244
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 563
+Depends: ncurses
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+Homepage: http://www.greenwoodsoftware.com/less/
+
+Package: libandroid-glob
+Status: install ok installed
+Installed-Size: 68
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 0.6-2
+Replaces: libandroid-glob-dev
+Breaks: libandroid-glob-dev
+Description: Shared library for the glob(3) system function
+Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
+
+Package: libandroid-shmem
+Status: install ok installed
+Installed-Size: 72
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.3
+Replaces: libandroid-shmem-dev
+Breaks: libandroid-shmem-dev
+Description: System V shared memory emulation on Android using ashmem
+Homepage: https://github.com/termux/libandroid-shmem
+
+Package: libandroid-support
+Essential: yes
+Status: install ok installed
+Installed-Size: 76
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 28
+Pre-Depends: dpkg (>= 1.19.4-3)
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+
+Package: libarchive
+Status: install ok installed
+Installed-Size: 936
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.5.1
+Replaces: libarchive-dev
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Breaks: libarchive-dev
+Description: Multi-format archive and compression library
+Homepage: https://www.libarchive.org/
+
+Package: libbz2
+Essential: yes
+Status: install ok installed
+Installed-Size: 116
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.0.8-6
+Replaces: libbz2-dev
+Breaks: libbz2-dev
+Description: BZ2 format compression library
+Homepage: http://www.bzip.org/
+
+Package: libc++
+Essential: yes
+Status: install ok installed
+Installed-Size: 932
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 21d-1
+Description: C++ Standard Library
+Homepage: https://libcxx.llvm.org/
+
+Package: libcaca
+Status: install ok installed
+Installed-Size: 1360
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 0.99.beta19-8
+Replaces: libcaca-dev
+Depends: imlib2, libc++, ncurses, zlib
+Breaks: libcaca-dev
+Description: Graphics library that outputs text instead of pixels
+Homepage: http://caca.zoy.org/wiki/libcaca
+
+Package: libcrypt
+Status: install ok installed
+Installed-Size: 76
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 0.2-3
+Replaces: libcrypt-dev
+Depends: openssl
+Breaks: libcrypt-dev
+Description: A crypt(3) implementation
+Homepage: http://michael.dipperstein.com/crypt/
+
+Package: libcurl
+Essential: yes
+Status: install ok installed
+Installed-Size: 2704
+Maintainer: @termux
+Architecture: aarch64
+Version: 7.76.1
+Replaces: libcurl-dev
+Depends: libnghttp2, libssh2, openssl (>= 1.1.1), zlib
+Breaks: libcurl-dev
+Conflicts: apt (<< 1.4.8-8)
+Description: Easy-to-use client-side URL transfer library
+Homepage: https://curl.se/
+
+Package: libdb
+Status: install ok installed
+Installed-Size: 2172
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 18.1.40-2
+Replaces: libdb-dev
+Breaks: libdb-dev
+Description: The Berkeley DB embedded database system (library)
+Homepage: https://www.oracle.com/database/berkeley-db
+
+Package: libedit
+Status: install ok installed
+Installed-Size: 272
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 20191231-3.1-1
+Replaces: libedit-dev
+Depends: libandroid-support, ncurses
+Breaks: libedit-dev
+Description: Library providing line editing, history, and tokenization functions
+Homepage: https://thrysoee.dk/editline/
+
+Package: libevent
+Status: install ok installed
+Installed-Size: 1092
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.1.12
+Replaces: libevent-dev
+Breaks: libevent-dev
+Description: Library that provides asynchronous event notification
+Homepage: https://libevent.org/
+
+Package: libexpat
+Status: install ok installed
+Installed-Size: 288
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.2.10
+Replaces: libexpat-dev
+Breaks: libexpat-dev
+Description: XML parsing C library
+Homepage: https://libexpat.github.io/
+
+Package: libffi
+Status: install ok installed
+Installed-Size: 176
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 3.3-2
+Replaces: libffi-dev
+Breaks: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Homepage: https://sourceware.org/libffi/
+
+Package: libgc
+Status: install ok installed
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 8.0.4-2
+Replaces: libgc-dev
+Breaks: libgc-dev
+Description: Library providing the Boehm-Demers-Weiser conservative garbage collector
+Homepage: https://www.hboehm.info/gc/
+
+Package: libgcrypt
+Status: install ok installed
+Installed-Size: 1264
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.9.1
+Replaces: libgcrypt-dev
+Depends: libgpg-error
+Breaks: libgcrypt-dev
+Description: General purpose cryptographic library based on the code from GnuPG
+Homepage: https://www.gnu.org/software/libgcrypt/
+
+Package: libgd
+Status: install ok installed
+Installed-Size: 656
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.3.1
+Replaces: libgd-dev
+Depends: freetype, fontconfig, libiconv, libjpeg-turbo, libpng, libtiff, libwebp, zlib
+Breaks: libgd-dev
+Description: GD is an open source code library for the dynamic creation of images by programmers
+Homepage: https://libgd.github.io/
+
+Package: libgmp
+Status: install ok installed
+Installed-Size: 1200
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 6.2.1
+Replaces: libgmp-dev
+Breaks: libgmp-dev
+Description: Library for arbitrary precision arithmetic
+Homepage: https://gmplib.org/
+
+Package: libgnutls
+Status: install ok installed
+Installed-Size: 8860
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 3.6.15
+Replaces: libgnutls-dev
+Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
+Breaks: libgnutls-dev
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Homepage: https://www.gnutls.org/
+
+Package: libgpg-error
+Status: install ok installed
+Installed-Size: 528
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.41
+Replaces: libgpg-error-dev
+Breaks: libgpg-error-dev
+Description: Small library that defines common error values for all GnuPG components
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+
+Package: libgrpc
+Status: install ok installed
+Installed-Size: 11360
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.35.0
+Replaces: libgrpc-dev
+Depends: libc++, openssl, protobuf, c-ares, zlib
+Breaks: libgrpc-dev
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Homepage: https://grpc.io/
+
+Package: libice
+Status: install ok installed
+Installed-Size: 424
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.0.10-15
+Description: X11 Inter-Client Exchange library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libiconv
+Status: install ok installed
+Installed-Size: 1140
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 1.16-3
+Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Description: An implementation of iconv()
+Homepage: https://www.gnu.org/software/libiconv/
+
+Package: libicu
+Status: install ok installed
+Installed-Size: 38008
+Maintainer: @termux
+Architecture: aarch64
+Version: 68.2-1
+Replaces: libicu-dev
+Depends: libc++
+Breaks: libicu-dev
+Description: International Components for Unicode library
+Homepage: http://site.icu-project.org/home
+
+Package: libid3tag
+Status: install ok installed
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 0.15.1b-3
+Replaces: libid3tag-dev
+Depends: zlib
+Breaks: libid3tag-dev
+Description: MAD ID3 tag manipulation library
+Homepage: http://www.underbit.com/products/mad/
+
+Package: libidn2
+Status: install ok installed
+Installed-Size: 388
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.3.0-2
+Replaces: libidn2-dev
+Depends: libunistring, libandroid-support
+Breaks: libidn2-dev
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+
+Package: libjpeg-turbo
+Status: install ok installed
+Installed-Size: 1268
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.0.6
+Replaces: libjpeg-turbo-dev
+Breaks: libjpeg-turbo-dev
+Description: Library for reading and writing JPEG image files
+Homepage: https://libjpeg-turbo.virtualgl.org
+
+Package: libllvm
+Status: install ok installed
+Installed-Size: 96460
+Maintainer: @buttaface
+Architecture: aarch64
+Version: 11.1.0
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Breaks: libclang, libclang-dev, libllvm-dev
+Conflicts: gcc, clang (<< 3.9.1-3)
+Description: Modular compiler and toolchain technologies library
+Homepage: https://clang.llvm.org/
+
+Package: libltdl
+Status: install ok installed
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 2.4.6-8
+Description: Library for dlopening libraries
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: liblua53
+Status: install ok installed
+Installed-Size: 296
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 5.3.5-6
+Replaces: liblua-dev, liblua (<< 5.3.5-6)
+Breaks: liblua-dev, liblua (<< 5.3.5-6)
+Description: Shared library for the Lua interpreter (v5.3.x)
+Homepage: https://www.lua.org/
+
+Package: liblz4
+Status: install ok installed
+Installed-Size: 288
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.9.3
+Replaces: liblz4-dev
+Breaks: liblz4-dev
+Description: Fast LZ compression algorithm library
+Homepage: https://lz4.github.io/lz4/
+
+Package: liblzma
+Essential: yes
+Status: install ok installed
+Installed-Size: 596
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 5.2.5-1
+Replaces: liblzma-dev
+Breaks: liblzma-dev
+Description: XZ-format compression library
+Homepage: https://tukaani.org/xz/
+
+Package: libmpfr
+Status: install ok installed
+Installed-Size: 932
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 4.1.0
+Replaces: libmpfr-dev
+Depends: libgmp
+Breaks: libmpfr-dev
+Description: C library for multiple-precision floating-point computations with correct rounding
+Homepage: https://www.mpfr.org/
+
+Package: libnettle
+Status: install ok installed
+Installed-Size: 1256
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.7.2
+Replaces: libnettle-dev
+Depends: libgmp
+Breaks: libnettle-dev
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+
+Package: libnghttp2
+Status: install ok installed
+Installed-Size: 444
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.43.0
+Replaces: libnghttp2-dev
+Breaks: libnghttp2-dev
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+
+Package: libpcap
+Status: install ok installed
+Installed-Size: 740
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.10.0
+Replaces: libpcap-dev
+Breaks: libpcap-dev
+Description: Library for network traffic capture
+Homepage: https://www.tcpdump.org
+
+Package: libpng
+Status: install ok installed
+Installed-Size: 496
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.6.37-3
+Replaces: libpng-dev
+Depends: zlib
+Breaks: libpng-dev
+Description: Official PNG reference library
+Homepage: http://www.libpng.org/pub/png/libpng.html
+
+Package: libprotobuf
+Status: install ok installed
+Installed-Size: 5792
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2:3.14.0
+Replaces: libprotobuf-dev
+Depends: libc++, zlib
+Breaks: libprotobuf-dev
+Description: Protocol buffers C++ library
+Homepage: https://github.com/protocolbuffers/protobuf
+
+Package: libsm
+Status: install ok installed
+Installed-Size: 332
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.2.3-17
+Depends: libice, libuuid
+Description: X11 Session Management library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libsqlite
+Status: install ok installed
+Installed-Size: 1508
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.35.5
+Replaces: libsqlite-dev
+Depends: zlib
+Breaks: libsqlite-dev
+Description: Library implementing a self-contained and transactional SQL database engine
+Homepage: https://www.sqlite.org
+
+Package: libssh2
+Status: install ok installed
+Installed-Size: 1040
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.9.0-2
+Replaces: libssh2-dev
+Depends: openssl, zlib
+Breaks: libssh2-dev
+Description: Client-side library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org
+
+Package: libtalloc
+Status: install ok installed
+Installed-Size: 160
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.3.2
+Replaces: libtalloc-dev
+Breaks: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+
+Package: libtiff
+Status: install ok installed
+Installed-Size: 2412
+Maintainer: @termux
+Architecture: aarch64
+Version: 4.2.0
+Replaces: libtiff-dev
+Depends: libc++, libjpeg-turbo, liblzma, zlib
+Breaks: libtiff-dev
+Description: Support for the Tag Image File Format (TIFF) for storing image data
+Homepage: http://www.simplesystems.org/libtiff/
+
+Package: libtirpc
+Status: install ok installed
+Installed-Size: 520
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.3.1
+Description: Transport Independent RPC library
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+
+Package: libtool
+Status: install ok installed
+Installed-Size: 2712
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 2.4.6-8
+Replaces: libtool-dev, libtool-static
+Depends: bash, grep, sed, libltdl
+Conflicts: libtool-dev, libtool-static
+Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: libunistring
+Status: install ok installed
+Installed-Size: 2728
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 0.9.10-4
+Replaces: libunistring-dev
+Depends: libandroid-support, libiconv
+Breaks: libunistring-dev
+Description: Library providing functions for manipulating Unicode strings
+Homepage: https://www.gnu.org/software/libunistring/
+
+Package: libuuid
+Status: install ok installed
+Installed-Size: 80
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.0.3-4
+Replaces: libuuid-dev
+Breaks: libuuid-dev
+Description: Portable uuid C library
+Homepage: https://sourceforge.net/projects/libuuid/
+
+Package: libuv
+Status: install ok installed
+Installed-Size: 324
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.40.0
+Replaces: libuv-dev
+Breaks: libuv-dev
+Description: Support library with a focus on asynchronous I/O
+Homepage: https://libuv.org
+
+Package: libwebp
+Status: install ok installed
+Installed-Size: 744
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.2.0
+Replaces: libwebp-dev
+Depends: giflib, libjpeg-turbo, libpng, libtiff
+Breaks: libwebp-dev
+Description: Library to encode and decode images in WebP format
+Homepage: https://github.com/webmproject/libwebp
+
+Package: libx11
+Status: install ok installed
+Installed-Size: 10132
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.7.0
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Description: X11 client-side library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libxau
+Status: install ok installed
+Installed-Size: 124
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.0.9-9
+Description: X11 authorisation library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libxcb
+Status: install ok installed
+Installed-Size: 12432
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.14-3
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Homepage: https://xcb.freedesktop.org/
+
+Package: libxdmcp
+Status: install ok installed
+Installed-Size: 196
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.1.3-10
+Description: X11 Display Manager Control Protocol library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libxext
+Status: install ok installed
+Installed-Size: 604
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.3.4-11
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 miscellaneous extensions library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libxml2
+Status: install ok installed
+Installed-Size: 5360
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.9.10-4
+Replaces: libxml2-dev
+Depends: libiconv, liblzma, zlib
+Breaks: libxml2-dev
+Description: Library for parsing XML documents
+Homepage: http://www.xmlsoft.org
+
+Package: libxmu
+Status: install ok installed
+Installed-Size: 440
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.1.3-21
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxt
+Description: X11 miscellaneous micro-utility library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libxslt
+Status: install ok installed
+Installed-Size: 2452
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.1.34-1
+Replaces: libxslt-dev
+Depends: libxml2, libgcrypt, libgpg-error, zlib
+Breaks: libxslt-dev
+Description: XSLT processing library
+Homepage: http://xmlsoft.org/libxslt/
+
+Package: libxt
+Status: install ok installed
+Installed-Size: 3072
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.2.1
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp
+Description: X11 toolkit intrinsics library
+Homepage: https://xorg.freedesktop.org/
+
+Package: libzip
+Status: install ok installed
+Installed-Size: 776
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.7.3-1
+Replaces: libzip-dev
+Depends: libbz2, openssl, zlib
+Breaks: libzip-dev
+Description: Library for reading, creating, and modifying zip archives
+Homepage: https://libzip.org/
+
+Package: lsof
+Status: install ok installed
+Installed-Size: 248
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 4.94.0
+Depends: libandroid-support, libtirpc
+Description: Lists open files for running Unix processes
+Homepage: https://github.com/lsof-org/lsof
+
+Package: m4
+Status: install ok installed
+Installed-Size: 616
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 1.4.18-3
+Description: Traditional Unix macro processor
+Homepage: https://www.gnu.org/software/m4/m4.html
+
+Package: make
+Status: install ok installed
+Installed-Size: 872
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 4.3-1
+Replaces: make-dev
+Breaks: make-dev
+Description: Tool to control the generation of non-source files from source files
+Homepage: https://www.gnu.org/software/make/
+
+Package: man
+Status: install ok installed
+Installed-Size: 840
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.14.5-2
+Depends: less, libandroid-glob, zlib
+Description: Man page viewer from the mandoc toolset
+Homepage: https://mdocml.bsd.lv/
+
+Package: micro
+Status: install ok installed
+Installed-Size: 12836
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.0.8
+Description: Modern and intuitive terminal-based text editor
+Homepage: https://micro-editor.github.io/
+
+Package: nano
+Status: install ok installed
+Installed-Size: 860
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.6.1
+Depends: libandroid-support, libandroid-glob, ncurses
+Conffiles:
+ /data/data/com.termux/files/usr/etc/nanorc 31873bd283958a3f68c6f1b867e40db5
+Description: Small, free and friendly text editor
+Homepage: https://www.nano-editor.org/
+
+Package: ncurses
+Status: install ok installed
+Installed-Size: 1516
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.2.20200725-2
+Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Description: Library for text-based user interfaces in a terminal-independent manner
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-ui-libs
+Status: install ok installed
+Installed-Size: 128
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.2.20200725-2
+Depends: ncurses (= 6.2.20200725-2)
+Description: Libraries for terminal user interfaces based on ncurses
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-utils
+Status: install ok installed
+Installed-Size: 256
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.2.20200725-2
+Depends: ncurses (= 6.2.20200725-2)
+Description: Tools for working with terminals
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ndk-sysroot
+Status: install ok installed
+Installed-Size: 17200
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 21d
+Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
+Conflicts: libutil-dev, libgcc, libandroid-support-dev
+Description: System header and library files from the Android NDK needed for compiling C programs
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+
+Package: net-tools
+Status: install ok installed
+Installed-Size: 564
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.10.0
+Description: Configuration tools for Linux networking
+Homepage: http://net-tools.sourceforge.net/
+
+Package: netcat
+Status: install ok installed
+Installed-Size: 220
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 7.91
+Depends: libpcap, openssl, liblua53
+Description: Feature-packed networking utility which reads and writes data across networks from the command line
+Homepage: https://nmap.org/
+
+Package: nmap
+Status: install ok installed
+Installed-Size: 25020
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 7.91
+Depends: libc++, libpcap, pcre, openssl, resolv-conf, netcat, liblua53, libssh2, zlib
+Description: Utility for network discovery and security auditing
+Homepage: https://nmap.org/
+
+Package: nodejs
+Status: install ok installed
+Installed-Size: 57800
+Maintainer: @termux
+Architecture: aarch64
+Version: 14.15.4-1
+Replaces: nodejs-current, nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Breaks: nodejs-dev
+Conflicts: nodejs-lts, nodejs-current
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+
+Package: oniguruma
+Status: install ok installed
+Installed-Size: 632
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.9.7
+Description: Regular expressions library
+Homepage: https://github.com/kkos/oniguruma
+
+Package: openssh
+Status: install ok installed
+Installed-Size: 4724
+Maintainer: @termux
+Architecture: aarch64
+Version: 8.6p1
+Depends: libandroid-support, ldns, openssl, libedit, termux-auth, krb5, zlib
+Conflicts: dropbear
+Conffiles:
+ /data/data/com.termux/files/usr/etc/ssh/ssh_config 15cde5e6457608202600fa887b76441f
+ /data/data/com.termux/files/usr/etc/ssh/sshd_config 296254ecc57525310a9b81a0dee15fab
+ /data/data/com.termux/files/usr/var/service/sshd/run f9ae58dc75bb7fa5db970b8cb1ab35de
+ /data/data/com.termux/files/usr/var/service/sshd/down d41d8cd98f00b204e9800998ecf8427e
+ /data/data/com.termux/files/usr/var/service/sshd/log/run nonexistent
+ /data/data/com.termux/files/usr/var/service/sshd/log/down newconffile
+Description: Secure shell for logging into a remote machine
+Homepage: https://www.openssh.com/
+
+Package: openssl
+Status: install ok installed
+Installed-Size: 4176
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.1.1k-2
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Depends: ca-certificates, zlib
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Conflicts: libcurl (<< 7.61.0-1)
+Conffiles:
+ /data/data/com.termux/files/usr/etc/tls/openssl.cnf fb92a2dab53f11f4f5f22adc5257b553
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+
+Package: openssl-tool
+Status: install ok installed
+Installed-Size: 632
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.1.1k-2
+Depends: openssl (= 1.1.1k-2)
+Description: The openssl command line cryptographic tool
+Homepage: https://www.openssl.org/
+
+Package: patch
+Status: install ok installed
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 2.7.6-3
+Description: GNU patch which applies diff files to create patched files
+Homepage: https://savannah.gnu.org/projects/patch/
+
+Package: patchelf
+Status: install ok installed
+Installed-Size: 212
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 0.12
+Depends: libc++
+Description: Utility to modify the dynamic linker and RPATH of ELF executables
+Homepage: https://nixos.org/patchelf.html
+
+Package: pcre
+Status: install ok installed
+Installed-Size: 2696
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 8.44-1
+Replaces: pcre-dev
+Breaks: pcre-dev
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+Homepage: https://www.pcre.org
+
+Package: pcre2
+Status: install ok installed
+Installed-Size: 3796
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 10.36
+Replaces: pcre2-dev
+Breaks: pcre2-dev
+Description: Perl 5 compatible regular expression library
+Homepage: https://www.pcre.org
+
+Package: perl
+Status: install ok installed
+Installed-Size: 66440
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.32.1
+Description: Capable, feature-rich programming language
+Homepage: https://www.perl.org/
+
+Package: php
+Status: install ok installed
+Installed-Size: 47260
+Maintainer: @termux
+Architecture: aarch64
+Version: 8.0.3
+Replaces: php-mysql, php-dev
+Depends: freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php-mysql, php-dev
+Conffiles:
+ /data/data/com.termux/files/usr/var/service/php-fpm/run newconffile
+ /data/data/com.termux/files/usr/var/service/php-fpm/down newconffile
+ /data/data/com.termux/files/usr/var/service/php-fpm/log/run newconffile
+ /data/data/com.termux/files/usr/var/service/php-fpm/log/down newconffile
+Description: Server-side, HTML-embedded scripting language
+Homepage: https://php.net
+
+Package: pkg-config
+Status: install ok installed
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 0.29.2
+Depends: glib
+Description: Helper tool used when compiling applications and libraries
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+
+Package: postgresql
+Status: install ok installed
+Installed-Size: 23744
+Maintainer: @termux
+Architecture: aarch64
+Version: 13.1-4
+Replaces: postgresql-contrib (<= 10.3-1), postgresql-dev
+Depends: openssl, libcrypt, readline, libandroid-shmem, libuuid, libxml2, libicu, zlib
+Breaks: postgresql-contrib (<= 10.3-1), postgresql-dev
+Conffiles:
+ /data/data/com.termux/files/usr/var/service/postgres/run e6ea28f63edca7dea925ff7fbe6ac6b6
+ /data/data/com.termux/files/usr/var/service/postgres/down d41d8cd98f00b204e9800998ecf8427e
+ /data/data/com.termux/files/usr/var/service/postgres/log/run nonexistent
+ /data/data/com.termux/files/usr/var/service/postgres/log/down newconffile
+Description: Object-relational SQL database
+Homepage: https://www.postgresql.org
+
+Package: procps
+Essential: yes
+Status: install ok installed
+Installed-Size: 728
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 3.3.16-2
+Replaces: procps-dev
+Depends: ncurses
+Breaks: procps-dev
+Description: Utilities that give information about processes using the /proc filesystem
+Homepage: https://gitlab.com/procps-ng/procps
+
+Package: proot
+Status: install ok installed
+Installed-Size: 268
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.1.107-37
+Depends: libtalloc
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Homepage: https://proot-me.github.io/
+
+Package: protobuf
+Status: install ok installed
+Installed-Size: 3344
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2:3.14.0
+Depends: libprotobuf (= 2:3.14.0)
+Description: Compiler for protocol buffer definition files
+Homepage: https://github.com/protocolbuffers/protobuf
+
+Package: psmisc
+Essential: yes
+Status: install ok installed
+Installed-Size: 188
+Maintainer: @termux
+Architecture: aarch64
+Version: 23.4
+Depends: ncurses
+Description: Some small useful utilities that use the proc filesystem
+Homepage: https://gitlab.com/psmisc/psmisc
+
+Package: python
+Status: install ok installed
+Installed-Size: 46972
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.9.4
+Replaces: python-dev
+Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python-tkinter
+Breaks: python2 (<= 2.7.15), python-dev
+Description: Python 3 programming language intended to enable clear programs
+Homepage: https://python.org/
+
+Package: python2
+Status: install ok installed
+Installed-Size: 18580
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.7.18-5
+Replaces: python2-dev
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Recommends: clang, make, pkg-config
+Breaks: python2-dev
+Description: Python 2 programming language intended to enable clear programs
+Homepage: http://python.org/
+
+Package: readline
+Status: install ok installed
+Installed-Size: 1104
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 8.1.0
+Replaces: readline-dev
+Depends: libandroid-support, ncurses
+Breaks: bash (<< 5.0), readline-dev
+Conffiles:
+ /data/data/com.termux/files/usr/etc/inputrc cc1bb4090e5d4a1bf84f2bbc0eda2f68
+Description: Library that allow users to edit command lines as they are typed in
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+
+Package: resolv-conf
+Status: install ok installed
+Installed-Size: 48
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.3
+Conffiles:
+ /data/data/com.termux/files/usr/etc/hosts 8c9de98194ae259b7c313047c3325c38
+ /data/data/com.termux/files/usr/etc/resolv.conf c7ea09d26e26605227076e0514a33038
+Description: Resolver configuration file
+Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
+
+Package: rhash
+Status: install ok installed
+Installed-Size: 344
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.4.1
+Replaces: librhash, rhash-dev
+Depends: openssl
+Conflicts: librhash, rhash-dev
+Description: Console utility for calculation and verification of magnet links and a wide range of hash sums
+Homepage: https://github.com/rhash/RHash
+
+Package: science-repo
+Status: install ok installed
+Installed-Size: 52
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 1.2
+Depends: termux-keyring
+Description: Package repository containing science software
+Homepage: https://github.com/termux/science-packages
+
+Package: sed
+Essential: yes
+Status: install ok installed
+Installed-Size: 388
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 4.8-1
+Description: GNU stream editor for filtering/transforming text
+Homepage: https://www.gnu.org/software/sed/
+
+Package: sl
+Status: install ok installed
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 5.02-2
+Depends: ncurses
+Description: Tool curing your bad habit of mistyping
+Homepage: https://github.com/mtoyoda/sl
+
+Package: tar
+Essential: yes
+Status: install ok installed
+Installed-Size: 1148
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.34
+Depends: libandroid-glob, libiconv
+Description: GNU tar for manipulating tar archives
+Homepage: https://www.gnu.org/software/tar/
+
+Package: termux-am
+Status: install ok installed
+Installed-Size: 72
+Maintainer: Michal Bednarski @michalbednarski
+Architecture: all
+Version: 0.4
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/termux/TermuxAm
+
+Package: termux-api
+Status: install ok installed
+Installed-Size: 260
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.56
+Depends: bash, util-linux
+Description: Termux API commands (install also the Termux:API app)
+Homepage: https://wiki.termux.com/wiki/Termux:API
+
+Package: termux-auth
+Status: install ok installed
+Installed-Size: 88
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.4
+Replaces: termux-auth-dev
+Depends: openssl
+Breaks: termux-auth-dev
+Description: Password authentication library and utility for Termux
+Homepage: https://github.com/termux/termux-auth
+
+Package: termux-elf-cleaner
+Status: install ok installed
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 1.7
+Depends: libc++
+Description: Cleaner of ELF files for Android
+Homepage: https://github.com/termux/termux-elf-cleaner
+
+Package: termux-exec
+Essential: yes
+Status: install ok installed
+Installed-Size: 52
+Maintainer: @termux
+Architecture: aarch64
+Version: 1:0.9
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+Homepage: https://github.com/termux/termux-exec
+
+Package: termux-keyring
+Status: install ok installed
+Installed-Size: 88
+Maintainer: Termux members @termux
+Architecture: all
+Version: 1.4
+Description: GPG public keys for the official Termux repositories
+Homepage: https://github.com/termux
+
+Package: termux-licenses
+Essential: yes
+Status: install ok installed
+Installed-Size: 372
+Maintainer: Termux members @termux
+Architecture: all
+Version: 2.0-1
+Description: Contains LICENSE files for common licenses
+Homepage: https://termux.com
+
+Package: termux-tools
+Essential: yes
+Status: install ok installed
+Installed-Size: 204
+Maintainer: @termux
+Architecture: all
+Version: 0.118
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Conffiles:
+ /data/data/com.termux/files/usr/etc/motd 05d7f00e1439d854b063101f6b18bdb3
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+
+Package: texinfo
+Status: install ok installed
+Installed-Size: 7788
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 6.7
+Depends: libiconv, ncurses, perl, gawk
+Description: Documentation system for on-line information and printed output
+Homepage: https://www.gnu.org/software/texinfo/
+
+Package: tidy
+Status: install ok installed
+Installed-Size: 2136
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 5.7.28-2
+Replaces: tidy-dev
+Depends: libxslt
+Breaks: tidy-dev
+Description: A tool to tidy down your HTML code to a clean style
+Homepage: http://www.html-tidy.org/
+
+Package: toilet
+Status: install ok installed
+Installed-Size: 872
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 0.3-1
+Depends: libcaca
+Description: FIGlet-compatible display of large colourful characters in text mode
+Homepage: http://caca.zoy.org/wiki/toilet
+
+Package: tor
+Status: install ok installed
+Installed-Size: 12404
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.4.4.7
+Depends: libevent, openssl, liblzma, zlib
+Conffiles:
+ /data/data/com.termux/files/usr/etc/tor/torrc 0064298c9dedf1f6780f742e4e07b677
+ /data/data/com.termux/files/usr/var/service/tor/run 55e291ed704e0454f5072ef8045370fb
+ /data/data/com.termux/files/usr/var/service/tor/down d41d8cd98f00b204e9800998ecf8427e
+ /data/data/com.termux/files/usr/var/service/tor/log/run nonexistent
+ /data/data/com.termux/files/usr/var/service/tor/log/down newconffile
+Description: The Onion Router anonymizing overlay network
+Homepage: https://www.torproject.org
+
+Package: tsu
+Status: install ok installed
+Installed-Size: 56
+Maintainer: @termux
+Architecture: all
+Version: 8.5.1-3
+Description: A su wrapper for Termux
+Homepage: https://github.com/cswl/tsu
+
+Package: ttf-dejavu
+Status: install ok installed
+Installed-Size: 10108
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.37-8
+Conffiles:
+ /data/data/com.termux/files/usr/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf 0cbf30e4580c5a8570da071ab12c5e4d
+ /data/data/com.termux/files/usr/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf f7df7bba810dd953dd78212900f4dcad
+ /data/data/com.termux/files/usr/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf e90c678d46f49bb9d6ba469b64e80c0c
+ /data/data/com.termux/files/usr/etc/fonts/conf.d/57-dejavu-sans-mono.conf d3e4d007a9ac6c47243b5994f1d195e3
+ /data/data/com.termux/files/usr/etc/fonts/conf.d/57-dejavu-sans.conf 29cfe6c581fe2dbc222525ce00097002
+ /data/data/com.termux/files/usr/etc/fonts/conf.d/57-dejavu-serif.conf 1dca2f4ec93842e94f3919f7e0c8f7a9
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Homepage: https://dejavu-fonts.github.io/
+
+Package: unstable-repo
+Status: install ok installed
+Installed-Size: 52
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 6.0
+Depends: termux-keyring
+Description: Package repository containing new/unstable programs and libraries.
+Homepage: https://github.com/termux/unstable-packages
+
+Package: unzip
+Status: install ok installed
+Installed-Size: 332
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 6.0-7
+Depends: libbz2
+Description: Tools for working with zip files
+Homepage: https://sourceforge.net/projects/infozip/
+
+Package: util-linux
+Essential: yes
+Status: install ok installed
+Installed-Size: 3460
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 2.36.1
+Replaces: util-linux-dev
+Depends: ncurses, libcrypt, zlib
+Breaks: util-linux-dev
+Description: Miscellaneous system utilities
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+
+Package: w3m
+Status: install ok installed
+Installed-Size: 1560
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.5.3.20190105-6
+Depends: libgc, ncurses, openssl, zlib
+Suggests: perl
+Description: Text based Web browser and pager
+Homepage: http://w3m.sourceforge.net/
+
+Package: wget
+Status: install ok installed
+Installed-Size: 748
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.21.1
+Depends: libiconv, pcre2, openssl, libuuid, libandroid-support, libunistring, zlib
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+Homepage: https://www.gnu.org/software/wget/
+
+Package: x11-repo
+Status: install ok installed
+Installed-Size: 52
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 6.0
+Depends: termux-keyring
+Description: Package repository containing X11 programs and libraries
+Homepage: https://github.com/termux/x11-packages
+
+Package: xorg-xauth
+Status: install ok installed
+Installed-Size: 112
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.1-20
+Depends: libx11, libxau, libxext, libxmu
+Description: X.Org authorization settings program
+Homepage: https://xorg.freedesktop.org/
+
+Package: xxhash
+Status: install ok installed
+Installed-Size: 320
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.8.0-1
+Description: Extremely fast non-cryptographic hash algorithm
+Homepage: https://cyan4973.github.io/xxHash/
+
+Package: xz-utils
+Essential: yes
+Status: install ok installed
+Installed-Size: 220
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: aarch64
+Version: 5.2.5-1
+Depends: liblzma (= 5.2.5-1)
+Description: XZ-format compression tools
+Homepage: https://tukaani.org/xz/
+
+Package: zip
+Status: install ok installed
+Installed-Size: 556
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 3.0-5
+Depends: libandroid-support, libbz2
+Description: Tools for working with zip files
+Homepage: https://sourceforge.net/projects/infozip/
+
+Package: zlib
+Status: install ok installed
+Installed-Size: 256
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 1.2.11-5
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+Homepage: https://www.zlib.net/
+
+Package: zsh
+Status: install ok installed
+Installed-Size: 9072
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.8-6
+Depends: libandroid-support, ncurses, termux-tools, command-not-found, pcre
+Conffiles:
+ /data/data/com.termux/files/usr/etc/zshrc f96ffb47275a89632c9f10127cb799cf
+Description: Shell with lots of features
+Homepage: https://www.zsh.org
+

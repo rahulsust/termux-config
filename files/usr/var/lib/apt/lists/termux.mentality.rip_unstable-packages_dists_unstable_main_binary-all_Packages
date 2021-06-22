@@ -1,0 +1,124 @@
+Package: biber
+Installed-Size: 56
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 2.15-1
+Depends: perl, libxslt, libxml2 (>> 2.9.10-3), openssl-tool, make, clang, pkg-config
+Filename: pool/main/b/biber/biber_2.15-1_all.deb
+Size: 2236
+MD5sum: 005736e707c065306eee5576e146002a
+SHA1: 98ecd9461cb1a14512fe6c82015d5a1835bf4649
+SHA256: 63cef72efa5ca7b0db4bcfdc71dd618a0a7f65a025a63a7aee4c6e57efb37b0d
+SHA512: 3e503f24a6439b0512566ea9da4723a6c2d2312e6d9afe0cefd90594e4a3d6e1e095c250c0125e8247fb1cb4030fc6d652a4e52d2fde7ddffbcdb495bdf9dde6
+Description: A Unicode-capable BibTeX replacement for biblatex users
+Homepage: http://biblatex-biber.sourceforge.net
+
+Package: electrum
+Installed-Size: 9632
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 4.0.5-1
+Depends: python, libsecp256k1
+Conflicts: asciinema (<< 1.4.0-1)
+Filename: pool/main/e/electrum/electrum_4.0.5-1_all.deb
+Size: 3180950
+MD5sum: a351bc11afc48d7130050b1133a6c005
+SHA1: 7aebc3b896528c29548e31834b5460c24c5e4655
+SHA256: d386059c2f2e2711eeafb03f0f5e15a1add6be070f7826eb3cc24602d5a5953a
+SHA512: 2e8601e05227031cf7348a3d6e0524b29a087cfc63a9ec4634dbc6b20258eeb12bdf533ed00646ee206f9ca67e3fae8105353b64ede1b89e66b22ada1a8bd744
+Description: Electrum is a lightweight Bitcoin wallet.
+Homepage: https://electrum.org
+
+Package: gitflow-avh
+Installed-Size: 448
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.12.3-6
+Depends: dash, git
+Filename: pool/main/g/gitflow-avh/gitflow-avh_1.12.3-6_all.deb
+Size: 31612
+MD5sum: 39d0ae9b5b5a21bbe37065a0bc6b3b51
+SHA1: f33df1b96928cd5ff7412b127263be96fcac5932
+SHA256: 9e9fa3394412d7ec6e50312a87b45685445e74061f1f949d021ac25b19feb8fc
+SHA512: a0fc8ea5f44249f21728a4225ed9e36b5253c8959457a85ef59a17fa89ed0f038361cc570731c3081b57138d443d03b0c4a3cd87fe2bfa06f38ef0c68b208299
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+Homepage: https://github.com/petervanderdoes/gitflow/
+
+Package: pandoc
+Installed-Size: 111984
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.11.4-2
+Depends: qemu-user-x86_64
+Filename: pool/main/p/pandoc/pandoc_2.11.4-2_all.deb
+Size: 13478580
+MD5sum: a9fcb25e39af2d6c123d512e33000f69
+SHA1: 2044e3aebf68f13fb76adb0990cb3561812dc6ab
+SHA256: 1e980e8fdfe903c1e7313176ee5fd11a7b34ce204ed7e14ce9e56562c34c8db3
+SHA512: 081e48ce5ba5bd489fcadcd6d408e348f67d2030973b4b77e6f154729d40aec9b7d1a2a74f231fc5454f6e1670604f85e77f666dece008169fdab0bb760e411e
+Description: Universal markup converter
+Homepage: https://pandoc.org/
+
+Package: rust-nightly-wasm32-unknown-unknown
+Installed-Size: 116824
+Maintainer: @its-pointless
+Architecture: all
+Version: 1.52.0-1
+Depends: rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rust-nightly-wasm32-unknown-unknown/rust-nightly-wasm32-unknown-unknown_1.52.0-1_all.deb
+Size: 17080348
+MD5sum: 2fc6970aa62c4867e1ba4e5d8e354a8d
+SHA1: 496d135a84ef00fc1d43b8d1681f2f4732d8d70c
+SHA256: b01910c0abbf152056d629e73f3ef2764dba04f972187d26cebc31767eb2e3ce
+SHA512: 9f77390ba70dc0ceea74713306836bd73fc5c4c3559e913593f85bcff27eb33d6e775ce5f10c91546a54a27483fa26014b08d54e8f95465bd6a4585f7b4ecccf
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org
+
+Package: rust-src-nightly
+Installed-Size: 42624
+Maintainer: @its-pointless
+Architecture: all
+Version: 1.52.0-1
+Depends: rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rust-src-nightly/rust-src-nightly_1.52.0-1_all.deb
+Size: 2173448
+MD5sum: 34d222c2ad4e06208685d70afc2175a2
+SHA1: e736c96dc09d364a71acb40c89da4bf0286cce27
+SHA256: 1e8027b5e52e7cfaa47267f9d14a5fa01c3d04ca682f7fd7701c8645b77a5f9c
+SHA512: b76a7beeac63b64c82a4995901357a20cccbd0f0ec65e6a77324093e9f7630caf4508e3f36857bc68bcf6cdf627785a13f298eaa6e9a30c6f26693721df8a500
+Description: rust src
+Homepage: https://www.rust-lang.org
+
+Package: texlive-installer
+Installed-Size: 10560
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-6
+Replaces: texlive
+Depends: perl, texlive-bin (>= 20200406-4), gnupg, curl, lz4, xz-utils
+Breaks: texlive
+Filename: pool/main/t/texlive-installer/texlive-installer_20200406-6_all.deb
+Size: 2410220
+MD5sum: 48f90344ec4129b8e4e5b6ed7cdbd808
+SHA1: e8458261c609561e6e684ae32aa1b27fe794f194
+SHA256: a01a31e3025a971b49d80b740ab66d72809d0d9c5c661916add6e53c6422830c
+SHA512: b5b2b3bdebf5bc0fe48352b7a62e7d3568e74a134b9187384d4d41ca58ddf3ded3e38415a54449d7607358703d3ef075d56116fd382901057c8f67df78cd135b
+Description: Wrapper around texlive's install-tl script
+Homepage: https://www.tug.org/texlive/
+
+Package: zeronet
+Installed-Size: 6252
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.7.1-6
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Filename: pool/main/z/zeronet/zeronet_0.7.1-6_all.deb
+Size: 1105420
+MD5sum: ec22f8b2827ab6c83b181bf3705d0656
+SHA1: 581db59b936a29631edaa8526124d3e2d1ad0e48
+SHA256: e7f827a066d000bba5aa2613da3df4a0d7e7ad20e98f38e5285970b9c1266079
+SHA512: 757dfc3c66e7c38188925b54451bed81d9e7e58846006565a95cea25651afd6978fa1eb1ac6abf169cf423c6ff1dad9d2066fdae9dca0970e593dcbba7e41d49
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+Homepage: https://zeronet.io/
+

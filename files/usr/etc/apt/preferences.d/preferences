@@ -1,0 +1,9 @@
+## Set low priority for all gushmazuko repository (for security purposes)
+Package: *
+Pin: release gushmazuko
+Pin-Priority: 100
+
+## Set highest priority for ruby package from gushmazuko repository
+Package: ruby
+Pin: release gushmazuko
+Pin-Priority: 1001

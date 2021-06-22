@@ -1,0 +1,13 @@
+prefix=/data/data/com.termux/files/usr
+exec_prefix=${prefix}
+libdir=/data/data/com.termux/files/usr/lib
+includedir=${prefix}/include
+
+Name: gd
+Description: GD graphics library
+Version: 2.3.1
+Requires:
+Requires.private:   zlib  libpng  freetype2 >= 9.8.3  fontconfig  libjpeg  libtiff-4  libwebp
+Cflags: -I${includedir}
+Libs.private:  /data/data/com.termux/files/usr/lib/libiconv.so
+Libs: -L${libdir} -lgd

@@ -1,0 +1,5 @@
+/data/data/com.termux/files/usr/etc/tor/torrc
+/data/data/com.termux/files/usr/var/service/tor/run
+/data/data/com.termux/files/usr/var/service/tor/down
+/data/data/com.termux/files/usr/var/service/tor/log/run
+/data/data/com.termux/files/usr/var/service/tor/log/down

@@ -1,0 +1,4 @@
+/data/data/com.termux/files/usr/var/service/php-fpm/run
+/data/data/com.termux/files/usr/var/service/php-fpm/down
+/data/data/com.termux/files/usr/var/service/php-fpm/log/run
+/data/data/com.termux/files/usr/var/service/php-fpm/log/down

@@ -1,0 +1,2 @@
+[Sun Jun 06 21:22:37.538111 2021] [mpm_worker:notice] [pid 11551:tid 504232963792] AH00292: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sun Jun 06 21:22:37.558462 2021] [core:notice] [pid 11551:tid 504232963792] AH00094: Command line: '/data/data/com.termux/files/usr/bin/httpd'

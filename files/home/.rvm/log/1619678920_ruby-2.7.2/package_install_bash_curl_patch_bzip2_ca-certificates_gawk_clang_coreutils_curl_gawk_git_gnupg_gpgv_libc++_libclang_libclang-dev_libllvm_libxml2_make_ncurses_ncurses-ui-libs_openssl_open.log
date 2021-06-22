@@ -1,0 +1,37 @@
++requirements_termux_libs_install:2> pkg install bash curl patch bzip2 ca-certificates gawk clang coreutils curl gawk git gnupg gpgv libc++ libclang libclang-dev libllvm libxml2 make ncurses ncurses-ui-libs openssl openssl-dev openssl-tool readline sqlite tar zlib zlib-dev
+Checking availability of current mirror: ok
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package libclang is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libllvm
+
+Package libclang-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libllvm
+
+Package openssl-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  openssl
+
+Package zlib-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  zlib
+
+E: Package 'libclang' has no installation candidate
+E: Package 'libclang-dev' has no installation candidate
+E: Package 'openssl-dev' has no installation candidate
+E: Package 'zlib-dev' has no installation candidate
++requirements_termux_libs_install:2> return 100

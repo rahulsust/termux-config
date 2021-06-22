@@ -1,0 +1,4 @@
+a75dd3c1d470a15b91115782b6ef665a  data/data/com.termux/files/usr/bin/pwlogin
+7414b68d5d401c17c9e3dad17d8453cf  data/data/com.termux/files/usr/bin/passwd
+92884b383c0afe046c60bf39136b57f5  data/data/com.termux/files/usr/lib/libtermux-auth.so
+4c49bef6e5b674af5c34ddc9b5b54d2f  data/data/com.termux/files/usr/include/termux-auth.h

@@ -1,0 +1,10 @@
+183f0d5acfc7f8b1d038b7c7cf512602  data/data/com.termux/files/usr/bin/savelog
+9a7592a2a54f85e1f0c2b1725eb867f0  data/data/com.termux/files/usr/bin/tempfile
+e45a335b575ad2fa82f4cea29b0d2ad9  data/data/com.termux/files/usr/bin/ischroot
+7bc2b182e18cba6b20b633b5b9244107  data/data/com.termux/files/usr/bin/which
+a29a9a0bbf46c154194c4ed3938d58ad  data/data/com.termux/files/usr/bin/run-parts
+44f1f4a0790a502e5de6d7cd209451b9  data/data/com.termux/files/usr/share/man/man1/tempfile.1.gz
+601d6fd989ce1a19492a1360ab7c0866  data/data/com.termux/files/usr/share/man/man1/which.1.gz
+2fc3aa5c82a799e91958d9bb552d8d73  data/data/com.termux/files/usr/share/man/man1/ischroot.1.gz
+c64ebccf714014f1fb6a1dec80c58fff  data/data/com.termux/files/usr/share/man/man8/run-parts.8.gz
+4aec825df37d08883bc053c23e2b5a68  data/data/com.termux/files/usr/share/man/man8/savelog.8.gz

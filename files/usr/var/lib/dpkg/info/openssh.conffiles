@@ -1,0 +1,6 @@
+/data/data/com.termux/files/usr/etc/ssh/ssh_config
+/data/data/com.termux/files/usr/etc/ssh/sshd_config
+/data/data/com.termux/files/usr/var/service/sshd/run
+/data/data/com.termux/files/usr/var/service/sshd/down
+/data/data/com.termux/files/usr/var/service/sshd/log/run
+/data/data/com.termux/files/usr/var/service/sshd/log/down

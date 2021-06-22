@@ -1,0 +1,12 @@
+/.
+/data
+/data/data
+/data/data/com.termux
+/data/data/com.termux/files
+/data/data/com.termux/files/usr
+/data/data/com.termux/files/usr/share
+/data/data/com.termux/files/usr/share/doc
+/data/data/com.termux/files/usr/share/doc/termux-elf-cleaner
+/data/data/com.termux/files/usr/bin
+/data/data/com.termux/files/usr/bin/termux-elf-cleaner
+/data/data/com.termux/files/usr/share/doc/termux-elf-cleaner/LICENSE

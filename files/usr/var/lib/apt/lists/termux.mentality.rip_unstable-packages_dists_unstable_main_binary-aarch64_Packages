@@ -1,0 +1,950 @@
+Package: atomvm
+Installed-Size: 180
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 0.git82624fbf-5
+Depends: zlib
+Filename: pool/main/a/atomvm/atomvm_0.git82624fbf-5_aarch64.deb
+Size: 39722
+MD5sum: 22186a4a1f38d5a5f4c51f19e79e64c2
+SHA1: 62c7bb05d6fee67060bddb0a5ab54222aa346aa1
+SHA256: 0bcc6d8f30775e6ca27a9828ddf3dd708bbc7f107b5a5fdbe1be0f10d78467f5
+SHA512: 56698c5cfbef91d239007a7e5df1dc36a3b1a83527feb9f3d3ce8fac3e4bdf272450e92a229be9dec4e427aeaf2e96a265ffd8421fe18b03a9860f6032ec4a5f
+Description: The minimal Erlang VM implementation
+Homepage: https://github.com/bettio/AtomVM
+
+Package: bftpd
+Installed-Size: 132
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 5.6-1
+Depends: libcrypt
+Filename: pool/main/b/bftpd/bftpd_5.6-1_aarch64.deb
+Size: 28384
+MD5sum: 795764319670f4746ae349fd43a80179
+SHA1: aa432b674854077c13749a429b15c8c73ee59de4
+SHA256: 6f1f2bfe4ef72aa831db342b1b2bce1892d4815ed7b5e05c8b236a8604c2b123
+SHA512: 21a1332b03e8239670db2487f3a9aeef51198ac798ff8edc355bc68f512120f22bca63fbcab29cfb8e550a75fd3caf383b6e5be9f36215fdbc9a665f9a4d39b1
+Description: Small, easy-to-configure FTP server
+Homepage: http://bftpd.sourceforge.net/
+
+Package: biber
+Installed-Size: 56
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 2.15-1
+Depends: perl, libxslt, libxml2 (>> 2.9.10-3), openssl-tool, make, clang, pkg-config
+Filename: pool/main/b/biber/biber_2.15-1_all.deb
+Size: 2236
+MD5sum: 005736e707c065306eee5576e146002a
+SHA1: 98ecd9461cb1a14512fe6c82015d5a1835bf4649
+SHA256: 63cef72efa5ca7b0db4bcfdc71dd618a0a7f65a025a63a7aee4c6e57efb37b0d
+SHA512: 3e503f24a6439b0512566ea9da4723a6c2d2312e6d9afe0cefd90594e4a3d6e1e095c250c0125e8247fb1cb4030fc6d652a4e52d2fde7ddffbcdb495bdf9dde6
+Description: A Unicode-capable BibTeX replacement for biblatex users
+Homepage: http://biblatex-biber.sourceforge.net
+
+Package: ccls
+Installed-Size: 1196
+Maintainer: default
+Architecture: aarch64
+Version: 0.20201219-1
+Depends: libllvm
+Filename: pool/main/c/ccls/ccls_0.20201219-1_aarch64.deb
+Size: 360316
+MD5sum: b378297666cd768aa632fbf07fd536e0
+SHA1: 257c12d0fc8a8840f360c085b4bc74e574928366
+SHA256: 27ebcc5c3ed1a38be13993b626f7eddfe1e90388db8889f505c52ce2fed69075
+SHA512: 80e7a2ffdd5661c3bbc00219da3e2423f2b0dba549ad07f1dbcf84eac18f92333fe614967ac3fa6f2fdb099c56dcddc84a82f21ff7e47fb9310dda843d24b5e0
+Description: C/C++/ObjC language server
+Homepage: https://github.com/MaskRay/ccls
+
+Package: cppcheck
+Installed-Size: 6900
+Maintainer: default
+Architecture: aarch64
+Version: 2.3-1
+Filename: pool/main/c/cppcheck/cppcheck_2.3-1_aarch64.deb
+Size: 1406326
+MD5sum: 5801d8b36ad9402ca30b59c672ffa3d5
+SHA1: f9333a018c82e578ff03ca29d83356b1ac1bcfdf
+SHA256: 8266f0d85de319d1b9bd3434293de52012e64615a80a2c5b3ba49b0747c3b3e6
+SHA512: 7d094da718e878424ab4400704f2c5359670f5e390995ce13206a6424fdb2d9c0f8ffb5f9a586d3080f6c13eecd665d4223c102c65c97b0ceabfc2bc9a7d55e8
+Description: tool for static C/C++ code analysis
+Homepage: https://github.com/danmar/cppcheck
+
+Package: cups
+Installed-Size: 11484
+Maintainer: default
+Architecture: aarch64
+Version: 2.3.3-6
+Depends: libiconv, libcrypt
+Filename: pool/main/c/cups/cups_2.3.3-6_aarch64.deb
+Size: 5059272
+MD5sum: ae67301527c3b3c03eaaeee835a168b4
+SHA1: 2d4f887905c5d72b0c9416fb9f9cf93cd5d22e26
+SHA256: 17b513827a8ec75fdb9b3ac74bdbd415781dbd683ca90836cdaffbf253751d13
+SHA512: 03eb218f21f5e85a10616e02538c11283ae5ea15e2a8ec3407ba3942843fd697bc9bc992fe24c08141204ee215a031211fba64663d5da6c33b31e0b8205dcfca
+Description: Common UNIX Printing System
+Homepage: https://www.cups.org/
+
+Package: cups-static
+Installed-Size: 3432
+Maintainer: default
+Architecture: aarch64
+Version: 2.3.3-6
+Depends: cups (= 2.3.3-6)
+Filename: pool/main/c/cups-static/cups-static_2.3.3-6_aarch64.deb
+Size: 582736
+MD5sum: 13a728c1f091c096c5462cb9bd49b862
+SHA1: 44da9bcffdd8a678732c357154cd8d8807fd086d
+SHA256: 2453421010f8f7e7812ef7f0948d5627cfa08d968c3002a71955ab85a9b1a822
+SHA512: ce1e484277101e53ea24c8f9d5ca26cca4b98cda904e216bb2522090eb08723fde3a4a22438b9b3fa105b669ec187482396ea1ed4fe238cd045dc643737ddd3b
+Description: Static libraries for cups
+Homepage: https://www.cups.org/
+
+Package: distcc
+Installed-Size: 636
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 3.3.5-1
+Depends: libpopt
+Filename: pool/main/d/distcc/distcc_3.3.5-1_aarch64.deb
+Size: 151436
+MD5sum: 5c47775fc415d76396c24c84a14e6117
+SHA1: 2d3d3297daaa268a28e0ca9c8a87c941c7d7cc53
+SHA256: e07c00178bd0db371b60a922340251ef9d2ab1575cd928b2198b503ae301dce2
+SHA512: 771ca29363403ad16ef999eb7f289e44d780d359653ac2798c417d5cd41572307c624b2ee82e6c21ae6de8228fe2849a84d5d3f4e328654ef3964c659e8d4e86
+Description: Distributed C/C++ compiler.
+Homepage: http://distcc.org/
+
+Package: electrum
+Installed-Size: 9632
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 4.0.5-1
+Depends: python, libsecp256k1
+Conflicts: asciinema (<< 1.4.0-1)
+Filename: pool/main/e/electrum/electrum_4.0.5-1_all.deb
+Size: 3180950
+MD5sum: a351bc11afc48d7130050b1133a6c005
+SHA1: 7aebc3b896528c29548e31834b5460c24c5e4655
+SHA256: d386059c2f2e2711eeafb03f0f5e15a1add6be070f7826eb3cc24602d5a5953a
+SHA512: 2e8601e05227031cf7348a3d6e0524b29a087cfc63a9ec4634dbc6b20258eeb12bdf533ed00646ee206f9ca67e3fae8105353b64ede1b89e66b22ada1a8bd744
+Description: Electrum is a lightweight Bitcoin wallet.
+Homepage: https://electrum.org
+
+Package: enscript
+Installed-Size: 1952
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.6.6-9
+Depends: cups, perl
+Filename: pool/main/e/enscript/enscript_1.6.6-9_aarch64.deb
+Size: 266118
+MD5sum: b2656dbebd29daf3e0d6853d373ae41d
+SHA1: 60e4594cdc5f1ca23e37f0b979cc88d41decf20f
+SHA256: df4e420b7884a7bbb3cc19e6ecf9fea5de61b7c01264671e5c7a720c10d1840c
+SHA512: 6885df27788b066635bd0289056cfcf8580c5cda4b09b55f834f1f2717ec6652e5597b902ab6e5f9286b878d8b88805f7cd197b96ec3bb0d2f12bd0b47e083a2
+Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes
+Homepage: https://www.gnu.org/software/enscript/
+
+Package: fdroidcl
+Installed-Size: 6312
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 0.5.0-5
+Filename: pool/main/f/fdroidcl/fdroidcl_0.5.0-5_aarch64.deb
+Size: 1646820
+MD5sum: aadf1f1e2494dae291aaf86a54d3c1f8
+SHA1: f2bb4d6ab947829fbb302c720ee9442ab2b49f5e
+SHA256: 2cea88ad12461c3ca2f335cbebb3bd7145c33cd94e2d0cd0278a22f1d570ef0b
+SHA512: 7c1cc2817b2c2710ddd1a4ca882ddf53815534b6dbacee4303522755a34ee76856773cb6ef50373df25cbfbe13425b0a704b086c064a2da71ff9d17cbadaeb7e
+Description: F-Droid client
+Homepage: https://github.com/mvdan/fdroidcl
+
+Package: fetchmail
+Installed-Size: 548
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 6.4.15-1
+Depends: libcrypt, openssl
+Filename: pool/main/f/fetchmail/fetchmail_6.4.15-1_aarch64.deb
+Size: 167748
+MD5sum: 7372d448178e5b0c43f1e62bc084d735
+SHA1: 77bb25ca2235cd8d019c29e125b2f8416b9f98d9
+SHA256: d7e7fcdf6fa364665e80a0b4fa83d8df6f0d7b8055359676626bccc3c403e291
+SHA512: 8e49508a007494c81978cbdde07318d57660cc51aa1d86513b28a02d72a724796e55c8e801688d4593fc2bc8487c15d543edad471bc00f4c68ddee9edde7e3ce
+Description: A remote-mail retrieval utility
+Homepage: https://www.fetchmail.info/
+
+Package: ghc
+Installed-Size: 758016
+Maintainer: Termux members @termux
+Architecture: aarch64
+Version: 8.10.1-4
+Depends: binutils, clang, iconv, libffi, llvm, ncurses
+Filename: pool/main/g/ghc/ghc_8.10.1-4_aarch64.deb
+Size: 79929834
+MD5sum: e4accb4403754e0dd0ce29196e79678b
+SHA1: c28d1845ad6708a2f84c5e6e4183e6073bdcd93b
+SHA256: 35c5a3311384dbad26e694e794613d62c743dcadc344bca7d16fc575ec54af24
+SHA512: ea5802893596a1162af3780309c45b8b4555b235462075f606695e90c1089e189068f1f6e20fa93a9f0e663aab46ccf6e7f7c2c20e17564a2615ed66e6d108fe
+Description: The Glasgow Haskell Compilation system
+Homepage: https://www.haskell.org/ghc/
+
+Package: gitflow-avh
+Installed-Size: 448
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 1.12.3-6
+Depends: dash, git
+Filename: pool/main/g/gitflow-avh/gitflow-avh_1.12.3-6_all.deb
+Size: 31612
+MD5sum: 39d0ae9b5b5a21bbe37065a0bc6b3b51
+SHA1: f33df1b96928cd5ff7412b127263be96fcac5932
+SHA256: 9e9fa3394412d7ec6e50312a87b45685445e74061f1f949d021ac25b19feb8fc
+SHA512: a0fc8ea5f44249f21728a4225ed9e36b5253c8959457a85ef59a17fa89ed0f038361cc570731c3081b57138d443d03b0c4a3cd87fe2bfa06f38ef0c68b208299
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+Homepage: https://github.com/petervanderdoes/gitflow/
+
+Package: gopass
+Installed-Size: 15636
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.12.4-2
+Depends: git, gnupg
+Suggests: termux-api, openssh
+Filename: pool/main/g/gopass/gopass_1.12.4-2_aarch64.deb
+Size: 3829290
+MD5sum: 44aff677947e9e5bd31cb433ce02fb9e
+SHA1: 74f71abf489a31dfa25015cd297715d5b2b47923
+SHA256: 8a71160866471491185c9fe9d5c95878c0db6e4d313a659c31031a9276013046
+SHA512: 8b7bbb78a7833a39395d5ecc518de13ff837946fa3e093b46b5b7639888cceb4b95857d5cc5fd16062d1953c39396801d758fe5523e9337850a24bb13331687d
+Description: The slightly more awesome standard unix password manager for teams.
+Homepage: https://github.com/gopasspw/gopass
+
+Package: guile
+Installed-Size: 49188
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.2.6-5
+Replaces: guile-dev
+Depends: libandroid-support, libffi, libgc, libgmp, libltdl, libunistring
+Conflicts: guile18
+Breaks: guile-dev
+Filename: pool/main/g/guile/guile_2.2.6-5_aarch64.deb
+Size: 5573730
+MD5sum: 35e90f63f22fafc64bf70c5941a87bb6
+SHA1: cad648d24b109f16b93d5149c90d5b49e46678c8
+SHA256: b242e169ae914bf02e7597b5437d9f85e7e928a4f81c218b23d0213ac9595473
+SHA512: 272dab1104496ffcdff98e4937932efcfccdf0ecf9b62bb88f411c131e3229172c17305fdd7055679afc9754e38f05a7020e3d8f92d4e0b5333cc08ce15d5b39
+Description: Portable, embeddable Scheme implementation written in C
+Homepage: http://www.gnu.org/software/guile/
+
+Package: guile-static
+Installed-Size: 2528
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.2.6-5
+Depends: guile (= 2.2.6-5)
+Filename: pool/main/g/guile-static/guile-static_2.2.6-5_aarch64.deb
+Size: 431030
+MD5sum: 178672718ed5b33004b919b9c195d937
+SHA1: 6575054c8fec651cbb9523096f7a30bc1bf53097
+SHA256: 52575eea25280be593dd90da409e4f1f4778ece712141ee426fc2dd76e1e9baf
+SHA512: 43aad335c8c3975dc7960179845b0835db01c5fb3c1b4bdc91149afb4761e9b3f84c8bc8aab1ae8e7234045431d5e5921cc2237e12d7abb636fbf3197d48e8bc
+Description: Static libraries for guile
+Homepage: http://www.gnu.org/software/guile/
+
+Package: guile18
+Installed-Size: 5852
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.8.8-13
+Replaces: guile18-dev
+Depends: libcrypt, libgmp, libltdl, ncurses, readline
+Conflicts: guile
+Breaks: guile18-dev
+Filename: pool/main/g/guile18/guile18_1.8.8-13_aarch64.deb
+Size: 1006992
+MD5sum: 1f9c40eeb21bedaae534f3741416fd73
+SHA1: fbd5870fcf96ba1cc8206b470abc08196c0b3243
+SHA256: 80806311cc7e9a634b747f03244552e14198a0859405d8dfd4591c4854603dc8
+SHA512: ca090ec2f2fcbc6d3785f2a7fe99071883ef6e8f5d2d2d44cacd9d9032680030c404993135794492cd83efa3c7bf4b7313de66532f588911ec3d4a917efad45a
+Description: Portable, embeddable Scheme implementation written in C. (legacy branch)
+Homepage: http://www.gnu.org/software/guile/
+
+Package: guile18-static
+Installed-Size: 1864
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.8.8-13
+Depends: guile18 (= 1.8.8-13)
+Filename: pool/main/g/guile18-static/guile18-static_1.8.8-13_aarch64.deb
+Size: 308994
+MD5sum: fba794639a3c2b7c5b831a979a52fdc8
+SHA1: 33c80bbd071262b97892acad9fca446ac31feb5c
+SHA256: 7206d938a754a74f9a7949926c47526e89859c2f9b505650f87f67e7aab06179
+SHA512: 2c0049d1ae4a256469a0adcd1c94f916e32d71cbea03a2ec616a5f077756f71ed4e28aac5ac962725bdce4f131842d5a8ebe6146a021f4d97a7cf99ebd698bdc
+Description: Static libraries for guile18
+Homepage: http://www.gnu.org/software/guile/
+
+Package: haproxy
+Installed-Size: 3648
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.3.8
+Depends: liblua53, openssl, pcre, zlib
+Filename: pool/main/h/haproxy/haproxy_2.3.8_aarch64.deb
+Size: 944522
+MD5sum: 3c7459a1efe60adf27ec2553451409fc
+SHA1: ea99711e9947bf7cd25784bcb0fa39637a86dd7b
+SHA256: d4993852e63bd843b40d5647680350cd5136d875967d1a4d826a0941c9dd418e
+SHA512: b053c05631e92b793e373237131d8665de37c2b47579a556c381c67d761222c2de11e71a01b303187bd08f9dab801568a661494972027c074dae615be0b2ebb7
+Description: The Reliable, High Performance TCP/HTTP Load Balancer
+Homepage: https://www.haproxy.org/
+
+Package: haproxy
+Installed-Size: 3644
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.3.5-1
+Depends: liblua53, openssl, pcre, zlib
+Filename: pool/main/h/haproxy/haproxy_2.3.5-1_aarch64.deb
+Size: 941062
+MD5sum: f8c1cdb79d6149fdb0b50e4f7d3bf372
+SHA1: b77ad3f756a332e927bc78e2c14e033dad707e94
+SHA256: b4ea4dddf626039b2960862836828f53319e85ed74065de13238d7d105341747
+SHA512: 2330bf037d2a2db249cdaf962127382819d761b7e88fe32f367d06fff4fda1dfae86c231940782d3fc0517845d941750baecc6c3c461f5c6e9d42202e1f5e1a4
+Description: The Reliable, High Performance TCP/HTTP Load Balancer
+Homepage: https://www.haproxy.org/
+
+Package: jigdo
+Installed-Size: 436
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 0.8.0-3
+Depends: libbz2, libc++, libdb, wget, zlib
+Filename: pool/main/j/jigdo/jigdo_0.8.0-3_aarch64.deb
+Size: 125402
+MD5sum: eeb3d791659e67ae55ff95b3a7120b2f
+SHA1: db84f5e6547ef870cd3b863e8f9888bc3402e76b
+SHA256: 6ead09635f34daa78fa20a461355dda788d91580d86137a380179457e438a1f8
+SHA512: 309d012bcbcb48f70f96bd571715bb0b0efdfe3c5119c7076c5e1540ccfa37dd0ea03bbdc5937ff3be6bd7d5f2bdca92d1a9d8468bd98826b5e44c4b3d6db6b3
+Description: Distribute large images by sending and receiving the files that make them up
+Homepage: http://atterer.org/jigdo/
+
+Package: libburn
+Installed-Size: 684
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.5.4-1
+Replaces: libburn-dev
+Breaks: libburn-dev
+Filename: pool/main/libb/libburn/libburn_1.5.4-1_aarch64.deb
+Size: 225494
+MD5sum: 802825d2256099d095b9de5d7f36de6d
+SHA1: da91d7eac76577de8e66327923af1be69a388cc8
+SHA256: 63156d55553d1363c58d7609db3ca8078a2e5715f83d34a176d1516fca085653
+SHA512: ebca9e5bd144c9e099ede50dbbee30daf12f6a5013ba5a9b8740bfddd01014a8d7504994e5d5ee1e31c59d83fac212298167d4f0916a9ecafa3179acfe63b35a
+Description: Library for reading, mastering and writing optical discs
+Homepage: https://dev.lovelyhq.com/libburnia
+
+Package: libburn-static
+Installed-Size: 1604
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.5.4-1
+Depends: libburn (= 1.5.4-1)
+Filename: pool/main/libb/libburn-static/libburn-static_1.5.4-1_aarch64.deb
+Size: 328098
+MD5sum: d2ce2fc99f500d8a6364365f41ca7457
+SHA1: 754d629e92af5636da2ca6e01ce877e62d1bf695
+SHA256: c0fd28072f27e37c1153580d361abe8622e88b941acde7b054daa3346f57e65b
+SHA512: 03932ddda4ec28b34219bc7c6de30aa369251511fca6a64bc5f03be1ad27bd7489bc6e4e399d3edc2a70b58978efbb7f1f3787324887a84629dd30ee941bb8c4
+Description: Static libraries for libburn
+Homepage: https://dev.lovelyhq.com/libburnia
+
+Package: libisoburn
+Installed-Size: 1796
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.5.4-1
+Replaces: libisoburn-dev
+Depends: libburn, libisofs, readline
+Conflicts: xorriso
+Breaks: libisoburn-dev
+Filename: pool/main/libi/libisoburn/libisoburn_1.5.4-1_aarch64.deb
+Size: 579504
+MD5sum: b4f95395c655b7fe90e7b631655bcac2
+SHA1: 634f1cbfa64b563dbbe08bb6c582ac5f66fcd9cd
+SHA256: 03bbb03b6fddf913d731c07559546524da8a4260871e9744fb96cf896196b4c8
+SHA512: 6093b3a9f58b97963add6dbed31b9f90fecd747091a4c70aac8691e29f5b408c0cdf9577f03bde99ba40d8d437c3f3ce4b9759aac638f9d50b03e92c0edba8d8
+Description: Frontend for libraries libburn and libisofs
+Homepage: https://dev.lovelyhq.com/libburnia
+
+Package: libisoburn-static
+Installed-Size: 4276
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.5.4-1
+Depends: libisoburn (= 1.5.4-1)
+Filename: pool/main/libi/libisoburn-static/libisoburn-static_1.5.4-1_aarch64.deb
+Size: 819452
+MD5sum: 476ee3cb3811d63914917006f1392912
+SHA1: 665982dd25b114006bda461c46b79488dbd54554
+SHA256: 926c189c5c6b9d3be28c6e576d94dde3d577d3eb4e0dc8cc460042cb6e12b676
+SHA512: 2512bce38d9f00c2db30f0d19660ad92c26e70be20fc5617a219b46eba3fd5bfeb04903c3794f5378eb77443d3f22f7b4bfa0164606e0b17aabda5bc8480bd42
+Description: Static libraries for libisoburn
+Homepage: https://dev.lovelyhq.com/libburnia
+
+Package: libisofs
+Installed-Size: 724
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.5.4-1
+Replaces: libisofs-dev
+Depends: libiconv, zlib
+Breaks: libisofs-dev
+Filename: pool/main/libi/libisofs/libisofs_1.5.4-1_aarch64.deb
+Size: 202696
+MD5sum: 3f9a069af673014e82d41e6dd3971d02
+SHA1: 128e488871432399f9a14d09fe3a2295296f18db
+SHA256: c46a2b9f5e92aa27239e04bc010c569b8734d6e89ac2cbc9a7cede60195938f3
+SHA512: 26c7d322defeedb51153d077351cae5646890f9546933d22d45a612c91bbddca95281e27ebbf96541d42234b3eb509e999880dcd4e8b9238daf4563ab8e384f7
+Description: Library to pack up hard disk files and directories into a ISO 9660 disk image
+Homepage: https://dev.lovelyhq.com/libburnia
+
+Package: libisofs-static
+Installed-Size: 2576
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.5.4-1
+Depends: libisofs (= 1.5.4-1)
+Filename: pool/main/libi/libisofs-static/libisofs-static_1.5.4-1_aarch64.deb
+Size: 522198
+MD5sum: c597f26880a2a576d204b69582654d46
+SHA1: bf5699741f68a06808776a887276094dde454415
+SHA256: ff04365a1ea080ba3859d6ec4f59f8fc8c57f7cf57ad425d7676bda9d514f5c1
+SHA512: a8c70bfa7bb8252b80381300acefcb5a72763ca05cfbfcf92b0e9e6a9c7a19b1107c3d938a05c820d8d871573bd88133032acddca91de5cfd75f10bcdf5346d7
+Description: Static libraries for libisofs
+Homepage: https://dev.lovelyhq.com/libburnia
+
+Package: libopenfec
+Installed-Size: 824
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.4.2.4-8
+Replaces: libopenfec-dev
+Breaks: libopenfec-dev
+Filename: pool/main/libo/libopenfec/libopenfec_1.4.2.4-8_aarch64.deb
+Size: 204214
+MD5sum: 89403300bee76064cfcbd055ce274fe9
+SHA1: 29173a74e7ad02697bc5fff0d4a326b78a658cc7
+SHA256: 8967df000d6bdc8fe52614c64a805d1f91a2d246f5aaba89716ac3a3089f8b32
+SHA512: 7c61f289e254bcb4161d162e5355843ce5372451bfc79c6cc743afc627d59b62168098b1a048a35aa74e464192848e34a5d474b4bd31f9e1f48e52a1b01d3431
+Description: Application-Level Forward Erasure Correction implementation library
+Homepage: http://openfec.org
+
+Package: libsixel
+Installed-Size: 684
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.8.6-3
+Replaces: libsixel-dev
+Depends: libcurl, libjpeg-turbo, libpng
+Breaks: libsixel-dev
+Filename: pool/main/libs/libsixel/libsixel_1.8.6-3_aarch64.deb
+Size: 104024
+MD5sum: d05f2cdf3ae02c95fd4fa6ef355b4147
+SHA1: 0129755f2b3cb2426abea0bdc7586b273d6d4b9c
+SHA256: ff43399c02c8c5b1b356a07bc94b8dacd21b3ae84b915a8e31dfd5e5e1c04126
+SHA512: 79399f7a2a29d4c859e86068b1bb2ec97e1a306b884fd4d94039ea15cae1008c3b492dd1661b9a7c921f285316c72d42c7f1cceb1da1461cc10355538ca308f1
+Description: Encoder/decoder implementation for DEC SIXEL graphics
+Homepage: https://saitoha.github.io/libsixel/
+
+Package: libsixel-static
+Installed-Size: 496
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.8.6-3
+Depends: libsixel (= 1.8.6-3)
+Filename: pool/main/libs/libsixel-static/libsixel-static_1.8.6-3_aarch64.deb
+Size: 83990
+MD5sum: 0c912092e005c7729b103d05f40c73f6
+SHA1: a7bd2567183c22ee561f7be27d468db648789a0a
+SHA256: aabedc865ab1d2f78ce9cfefa175b1425d78b5b39872c338ff9ef230b222d469
+SHA512: 5a0f1983c015f2fb25dce7b544b68315b7e9630166afd5c0289181cbe71edf940fcfffb7ad7c094c76019a3944e7696d951258236f0e471bbfd1f61dd030e944
+Description: Static libraries for libsixel
+Homepage: https://saitoha.github.io/libsixel/
+
+Package: libtd
+Installed-Size: 17320
+Maintainer: default
+Architecture: aarch64
+Version: 1.7.0-1
+Depends: readline, openssl (>= 1.1.1), zlib
+Filename: pool/main/libt/libtd/libtd_1.7.0-1_aarch64.deb
+Size: 3492764
+MD5sum: c29893e4988370073e3c06e9ed45695d
+SHA1: 68f0accec04b1a53c018d6a8ff2508c5e5455c75
+SHA256: e4a1f3fb78f994ce390a52fb351794255da54217fc5f8bfb898cfb60b7ccdff6
+SHA512: b6ce9183d95ba2261b1fb2acd6b8e5ab4d04f99c59713926eba767ac435131bc18fedc3cb0f1fe27d70f27b1e6d03a0cec765d3723a77163a5d957e822cf614b
+Description: Library for building Telegram clients
+Homepage: https://core.telegram.org/tdlib/
+
+Package: libtd-static
+Installed-Size: 59344
+Maintainer: default
+Architecture: aarch64
+Version: 1.7.0-1
+Depends: libtd (= 1.7.0-1)
+Filename: pool/main/libt/libtd-static/libtd-static_1.7.0-1_aarch64.deb
+Size: 5933582
+MD5sum: e2196e5cad3b5cdd34eda9d5d186b38a
+SHA1: 341b26d7f21f10417f98d89e554d61ca68bd1476
+SHA256: 765a262e71b285ddc56278b8a1b47a62a796fe8617db34136cfa538566651025
+SHA512: 8075b8b949fa22a0999e4cae7f65bad4d194450da462ebb93aa276cda1dbf512987aeb7c31c350c8d420597b971ff226c12b2103a0af93075684ee48e4d0afe5
+Description: Static libraries for libtd
+Homepage: https://core.telegram.org/tdlib/
+
+Package: miri-nightly
+Installed-Size: 4100
+Maintainer: @its-pointless
+Architecture: aarch64
+Version: 1.52.0-1
+Depends: rustc-nightly, rustc-nightly (= 1.52.0-1)
+Filename: pool/main/m/miri-nightly/miri-nightly_1.52.0-1_aarch64.deb
+Size: 989624
+MD5sum: b96d56b9eb5074e511b82210ce48d905
+SHA1: c77d39cde406ade8fff585b4aa0beda56daad6a2
+SHA256: ad8748863d47bb4ddc39c17427af70d445f4f684f71dd7a7127696d2a22660e0
+SHA512: 38debd1b7fdf87bfbed5140cb1736377d2676e42c6b01d1febe660ffb772c867535f6eeb961ef79c17cca37ac4d2ab4bcd1f52db2b1e1b5df952afdea7625b54
+Description: An interpreter for Rust's mid-level intermediate representation
+Homepage: https://www.rust-lang.org
+
+Package: nmh
+Installed-Size: 6452
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1.7.1-5
+Depends: gdbm, libdb, libiconv, libsasl, openssl
+Filename: pool/main/n/nmh/nmh_1.7.1-5_aarch64.deb
+Size: 934180
+MD5sum: 1ba4ffb677246d70c769a95c6fce2c7f
+SHA1: 49fa38bc856cb0f6fa8e33030f5304f1068e716e
+SHA256: 6564bacfce49492b4b83b13e72123927e0edb75e90824c678bbbb730daf9bff2
+SHA512: 0808b1b4ffe0e613acceb8d4268b83c57f593b11f8dcc7926153ead4ab40b8777776ebc02d06f5fd944b8565352918fad3a2337eed15efa79994dab5ca24ff3e
+Description: Powerful electronic mail handling system
+Homepage: http://www.nongnu.org/nmh/
+
+Package: openldap
+Installed-Size: 3412
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.4.56-1
+Replaces: openldap-dev
+Depends: libsasl, libuuid, openssl
+Breaks: openldap-dev
+Filename: pool/main/o/openldap/openldap_2.4.56-1_aarch64.deb
+Size: 994054
+MD5sum: 8a1cf147e5a2758f48f86246d65d56a7
+SHA1: 62896a0afce38ab405da087a8c53e8d1ac8d0f1b
+SHA256: f4a4666f40c57b3bfbd1879cd1538062504d303934149538ab5a9db80c1ace69
+SHA512: 1aac743f88ec8a4254e1a71a4ca337220f55c7db84843849de387adf9804d6000fcfd6573d5f788ce58e5de6cb04ccee1314aae047982f2efedb28388ebd828f
+Description: OpenLDAP server
+Homepage: https://openldap.org
+
+Package: openldap-static
+Installed-Size: 1244
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.4.56-1
+Depends: openldap (= 2.4.56-1)
+Filename: pool/main/o/openldap-static/openldap-static_2.4.56-1_aarch64.deb
+Size: 152550
+MD5sum: d417093bc40a30ce5754c6f81998e675
+SHA1: 28754ef606ad60c6f07e09b0c616ea63fb732674
+SHA256: c8f39b5d3d541abf34aa1ad17438fbaabc0411cb820351d2cdf2d1a345589a6b
+SHA512: 75c7c059bfebf82dd27f2da7c4bfe4fdbb60eeb5ee9079dcb8098a05c74a1a9f4e2d9ea35a348efad0963cee6185b8cb2087d5833af876d6bbea5585dae5ddee
+Description: Static libraries for openldap
+Homepage: https://openldap.org
+
+Package: pandoc
+Installed-Size: 73932
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.13
+Filename: pool/main/p/pandoc/pandoc_2.13_aarch64.deb
+Size: 9492102
+MD5sum: 56f26a3267625222de7f6c78e70b3eef
+SHA1: b1ac89d666660ab3aaf1ce7b5748ceab7ab350c1
+SHA256: 65a9d48918f056e5f2f18ecceada41e77799713c5553c5f1f0f5a85f6a50f3b9
+SHA512: ed5fb541722376063bc87a751b8f3520181585a097b1c080f920b0729c03d4a68684f855c80f525ab8fc4a7c530347d796676e6d7868351dd58b5cdd5016999f
+Description: Universal markup converter
+Homepage: https://pandoc.org/
+
+Package: pandoc
+Installed-Size: 111984
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 2.11.4-2
+Depends: qemu-user-x86_64
+Filename: pool/main/p/pandoc/pandoc_2.11.4-2_all.deb
+Size: 13478580
+MD5sum: a9fcb25e39af2d6c123d512e33000f69
+SHA1: 2044e3aebf68f13fb76adb0990cb3561812dc6ab
+SHA256: 1e980e8fdfe903c1e7313176ee5fd11a7b34ce204ed7e14ce9e56562c34c8db3
+SHA512: 081e48ce5ba5bd489fcadcd6d408e348f67d2030973b4b77e6f154729d40aec9b7d1a2a74f231fc5454f6e1670604f85e77f666dece008169fdab0bb760e411e
+Description: Universal markup converter
+Homepage: https://pandoc.org/
+
+Package: racket
+Installed-Size: 30308
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 7.4-4
+Depends: libffi, libiconv
+Filename: pool/main/r/racket/racket_7.4-4_aarch64.deb
+Size: 5197782
+MD5sum: e60265ec3404a03808618c23aa89a1d4
+SHA1: 0c377eceace2ac3c5ffe46eac0e3a086be1ead2f
+SHA256: ff12970fe27d36656080b24190ee5f5b18e019d442b81069375182eae5d2e275
+SHA512: d1a6fde6c17f16f227a4bf06d25b82638b0348b26fc8cc7e1dba4a4b60606f76e54f1c1a736c81faaf47067b452a703ce8a95fbdc376fbbd923a7669d83d433c
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Homepage: https://racket-lang.org
+
+Package: racket-static
+Installed-Size: 3884
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 7.4-4
+Depends: racket (= 7.4-4)
+Filename: pool/main/r/racket-static/racket-static_7.4-4_aarch64.deb
+Size: 898052
+MD5sum: 9d640ff772d5cff01e23e26f466b4e1c
+SHA1: 96c56496f1a7696134635e0e3533456bc71e6c37
+SHA256: 3676806dc920e28b1a6e59a8b60b902d847a05a59be4253ae851607c89ada48e
+SHA512: 97cb686ad769e94776508a3491bcca7d478ffa4bb63d97042207d76e3849d717293a7efc5528b2ec9f93ad5496e52cb4cdfa37f8d59099474cc23572dde785aa
+Description: Static libraries for racket
+Homepage: https://racket-lang.org
+
+Package: rapidjson
+Installed-Size: 896
+Maintainer: default
+Architecture: aarch64
+Version: 1.1.0-3
+Filename: pool/main/r/rapidjson/rapidjson_1.1.0-3_aarch64.deb
+Size: 99726
+MD5sum: cf0b71f12f7fff7a8a419d1d34eb8587
+SHA1: b994f974d5e248b2dcc0b992e3a9c5c9cd9232f5
+SHA256: 2c77a1428794641550b60e221ce6d46befd7b373e53228d8380820a4e615bfbc
+SHA512: 44f406a3fd219c15b2cab90a94c12d19d5f47002f4a6304471af57628da577f9e2d08406bf5e2fc45d2f6941d1f3e14e866408c065582e8899a7876facbcbbd7
+Description: fast JSON parser/generator for C++ with SAX/DOM style API
+Homepage: https://github.com/Tencent/rapidjson/
+
+Package: restic-server
+Installed-Size: 8020
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 0.10.0
+Filename: pool/main/r/restic-server/restic-server_0.10.0_aarch64.deb
+Size: 2044468
+MD5sum: 9f7a81c7aa86b800be5e6d77f7e9dea5
+SHA1: 05add5ec5c51f99168ff72e0bbc0a2e0e767e0c8
+SHA256: eecd8d2da36f47008ca21ef546fd0cb52bc7d4813588178ffd78992fb76fc50e
+SHA512: b54cccc5553dea9385b658c41d0327969c61121f078d287868239a1e4cb638addecc4fc549ea0f0b78b832a1b633c7282f15c15f0511f2289e5e9dee6aaffc63
+Description: Restic's REST backend API server
+Homepage: https://restic.net/
+
+Package: rust-nightly-wasm32-unknown-unknown
+Installed-Size: 116824
+Maintainer: @its-pointless
+Architecture: all
+Version: 1.52.0-1
+Depends: rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rust-nightly-wasm32-unknown-unknown/rust-nightly-wasm32-unknown-unknown_1.52.0-1_all.deb
+Size: 17080348
+MD5sum: 2fc6970aa62c4867e1ba4e5d8e354a8d
+SHA1: 496d135a84ef00fc1d43b8d1681f2f4732d8d70c
+SHA256: b01910c0abbf152056d629e73f3ef2764dba04f972187d26cebc31767eb2e3ce
+SHA512: 9f77390ba70dc0ceea74713306836bd73fc5c4c3559e913593f85bcff27eb33d6e775ce5f10c91546a54a27483fa26014b08d54e8f95465bd6a4585f7b4ecccf
+Description: rust std for wasm32-unknown-unknown target
+Homepage: https://www.rust-lang.org
+
+Package: rust-rls-nightly
+Installed-Size: 29748
+Maintainer: @its-pointless
+Architecture: aarch64
+Version: 1.52.0-1
+Depends: rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rust-rls-nightly/rust-rls-nightly_1.52.0-1_aarch64.deb
+Size: 6505268
+MD5sum: 7374250de66f7f45ed0fd464737210c7
+SHA1: 962bb024a978ce45eba61a20d6087259fb61d1ee
+SHA256: c3900a8ae633165f4e34834bae39d529d3fcdcab8d99a0514aef233478cf35ea
+SHA512: c08f968cd5ffd1e354f54a8fa3cbae8cfad03b2b10350fcac52ed20a80185ace19eaa3eda35d204242ead40b5ec16ef7ba3714134f69e723ccb1599efde75701
+Description: server that provides IDEs, editors, and other tools with information about Rust programs
+Homepage: https://www.rust-lang.org
+
+Package: rust-src-nightly
+Installed-Size: 42624
+Maintainer: @its-pointless
+Architecture: all
+Version: 1.52.0-1
+Depends: rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rust-src-nightly/rust-src-nightly_1.52.0-1_all.deb
+Size: 2173448
+MD5sum: 34d222c2ad4e06208685d70afc2175a2
+SHA1: e736c96dc09d364a71acb40c89da4bf0286cce27
+SHA256: 1e8027b5e52e7cfaa47267f9d14a5fa01c3d04ca682f7fd7701c8645b77a5f9c
+SHA512: b76a7beeac63b64c82a4995901357a20cccbd0f0ec65e6a77324093e9f7630caf4508e3f36857bc68bcf6cdf627785a13f298eaa6e9a30c6f26693721df8a500
+Description: rust src
+Homepage: https://www.rust-lang.org
+
+Package: rustc-dev-nightly
+Installed-Size: 434452
+Maintainer: @its-pointless
+Architecture: aarch64
+Version: 1.52.0-1
+Depends: rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rustc-dev-nightly/rustc-dev-nightly_1.52.0-1_aarch64.deb
+Size: 63725342
+MD5sum: 75f301f6ae75a8528e14d43357e733bd
+SHA1: 0bb642171e7055a5620ba5b451a62aa4f03a957c
+SHA256: c4b66560921407dde06fd2553db24aba52c8d349132c5734dbb1c1d8d68b22ab
+SHA512: 11e2f239fc9c203784ba0b5a8295fcf4c8f30214432bc567d8b2bdea6d9a8a4cf940c4e45283a716d951340677a4645af729cbb303047fad5107b165902766d7
+Description: developer compiler libs
+Homepage: https://www.rust-lang.org
+
+Package: rustc-nightly
+Installed-Size: 705828
+Maintainer: @its-pointless
+Architecture: aarch64
+Version: 1.52.0-1
+Depends: rustc-nightly
+Filename: pool/main/r/rustc-nightly/rustc-nightly_1.52.0-1_aarch64.deb
+Size: 68699072
+MD5sum: cf48aacda4f396ea8c391298e0f6704b
+SHA1: cc82c098e82ea405d848ac01fbe80f1fee13b40a
+SHA256: 5d1c7b4f23e277b8e9718426d39f171643927db1107ccf589e94cf6cdf30a2d3
+SHA512: 8642d2aa044e1d7da3b665d8f3ffb058a78deb82b60e9fe2ad161cafbf75e7411d84307c08ceeb897d42b0fe9746c7429b690d807dd0e7f23e38ef1c5b4183fa
+Description: Rust compiler and utilities (nightly version)
+Homepage: https://www.rust-lang.org
+
+Package: rustfmt-nightly
+Installed-Size: 10340
+Maintainer: @its-pointless
+Architecture: aarch64
+Version: 1.52.0-1
+Depends: rustc-nightly, rustc-nightly (= 1.52.0-1)
+Filename: pool/main/r/rustfmt-nightly/rustfmt-nightly_1.52.0-1_aarch64.deb
+Size: 2272024
+MD5sum: 57285b2c3d3154343712d50c7c525a60
+SHA1: 727c00beb7f9c0984a2ce5ab9107158d8cdc1e4f
+SHA256: 7565ece67b6e60b25675cb5bc472ae4428e000650c1ed26e0aad78bc3ed9a6ad
+SHA512: 4534d03f2f276401ebf100c1bfdff06bbf1fcb81345deca7bf5a3382ff004c60beda5f9aa74ae0e878e723091e4b52e2aa67c62fe953d1e0943bd9132d07c440
+Description: A tool for formatting Rust code according to style guidelines
+Homepage: https://www.rust-lang.org
+
+Package: samba
+Installed-Size: 25884
+Maintainer: default
+Architecture: aarch64
+Version: 4.13.4-2
+Depends: libbsd, libcap, libcrypt, libgnutls, libiconv, libicu, libpopt, libtalloc, libtirpc, ncurses, openssl, readline, zlib
+Filename: pool/main/s/samba/samba_4.13.4-2_aarch64.deb
+Size: 5905870
+MD5sum: 2c7009c695101999040c17df9ef6cc81
+SHA1: 11cca91bd08369b29ad1d9a3f7f5fec9806f78ea
+SHA256: 19fdba97644cb80d2d6122656356881288c70c014efbf34d07d565b8781cbf25
+SHA512: 71656f6f5a716275a150f1813feede7c0d695f1e39a2ccd3968fd89fede0d77f88215fb523163233d147138136ce13869b28510371e059d9037fa8cb6ff9c902
+Description: SMB/CIFS fileserver
+Homepage: https://www.samba.org/
+
+Package: shtool
+Installed-Size: 524
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.0.8-7
+Depends: perl
+Filename: pool/main/s/shtool/shtool_2.0.8-7_aarch64.deb
+Size: 112730
+MD5sum: 6a08993718fc64d85c102ad69ebff2f7
+SHA1: 1c268e9700b47576863979fe89f281022b6e15f8
+SHA256: e45568ceadf8e888bfa3cebb8cd4a0eee927ee9d712cf1c47d39264a69cedecd
+SHA512: 6fe70ca6cebd341719df5e6319d00d4dad4899db9bf58d995cdebe21aec2665acefa1971f669d5007dc1f2072e886804bd3732294ee42e34e630ab0e3d2a722b
+Description: compilation of small but very stable and portable shell scripts into a single shell tool
+Homepage: http://www.gnu.org/software/shtool/
+
+Package: smalltalk
+Installed-Size: 17280
+Maintainer: Henrik Grimler @Grimler91
+Architecture: aarch64
+Version: 3.2.91-11
+Replaces: smalltalk-dev
+Depends: glib, libandroid-support, libffi, libltdl, libsigsegv, zlib
+Breaks: smalltalk-dev
+Filename: pool/main/s/smalltalk/smalltalk_3.2.91-11_aarch64.deb
+Size: 2281672
+MD5sum: db094fea6030de09047d451874739b31
+SHA1: f51101faad341df53cffa07a3ac352f4d6dc884f
+SHA256: d6249b7b1f9d57203e8d6a88615ea3ed7c0b1cde404725b465caee16a5562c8a
+SHA512: dd1e0b01a916974a2e99e1d684e3daad3b38faed4ffe411638814ec52c9e4cfaf746e4247f2b3a36ce82bd1baabf3c396c64850db075db76f53908fc5b940b42
+Description: A free implementation of the Smalltalk-80 language
+Homepage: http://smalltalk.gnu.org/
+
+Package: smalltalk-static
+Installed-Size: 1472
+Maintainer: Henrik Grimler @Grimler91
+Architecture: aarch64
+Version: 3.2.91-11
+Depends: smalltalk (= 3.2.91-11)
+Filename: pool/main/s/smalltalk-static/smalltalk-static_3.2.91-11_aarch64.deb
+Size: 268028
+MD5sum: 8706bb71739608e31402941fad32d4f3
+SHA1: af7007bfb02a8a26926842bb5bddddc3c5318eda
+SHA256: da42c7c235f01bcd23737cea8c4269742f01676f65de2d143b1c8076a8da1136
+SHA512: 37465a111a13a139b5e5c899921102804e80caa72768054f1196a293b2b605e369140e0218eb53fb95e1ca019074f6441f3a34762e847aa164cca29f48e017b0
+Description: Static libraries for smalltalk
+Homepage: http://smalltalk.gnu.org/
+
+Package: srelay
+Installed-Size: 124
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 0.4.8p3-4
+Depends: libcrypt
+Filename: pool/main/s/srelay/srelay_0.4.8p3-4_aarch64.deb
+Size: 24478
+MD5sum: d6fbe52876710f3ace4b6b0267575ec2
+SHA1: 5cac4de402bb61e2a560217e97b0c52f77840d50
+SHA256: 69fadd7f7b173650c7a554801c905ed83979165cb9037c80d3a11a83019b757a
+SHA512: 4cccd0595a8119d0f063b1402a344454aea18acf7979096e1306237acdfd4daa93867e4117024c0194477897ff6325ae28b340ff8b58b91831efebae33af6902
+Description: A Free SOCKS proxy server
+Homepage: https://sourceforge.net/projects/socks-relay
+
+Package: surfraw
+Installed-Size: 684
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 2.3.0-8
+Depends: lynx, perl
+Filename: pool/main/s/surfraw/surfraw_2.3.0-8_aarch64.deb
+Size: 75368
+MD5sum: 257de3d8923b89c0e18411d2397854b0
+SHA1: 7150fefff582cbdc98e4691c4a35dcf668823ea9
+SHA256: f42ff29d6026cf5e42918352892b8d5363403b74d8b764a2f9a29a9fc6f092cb
+SHA512: 9514cce6ec041c52c1f61a383510c78bbb7a9a25f4edb7642a2691dd4c5ca6ea3504fdc5dfa655fb0f64fa7558874a78ac819dac86e211b4a37422cdaed311a6
+Description: Shell Users' Revolutionary Front Rage Against the Web
+Homepage: https://gitlab.com/surfraw/Surfraw
+
+Package: tcc
+Installed-Size: 2252
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1:0.9.27-8
+Filename: pool/main/t/tcc/tcc_1:0.9.27-8_aarch64.deb
+Size: 387060
+MD5sum: 0da528c4759b42e7ec44068e5a23d3a5
+SHA1: 372035c341f0b22f72b9e07030179a6acdda95ef
+SHA256: bd85a4d61bb5fb2abffc2f76f14a6ec279b650ebb015cb90c77e59fa877fb2c3
+SHA512: 01df50079816f29794d0dadef1c777baf7ff6da0699b9e1666e1f62d15fb2b17696d32989667fe4356445a26f3709babcdb054eea698be074bff060c798c22a0
+Description: Tiny C Compiler
+Homepage: https://bellard.org/tcc/
+
+Package: telegram-cli
+Installed-Size: 2388
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 1:1.4.1-1
+Depends: libconfig, libevent, libjansson, openssl, readline, zlib
+Filename: pool/main/t/telegram-cli/telegram-cli_1:1.4.1-1_aarch64.deb
+Size: 606168
+MD5sum: 78c57780973a4078cb0a8d9a828ab762
+SHA1: 45498fea20034581f9628a015b80e031da79486e
+SHA256: d16ea73eac7fd52c9e9d4b10540e8b6ce541bed319cf15b4145de49b1b8d4831
+SHA512: 0000be6443fcfe5bab376aa0365e2f2b4747d0fbd61d54c7aea0373d510e8a02df813ce35dc05cc715fb706acdfbd14be90fb392827826b96caf866d7434cd2d
+Description: Telegram messenger CLI
+Homepage: https://github.com/vysheng/tg
+
+Package: texlive-installer
+Installed-Size: 10560
+Maintainer: Henrik Grimler @Grimler91
+Architecture: all
+Version: 20200406-6
+Replaces: texlive
+Depends: perl, texlive-bin (>= 20200406-4), gnupg, curl, lz4, xz-utils
+Breaks: texlive
+Filename: pool/main/t/texlive-installer/texlive-installer_20200406-6_all.deb
+Size: 2410220
+MD5sum: 48f90344ec4129b8e4e5b6ed7cdbd808
+SHA1: e8458261c609561e6e684ae32aa1b27fe794f194
+SHA256: a01a31e3025a971b49d80b740ab66d72809d0d9c5c661916add6e53c6422830c
+SHA512: b5b2b3bdebf5bc0fe48352b7a62e7d3568e74a134b9187384d4d41ca58ddf3ded3e38415a54449d7607358703d3ef075d56116fd382901057c8f67df78cd135b
+Description: Wrapper around texlive's install-tl script
+Homepage: https://www.tug.org/texlive/
+
+Package: vlang
+Installed-Size: 8644
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 0.1.29-1
+Depends: clang
+Filename: pool/main/v/vlang/vlang_0.1.29-1_aarch64.deb
+Size: 925114
+MD5sum: 4fdc6c05cec27b2f519e4ce213e4ed59
+SHA1: 0841a9c9ff76d2f7a8c16be748b530e2b3ce56f3
+SHA256: f9b1b1dce0284ac1c65eceb8abed1a6e9383adb72b01ddac1d856aa5aa8e93bd
+SHA512: 11f541fc0319769330a5fd38b03117224326c20c6a5d4934415e995aac31a73052b20d360ef9670747aae75bf7974610f7daf8c9914e64dca431fbcfe9dc33a4
+Description: Simple, fast, safe, compiled language for developing maintainable software
+Homepage: https://github.com/vlang/v
+
+Package: yara
+Installed-Size: 784
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 4.0.5-1
+Replaces: yara-dev
+Depends: file, openssl
+Breaks: yara-dev
+Filename: pool/main/y/yara/yara_4.0.5-1_aarch64.deb
+Size: 140264
+MD5sum: c6aa09d0a9fbdfe19075ac9a7f9a0ead
+SHA1: 832f73db3778513f214a64d8cac3b5c6b0071890
+SHA256: 53154e285b4ebf6cf71594a045bb63a4270ae0f7bbbebcc3bbca451a16ae2a78
+SHA512: 281b55138bf0af5953dafdf0b992eaa15a005e254992ed81748b8ffcfffdba955d781a202b50a220815e2fc43e4e0b5b9e17f3f654601108cc944616a70c6041
+Description: Tool aimed at helping malware researchers to identify and classify malware samples
+Homepage: https://github.com/VirusTotal/yara
+
+Package: yara-static
+Installed-Size: 568
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: aarch64
+Version: 4.0.5-1
+Depends: yara (= 4.0.5-1)
+Filename: pool/main/y/yara-static/yara-static_4.0.5-1_aarch64.deb
+Size: 120502
+MD5sum: 8d2b6c23a1d949fc855de0cbcf5f5f2e
+SHA1: 7e126c3cc2cf622271a23dcaa6b6c2ccad7df422
+SHA256: 9ab9fa12dbc9f016ba8c27d17e8fba00325246db690a3046013e82433e06a6f6
+SHA512: 9939315b24a236f57a2ba92ff20c48b8cc9f7c1a196399cd481cb58aa0efe802591a8c56cf2390ecea33d14516db537da8a5f8270ee9c7ffdbb4ae22a7a3e66b
+Description: Static libraries for yara
+Homepage: https://github.com/VirusTotal/yara
+
+Package: zeronet
+Installed-Size: 6252
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Architecture: all
+Version: 0.7.1-6
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Filename: pool/main/z/zeronet/zeronet_0.7.1-6_all.deb
+Size: 1105420
+MD5sum: ec22f8b2827ab6c83b181bf3705d0656
+SHA1: 581db59b936a29631edaa8526124d3e2d1ad0e48
+SHA256: e7f827a066d000bba5aa2613da3df4a0d7e7ad20e98f38e5285970b9c1266079
+SHA512: 757dfc3c66e7c38188925b54451bed81d9e7e58846006565a95cea25651afd6978fa1eb1ac6abf169cf423c6ff1dad9d2066fdae9dca0970e593dcbba7e41d49
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+Homepage: https://zeronet.io/
+
