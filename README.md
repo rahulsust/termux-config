@@ -1,2 +1,2 @@
-# termux-config
-All the files of my termux application
+# Termux-config
+*Here you will get all the files and folders of my termux application.*
